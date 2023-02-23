@@ -1,0 +1,7 @@
+@import "./normalize.css";
+@import "./font_face.css";
+
+
+* {
+  font-family: 'SVN-Gilroy';
+}
