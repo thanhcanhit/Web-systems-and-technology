@@ -1,9 +1,10 @@
 const footer = document.querySelector("#footer");
 
-const footerClass = "footer py-4 fw-medium bg-blue text-white text-14";
-footer.classList = footerClass;
+if (footer) {
+	const footerClass = "footer py-4 fw-medium bg-blue text-white text-14";
+	footer.classList = footerClass;
 
-footer.innerHTML = `
+	footer.innerHTML = `
 <div class="container">
 <!-- Footer Content -->
 <div class="row">
@@ -216,9 +217,10 @@ footer.innerHTML = `
   <span
     >@ Bản quyền thuộc về
     <a href="#" class="text-main text-decoration-none"
-      >Yody.vn</a
+      >Menly.vn</a
     >
     All right reserved</span
   >
 </div>
 </div>`;
+}

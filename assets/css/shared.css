@@ -1,5 +1,5 @@
-@import "../lib/fontawesome-free-6.3.0-web/css/all.min.css";
 @import "../lib/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css";
+@import "../lib/fontawesome-free-6.3.0-web/css/all.min.css";
 @import "./font_face.css";
 @import "./header.css";
 @import "./footer.css";
@@ -11,6 +11,7 @@
 :root {
   --header-height: 100px;
   --main-color: #FCAF17;
+  --sub-color: #2A2A86;
   --box-shadow-default: 0 4px 4px rgba(0, 0, 0, 5%), 0 6px 12px 0 rgb(0 0 0 / 5%);
 }
 
@@ -27,7 +28,7 @@
 
 /* Color */
 .text-blue {
-  color: #11006F;
+  color: #2A2A86;
 }
 
 .text-red {
@@ -52,3 +53,68 @@
   color: var(--main-color)!important;
 }
 
+/* Horizontal Slider */
+.h-slider {
+  position: relative;
+}
+
+.h-slider__list {
+  display: flex;
+  width: 100%;
+  gap: 2rem;
+  list-style-type: none;
+  overflow-y: hidden;
+  overflow-x: auto;
+  white-space: nowrap;
+  scroll-snap-type: x mandatory;
+}
+
+.h-slider__list::-webkit-scrollbar {
+  display: none;
+}
+
+.h-slider__item {
+  scroll-snap-align: start;
+  min-width: 150px;
+}
+
+.h-slider__btn {
+  --w: 30px;
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  border: none;
+  display: block;
+  width: var(--w);
+  height: var(--w);
+  border-radius: 50%;
+  background: var(--main-color);
+  opacity: .6;
+  color: white;
+  filter: drop-shadow(0 0 4px rgba(208, 208, 208, 0.2));
+  transition: all .3s ease;
+}
+
+.h-slider__btn::after {
+  content: "";
+  position: absolute;
+  inset: -100%;
+  transition: .3s ease;
+  border-radius: 50%;
+}
+
+.h-slider__btn:hover::after {
+  background: rgba(226, 217, 217, 0.2);
+}
+
+.h-slider__btn:hover {
+  opacity: .9;
+}
+
+.h-slider__btn.left {
+  left: -1rem;
+}
+
+.h-slider__btn.right {
+  right: -1rem;
+}

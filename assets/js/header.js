@@ -1,16 +1,16 @@
 // Render header
 const header = document.querySelector("#header");
+if (header) {
+	const headerClass = "header container-fluid fixed-top";
+	header.classList = headerClass;
 
-const headerClass = "header container-fluid fixed-top";
-header.classList = headerClass;
-
-header.innerHTML = `<div class="container py-2">
+	header.innerHTML = `<div class="container py-2">
 <!-- Search + Address Row -->
 <div class="row align-items-center">
-	<a class="col col-1" href="#">
+	<a class="logo col col-1" href="#">
 		<img
 			class="img-fluid"
-			src="./assets/img/shared/header/logo.svg"
+			src="./assets/img/shared/header/logo.png"
 			alt="logo"
 		/>
 	</a>
@@ -535,38 +535,39 @@ header.innerHTML = `<div class="container py-2">
 
 <div class="layer"></div>`;
 
-// Handle show/hide cover layer
-const headerLayer = document.querySelector(".layer");
+	// Handle show/hide cover layer
+	const headerLayer = document.querySelector(".layer");
 
-const toggleLayer = () => {
-	const subNavList = document.querySelectorAll(".sub-nav");
-	const subNavDisplay = (() => {
-		for (let i = 0; i < subNavList.length; i++) {
-			if (window.getComputedStyle(subNavList[i]).display == "block")
-				return true;
-		}
-		return false;
-	})();
-
-	if (subNavDisplay) headerLayer.style.display = "block";
-	else {
-		let opa = 1;
-		const hideAnimate = setInterval(() => {
-			headerLayer.style.opacity = opa;
-			opa -= 0.03;
-
-			if (opa <= 0) {
-				clearInterval(hideAnimate);
-				headerLayer.style.display = "none";
-				headerLayer.style.opacity = 1;
+	const toggleLayer = () => {
+		const subNavList = document.querySelectorAll(".sub-nav");
+		const subNavDisplay = (() => {
+			for (let i = 0; i < subNavList.length; i++) {
+				if (window.getComputedStyle(subNavList[i]).display == "block")
+					return true;
 			}
-		}, 1);
-	}
-};
+			return false;
+		})();
 
-document.querySelectorAll(".nav-item").forEach((item) => {
-	item.addEventListener("mouseenter", toggleLayer);
-	item.addEventListener("mouseout", toggleLayer);
-});
+		if (subNavDisplay) headerLayer.style.display = "block";
+		else {
+			let opa = 1;
+			const hideAnimate = setInterval(() => {
+				headerLayer.style.opacity = opa;
+				opa -= 0.03;
 
-headerLayer.addEventListener("mouseenter", toggleLayer);
+				if (opa <= 0) {
+					clearInterval(hideAnimate);
+					headerLayer.style.display = "none";
+					headerLayer.style.opacity = 1;
+				}
+			}, 1);
+		}
+	};
+
+	document.querySelectorAll(".nav-item").forEach((item) => {
+		item.addEventListener("mouseenter", toggleLayer);
+		item.addEventListener("mouseout", toggleLayer);
+	});
+
+	headerLayer.addEventListener("mouseenter", toggleLayer);
+}
