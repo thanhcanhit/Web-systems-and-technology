@@ -1,8 +1,5 @@
-main {
-  margin-top: var(--header-height);
-}
 
-/* 
+
 .flash-sale {
   height: 60px;
 }
@@ -36,12 +33,13 @@ main {
   content: ":";
   margin-left: .25rem;
   color: rgb(240, 41, 0);
-} */
+}
 
 .banner {
   margin-top: 1rem;
   height: 200px;
-  background: no-repeat url(../img/index/banner/banner_bg.png) center /contain;
+  background: no-repeat url(../img/index/banner/banner_bg.png) center /cover;
+  margin-inline: 0;
 }
 
 .banner a {
@@ -132,4 +130,124 @@ main {
 .category__item-name {
   font-weight: 600;
   margin-top: 1rem;
+}
+
+/* Items */
+.items {
+
+}
+
+.items__list {
+
+}
+
+.items__heading h4{
+  font-weight: 600;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.items__item-top {
+  width: 100%;
+  overflow: hidden;
+  border-radius: .25rem;
+  position: relative;
+}
+
+.items__item-top span {
+  display: block;
+  position: absolute;
+  top: 0;
+  font-weight: 700;
+  color: white;
+  font-size: .75rem;
+  padding: 0.2rem .5rem;
+}
+
+.items__item-top .sold{
+  left: 0;
+  background: rgba(0, 0, 0, .65);
+  border-bottom-right-radius: .25rem;
+}
+
+.items__item-top .sales-percent {
+  right: 0;
+  background: rgba(255, 0, 0, 0.65);
+  border-bottom-left-radius: .25rem;
+}
+
+.items__img-display {
+  transition: all ease .65s;
+}
+
+.items__img-display:hover {
+  transform: scale(1.1);
+}
+
+.items__item {
+  min-width: 220px;
+  width: 250px;
+  height: 100%;
+  padding: .25rem;
+}
+
+.items__item-body {
+  margin: .4rem;
+  margin-inline: 0;
+  white-space: normal;
+}
+
+
+.items__item-body .name {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  line-height: 1rem;
+  height: 2rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-weight: 600;
+  font-size: .875rem;
+  margin-bottom: .75rem;
+  text-transform: capitalize;
+  color: black;
+}
+
+.items__item-body .name:hover {
+  color: var(--main-color);
+}
+
+.items__item-body .sales-price {
+  font-weight: 600;
+  color: var(--red-color);
+  margin-right: .5rem;
+}
+
+.items__item-body .sales-price + .price {
+  text-decoration: line-through;
+  color: lightslategray;
+  font-weight: 500;
+}
+
+.items__item-body .price {
+  font-weight: 600;
+}
+
+.items__item-options {
+  display: flex;
+  gap: 0 .5rem;
+}
+
+.items__item-option img {
+  --w : 30px;
+  object-fit: cover;
+  border-radius: 50%;
+  width: var(--w);
+  height: var(--w);
+  cursor: pointer;
+}
+
+.items__item-option.active img,
+.items__item-option:hover img{
+  outline: 1px solid var(--main-color);
 }

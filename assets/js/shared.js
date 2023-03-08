@@ -23,7 +23,7 @@ const hSliderList = document.querySelectorAll(".h-slider");
 Array.from(hSliderList).map((item) => {
 	const sliderList = item.querySelector(".h-slider__list");
 	const percentScroll = 35;
-	const quantityScroll = Math.max((percentScroll * sliderList.scrollWidth) / 100, 800);
+	const quantityScroll = Math.max((percentScroll * sliderList.scrollWidth) / 100, 1000);
 
 	const scrollX = (x) => {
 		sliderList.scroll({
@@ -32,18 +32,18 @@ Array.from(hSliderList).map((item) => {
 			behavior: "smooth"
 		});
 		sliderList.style.pointerEvents = 'none';
-		setTimeout(() => sliderList.style.pointerEvents = "unset", 500)
+		setTimeout(() => sliderList.style.pointerEvents = "unset", 600)
 	};
 
 	const btnLeft = document.createElement("button");
-	btnLeft.classList = "h-slider__btn left";
+	btnLeft.classList = "h-slider__btn left d-none d-lg-block";
 	btnLeft.innerHTML = `<i class="fa-solid fa-angle-left"></i>`;
 	btnLeft.addEventListener("click", () =>
 		scrollX(sliderList.scrollLeft - quantityScroll)
 	);
 
 	const btnRight = document.createElement("button");
-	btnRight.classList = "h-slider__btn right";
+	btnRight.classList = "h-slider__btn right d-none d-lg-block";
 	btnRight.innerHTML = `<i class="fa-solid fa-angle-right"></i>`;
 	btnRight.addEventListener("click", () =>
 		scrollX(sliderList.scrollLeft + quantityScroll)

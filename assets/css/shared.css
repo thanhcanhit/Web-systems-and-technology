@@ -12,11 +12,21 @@
   --header-height: 100px;
   --main-color: #FCAF17;
   --sub-color: #2A2A86;
+  --red-color: #CA171E;
   --box-shadow-default: 0 4px 4px rgba(0, 0, 0, 5%), 0 6px 12px 0 rgb(0 0 0 / 5%);
 }
 
-/* Utility */
+main {
+  margin-top: var(--header-height);
+}
 
+@media (max-width: 991px) {
+  main {
+    margin-top: 0;
+  }
+}
+
+/* Utility */
 /* Font size */
 .text-12 {
   font-size: 0.75rem;
@@ -50,7 +60,7 @@
 
 /* Another */
 .text-hover-main:hover {
-  color: var(--main-color)!important;
+  color: var(--main-color) !important;
 }
 
 /* Horizontal Slider */
@@ -60,7 +70,6 @@
 
 .h-slider__list {
   display: flex;
-  width: 100%;
   gap: 2rem;
   list-style-type: none;
   overflow-y: hidden;
@@ -112,9 +121,9 @@
 }
 
 .h-slider__btn.left {
-  left: -1rem;
+  left: -.5rem;
 }
 
 .h-slider__btn.right {
-  right: -1rem;
+  right: -.5rem;
 }
