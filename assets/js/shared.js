@@ -10,7 +10,6 @@ const getRandomValue = (start, end) => {
 export { getRandomValue };
 
 // Horizontal Slider btn
-const hSliderList = document.querySelectorAll(".h-slider");
 /**
  * How to use
  * <section class="h-slider">
@@ -20,7 +19,8 @@ const hSliderList = document.querySelectorAll(".h-slider");
  * </section>
  */
 
-Array.from(hSliderList).map((item) => {
+const hSliderList = document.querySelectorAll(".h-slider");
+Array.from(hSliderList).forEach((item) => {
 	const sliderList = item.querySelector(".h-slider__list");
 	const percentScroll = 35;
 	const quantityScroll = Math.max(
