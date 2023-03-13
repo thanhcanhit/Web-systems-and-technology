@@ -6,7 +6,7 @@ if (header) {
 		<div class="container py-2 d-none d-lg-block">
 			<!-- Search + Address Row -->
 			<div class="row align-items-center">
-				<a class="logo col col-1" href="#">
+				<a class="logo col col-1" href="/">
 					<img class="img-fluid" src="/assets/img/shared/header/logo.png" alt="logo" />
 				</a>
 				<div class="col col-5">

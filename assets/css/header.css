@@ -3,7 +3,7 @@
   max-height: var(--header-height);
   background: rgb(254, 236, 199);
   background: linear-gradient(180deg, rgb(254, 236, 199) 0%, rgba(255, 255, 255, 1) 70%);
-  box-shadow: var(--box-shadow-default);
+  box-shadow: 0 6px 12px 0 rgba(0,0,0,0.05);
   z-index: 10;
 }
 

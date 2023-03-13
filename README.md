@@ -1,7 +1,10 @@
 # Bài tập lớn hệ thống và công nghệ web - IUH 2023
 ## Đề tài: Website bán thời trang nam
 ### Thành viên: *Nguyễn Thanh Cảnh - Nguyễn Xuân Nam*
-+ Ý tưởng dựa theo website: ![https://yody.vn/](./assets/img/shared/logo.svg)
++ Ý tưởng dựa theo website Yody
+ 
++ ![https://yody.vn/](./assets/img/shared/header/logo.png)
+
 
 + Bao gồm:
   + Sitemap
