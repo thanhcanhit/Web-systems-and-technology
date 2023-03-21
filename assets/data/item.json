@@ -23,33 +23,16 @@
 		],
 		"price": 299000,
 		"discount": 0,
-		"colors": [
-			{
-				"colorName": "Xanh xám",
-				"path": "/assets/img/item/id_1/xanh_xam.jpg"
-			},
-			{
-				"colorName": "Đen",
-				"path": "/assets/img/item/id_1/den.jpg"
-			},
-			{
-				"colorName": "Xanh Dương",
-				"path": "/assets/img/item/id_1/xanh_duong.jpg"
-			},
-			{
-				"colorName": "Đỏ đô",
-				"path": "/assets/img/item/id_1/do_do.jpg"
-			},
-			{
-				"colorName": "Trắng",
-				"path": "/assets/img/item/id_1/trang.jpg"
-			},
-			{
-				"colorName": "Vàng",
-				"path": "/assets/img/item/id_1/vang.jpg"
-			}
+		"colors": ["Đen", "Đỏ đô", "Trắng", "Vàng", "Xanh dương", "Xanh xám"],
+		
+		"sizes": [
+			"M",
+			"L",
+			"XL",
+			"2XL",
+			"3XL",
+			"4XL"
 		],
-		"sizes": ["M", "L", "XL", "2XL", "3XL", "4XL"],
 		"characteristics": [
 			"Chất liệu: Pique mắt chim",
 			"Sử dụng Cotton USA - sợi cotton tốt nhất trên thế giới",
@@ -59,67 +42,50 @@
 			"Áo co giãn tốt, luôn giữ được form và bền màu"
 		],
 		"details": "/assets/img/item/id_1/banner.jpg",
-    "video": "/assets/img/item/id_1/video.mp4"
+		"video": "/assets/img/item/id_1/video.mp4"
 	},
-  {
-		"id":  2,
-		"subcategory_id":  1,
+	{
+		"id": 2,
+		"subcategory_id": 1,
 		"name": "Áo Polo Nam Coolmax Phối Bo Kẻ",
-		"sold":  141000,
+		"sold": 141000,
 		"comments": [
 			{
 				"user_name": "Trường Phát",
-				"star":  5,
-				"content": "Hàng đẹp xuất sắc, giao hàng nhanh, mua lần thứ 2 rồi vẫn ưng. Sẽ ủng hộ dài" 
+				"star": 5,
+				"content": "Hàng đẹp xuất sắc, giao hàng nhanh, mua lần thứ 2 rồi vẫn ưng. Sẽ ủng hộ dài"
 			},
 			{
 				"user_name": "Đỗ Minh Phương",
-				"star":  5,
-				"content": "Mình đã mua sản phẩm này .Chất vải mặc mềm nhẹ , co giãn thoải mái , mặc vừa đẹp luôn." 
+				"star": 5,
+				"content": "Mình đã mua sản phẩm này .Chất vải mặc mềm nhẹ , co giãn thoải mái , mặc vừa đẹp luôn."
 			},
-      {
+			{
 				"user_name": "Đinh Xuân Tuấn",
-				"star":  5,
-				"content": "áo mặc mát, không nhăn, không bị phai màu" 
+				"star": 5,
+				"content": "áo mặc mát, không nhăn, không bị phai màu"
 			}
 		],
-		"price":  399000,
-		"discount":  30,
-		"colors": [
-			{
-				"colorName": "Xanh Coban",
-				"path": "/assets/img/item/id_2/xanh_coban.jpg"
-			},
-			{
-				"colorName": "Cam đất",
-				"path": "/assets/img/item/id_2/cam_dat.jpg"
-			},
-			{
-				"colorName": "Đen",
-				"path": "/assets/img/item/id_2/den.jpg"
-			},
-			{
-				"colorName": "Hồng",
-				"path": "/assets/img/item/id_2/hong.jpg"
-			},
-			{
-				"colorName": "Trắng",
-				"path": "/assets/img/item/id_2/trang.jpg"
-			},
-      {
-				"colorName": "Xanh Ngọc",
-				"path": "/assets/img/item/id_2/xanh_ngoc.jpg"
-			}
+		"price": 399000,
+		"discount": 30,
+		"colors": ["Cam đất, Đen, Hồng, Trắng, Xanh coban, Xanh ngọc"],
+	
+		"sizes": [
+			"M",
+			"L",
+			"XL",
+			"4XL"
 		],
-		"sizes":  ["M", "L", "XL", "4XL"],
-		"characteristics": ["Chất liệu: CoolMax với thành phần 95% CoolMax + 5% spandex",
-    "Vải coolmax nhẹ, xốp, thoáng mát, truyền dẫn ẩm tốt.",
-    "Bề mặt sợi có rãnh làm tăng khả năng truyền dẫn khí và ẩm.",
-    "Khả năng thấm hút mồ hôi tốt, hút ẩm nhanh",
-    "Áo polo nam thiết kế tay lỡ kết hợp với dáng suông giúp người mặc luôn được thoải mái hàng ngày.",
-    "YODY - Look good. Feel good."] 
+		"characteristics": [
+			"Chất liệu: CoolMax với thành phần 95% CoolMax + 5% spandex",
+			"Vải coolmax nhẹ, xốp, thoáng mát, truyền dẫn ẩm tốt.",
+			"Bề mặt sợi có rãnh làm tăng khả năng truyền dẫn khí và ẩm.",
+			"Khả năng thấm hút mồ hôi tốt, hút ẩm nhanh",
+			"Áo polo nam thiết kế tay lỡ kết hợp với dáng suông giúp người mặc luôn được thoải mái hàng ngày.",
+			"YODY - Look good. Feel good."
+		]
 	},
-  {
+	{
 		"id": 3,
 		"subcategory_id": 1,
 		"name": "Áo Polo Nam Airymax Thêu Panda",
@@ -127,38 +93,234 @@
 		"comments": [],
 		"price": 299000,
 		"discount": 0,
-		"colors": [
+		"colors": ["Be", "Hồng cam", "Vàng", "Xanh biển"],
+		
+		"sizes": [
+			"L",
+			"XL",
+			"2XL"
+		],
+		"characteristics": [
+			"Áo polo nam chất liệu Airymax - dòng sản phẩm tiên tiến tại YODY",
+			"Thành phần vải: 47%cotton, 49%polyester, 4%spandex    ",
+			"Áo mặc cho cảm giác mềm mại trên da, thông thoáng & thoải mái nhẹ nhàng",
+			"Co giãn và đàn hồi tốt giúp cơ thể không hề bị gò bó khi di chuyển",
+			"Sản phẩm nằm trong thiết kế Combo áo polo gia đình, thích hợp cho các bố mẹ mặc cùng con để tạo điểm nhấn.",
+			"YODY - Look good. Feel good."
+		]
+	},
+	{
+		"id": 4,
+		"subcategory_id": 1,
+		"name": "Áo Polo Nam Coolmax Lacoste",
+		"sold": 214000,
+		"comments": [
 			{
-				"colorName": "Xanh Ngọc",
-				"path": "/assets/img/item/id_3/xanh_ngoc.jpg"
+				"user_name":"Nguyễn Văn Sỹ",
+				"star": 5,
+				"content": "Sản phẩm đẹp, phù hợp cho nhiều lứa tuổi."
 			},
 			{
-				"colorName": "Hồng cam",
-				"path": "/assets/img/item/id_3/hong_cam.jpg"
+				"user_name": "Nguyễn Văn Long",
+				"star": 5,
+				"content": "Chất đẹp, vải mát mặc đi làm vô cùng thoải mái. Săn sale được giá tốt, cho sop 5 sao"
 			},
 			{
-				"colorName": "Be",
-				"path": "/assets/img/item/id_3/be.jpg"
-			},
-			{
-				"colorName": "Xanh Biển",
-				"path": "/assets/img/item/id_3/xanh_bien.jpg"
-			},
-			{
-				"colorName": "Vàng",
-				"path": "/assets/img/item/id_3/vang.jpg"
+				"user_name": "Mạnh Hùng",
+				"star": 5,
+				"content": "Áo đẹp, mặc đi họp lớp, đi ăn nhậu rất được kkkk"
 			}
 		],
-		"sizes": ["L", "XL", "2XL"],
+		"price": 269.000,
+		"discount": 10,
+		"color": ["Đen", "Đỏ đô", "Tím than", "Trắng kem", "Vàng", "Xanh coban"],
+		"sizes": [
+			"M",
+			"L",
+			"XL",
+			"2XL",
+			"3XL",
+			"4XL"
+		],
 		"characteristics": [
-      "Áo polo nam chất liệu Airymax - dòng sản phẩm tiên tiến tại YODY",
-      "Thành phần vải: 47%cotton, 49%polyester, 4%spandex    ",
-      "Áo mặc cho cảm giác mềm mại trên da, thông thoáng & thoải mái nhẹ nhàng",
-      "Co giãn và đàn hồi tốt giúp cơ thể không hề bị gò bó khi di chuyển",
-      "Sản phẩm nằm trong thiết kế Combo áo polo gia đình, thích hợp cho các bố mẹ mặc cùng con để tạo điểm nhấn.",
-      "YODY - Look good. Feel good."
+			"Chất liệu: vải coolmax với cấu trúc sợi đặc biệt",
+			"Sợi vải bao gồm nhiều rãnh dẹt giúp thoáng khí, thoát ẩm cực tốt",
+			"Áo polo nam Coolmax mang lại cảm giác mát mẻ, dễ chịu cho người mặc ngay cả khi vận động mạnh",
+			"Tự tin cùng Thiết kế khỏe khoắn, nam tính ",
+			"Ứng dụng linh hoạt: Thích hợp mặc đi chơi, đi làm, hoạt động thể thao, cafe, hẹn hò với bạn bè",
+			"YODY - Look good. Feel good."
 		]
-	}
 
+	},
+	{
+		"id": 5,
+		"subcategory_id": 1,
+		"name": "Áo Polo Nam Cafe Phối Nẹp Thấm Hút Mồ Hôi",
+		"sold": 442000,
+		"comments": [
+			{
+				"user_name":"H*****",
+				"star": 5,
+				"content": "Áo đẹp, vải mềm, màu sắc rất đẹp. Phối đồ mặc đi chơi, đi làm đều được. Giao hàng nhanh."
+			},
+			{
+				"user_name": "Hùng",
+				"star": 5,
+				"content": "Đã mua 3 chiếc, mang tặng 2 chiếc và rất hài lòng. Khử mùi rất tốt."
+			},
+			{
+				"user_name": "nguyễn ngọc quang",
+				"star": 5,
+				"content": "Cả gia đình tin dùng Yody. Sản phẩm rất tốt, thoải mái, chất đẹp."
+			}
+		],
+		"price": 269.000,
+		"discount": 10,
+		"color": ["Grey", "Nâu", "Navy", "Trắng nâu", "Trắng phối navy", "Vàng"],
+		"sizes": [
+			"M",
+			"L",
+			"XL",
+			"2XL",
+			"3XL",
+			"4XL"
+		],
+		"characteristics": [
+			"Áo polo nam Sợi Café với thành phần 50% sợi cafe và 50% sợi PET",
+			"Vải cafe thấm hút mồ hôi, kiểm soát khử mùi cơ thể cực tốt",
+			"Những chiếc áo polo cafe giúp bạn tránh bị ám mùi giữa mùa hè nóng bức. khi tham gia các hoạt động ngoài trời với cường độ cao hay đơn giản là đi ăn 1 bữa tiệc nướng",
+			"Bảo vệ cơ thể nhờ khả năng kháng khuẩn, Chống tia UV",
+			"Sản phẩm được tin dùng bởi hàng triệu khách hàng toàn quốc",
+			"YODY - Look good. Feel good."
+		]
+		
+	},
+	{
+		"id": 6,
+		"subcategory_id": 1,
+		"name": "Áo Polo Nam Airycool Thoáng Mát Phối Bo",
+		"sold": 126000,
+		"comments": [
+			{
+				"user_name":"t*****8",
+				"star": 5,
+				"content": "Áo đẹp. Mua nhiều của yody rồi. Cả nhà cùng mặc áo bên shop. Sẽ ủng hộ shop tiếp"
+			},
+			{
+				"user_name": "s*****n",
+				"star": 5,
+				"content": "Giao hàng nhanh, nhân viên rất lịch sự và mến khách. Ủng hộ Yody"
+			},
+			{
+				"user_name": "q*****0",
+				"star": 5,
+				"content": "áo đẹp. vải thoáng mát. tuy nhiên form hơi nhỏ, mn có thể cân nhắc +1 size khi mua ạ 🙂"
+			}
+		],
+		"price": 269.000,
+		"discount": 10,
+		"color": ["Đen", "Đỏ đô", "Tím than", "Trắng kem", "Vàng", "Xanh coban"],
+		"sizes": [
+			"M",
+			"L",
+			"XL"
+		],
+		"characteristics": [
+			"Chất liệu vải: Airycool có thành phần 85% Polyamide và 15% spandex",
+			"Sợi Polyamide là cấu tạo chính giúp tạo cảm giác thoải mái, dễ chịu khi mặc.",
+			"15% spandex giúp sợi vải thêm bền chắc, tạo form dáng thời trang. ",
+			"Công nghệ làm mát Freezing giúp tạo lá chắn bảo vệ cơ thể khỏi môi trường bên ngoài.",
+			"Kết hợp được với nhiều trang phục khác nhau khi đi làm nơi công sở hoặc xuống phố dạo chơi.",
+			"Sản phẩm giúp bạn thoải mái, dễ chịu, khỏe khoắn hơn.",
+			"YODY - Look good. Feel good."
+		]
+	},
+	{
+		"id": 7,
+		"subcategory_id": 1,
+		"name": "Áo Polo Nam Airycool Giữ Form Thoáng Mát",
+		"sold": 98200,
+		"comments": [
+			{
+				"user_name":"k*****n",
+				"star": 5,
+				"content": "Áo đẹp ,vải mềm chất lượng sản phẩm tuyệt vời, shop giao hàng nhanh,"
+			},
+			{
+				"user_name": "b*****4",
+				"star": 5,
+				"content": "Áo đẹp giao hàng nhanh đúng chất lượng"
+			},
+			{
+				"user_name": "hien12578",
+				"star": 5,
+				"content": "Chất liệu:aircool Màu sắc:vàng Đúng với mô tả:giống với hình ảnh được tặng gấu bông rất thích...."
+			}
+		],
+		"price": 299.000,
+		"discount": 10,
+		"color": ["Đen", "Đỏ", "Navy", "Trắng", "Vàng", "Xanh"],
+		"sizes": [
+			"M",
+			"L",
+			"XL",
+			"2XL",
+			"3XL",
+			"4XL"
+		],
+		"characteristics": [
+			"Chất liệu:Vải Airycool với thành phần 85% nylon + 15% spandex",
+			"Công nghệ làm mát FREEZING tiên tiến siêu khô thoáng",
+			"Kết cấu vải siêu mịn, tỉ mỉ, chắc chắn",
+			"Trong lượng nhẹ, thoáng khí hút ẩm cực tốt",
+			"Thấm hút mồ hôi tốt",
+			"Khả năng co giãn, giữ form tốt",
+			"YODY - Look good. Feel good."
+		]
+
+	},
+	{
+		"id": 8,
+		"subcategory_id": 1,
+		"name": "Áo Polo Nam Phối Bo Coolmax Thoáng Mát",
+		"sold": 851000,
+		"comments": [
+			{
+				"user_name":"t*****n",
+				"star": 5,
+				"content": "Chất liệu:thun Màu sắc:trắng Đúng với mô tả:Đúng với mô tả Nếu cổ áo không có hoạ tiết thì sẽ đẹp hơn, hơi tiếc 1 tí"
+			},
+			{
+				"user_name": "qat622k_mq",
+				"star": 5,
+				"content": "chất lượng ổn,giao hàng hơi lâu.nhưng được cái shiper nhiệt tình."
+			},
+			{
+				"user_name": "thu_tinh",
+				"star": 5,
+				"content": "Thời gian giao hàng nhanh chóng và thuận tiện, chất vải rất đẹp, áo không bị nhăn"
+			}
+		],
+		"price": 299.000,
+		"discount": 10,
+		"color": ["Hồng", "Tím than", "Trắng", "Vàng", "Xanh ngọc", "Xanh vỏ đỗ"],
+		"sizes": [
+			"M",
+			"L",
+			"XL",
+			"2XL",
+			"3XL",
+			"4XL"
+		],
+		"characteristics": [
+			"Áo polo Coolmax - một trong những dòng sản phẩm chủ đạo dành cho mùa hè tại Việt Nam",
+			"Thành phần sợi: 95% Coolmax, 5% Spandex",
+			"Tiết diện sợi dẹt, chạy dọc thên sợi nên áo siêu thoáng khí, hút ẩm tốt và nhanh khô hơn cotton tới 2 lần",
+			"Vải áo nhẹ mềm mại, khi mặc cho cảm giác khoan khoái, dễ chịu vô cùng",
+			"Co giãn tốt, bền màu và hạn chế nhăn nhàu trong quá trình sử dụng",
+			"Thích hợp mặc đi chơi, đi làm, hoạt động thể thao, cafe, hẹn hò với bạn bè",
+			"YODY - Look good. Feel good"
+			]
+	},
+	
 ]
-
