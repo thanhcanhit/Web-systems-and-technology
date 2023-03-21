@@ -1,0 +1,77 @@
+
+.filter__list {
+  max-height: 250px;
+  overflow-y: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  padding: .25rem;
+  padding-bottom: .5rem ;
+}
+
+.filter__list::-webkit-scrollbar {
+  width: .3rem;
+  background: #dde1ef;
+}
+
+.filter__list::-webkit-scrollbar-thumb {
+  background-color: #7a7a9d;
+  border-radius: .25rem;
+}
+
+.filter__price label{
+  font-size: .875rem;
+  font-weight: 500;
+  margin-top: -.25rem;
+  margin-left: .25rem;
+  cursor: pointer;
+}
+
+.filter__price label:hover {
+  color: var(--main-color);
+  transition: all .1s ease ;
+}
+
+.filter__price input:checked {
+  background: white;
+  border: .25rem solid var(--main-color);
+}
+
+.filter__heading {
+  font-size: 1rem;
+  font-weight: 600;
+  padding-bottom: .5rem;
+}
+
+.filter__item {
+  font-size: .875rem;
+  font-weight: 500;
+  padding-inline: .5rem;
+  color: var(--violet-gray);
+  padding: .5rem;
+  background-color: #f2f2f2;
+  border-radius: .25rem;
+  cursor: pointer;
+}
+
+.filter__item:hover {
+  color: var(--main-color);
+  background: white;
+  outline: 1px solid var(--main-color);
+}
+
+.filter__item label {
+  color: var(--violet-gray);
+}
+
+/* Product List */
+
+.product__pagination .page-link {
+  --bs-pagination-active-bg: var(--main-color);
+  --bs-pagination-active-border-color: var(--main-color);
+  --bs-pagination-color: var(--main-color);
+}
+
+.product__pagination .page-link.active {
+  --bs-pagination-color: white;
+}

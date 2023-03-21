@@ -4,6 +4,20 @@
 		"subcategory_id": 1,
 		"name": "Áo Polo Nam Pique Mắt Chim Basic Co Giãn Thoáng Khí",
 		"sold": 621000,
+		"price": 299000,
+		"discount": 0,
+		"colors": ["Xanh xám", "Đen", "Xanh Dương", "Đỏ đô", "Trắng", "Vàng"],
+		"sizes": ["M", "L", "XL", "2XL", "3XL", "4XL"],
+		"characteristics": [
+			"Chất liệu: Pique mắt chim",
+			"Sử dụng Cotton USA - sợi cotton tốt nhất trên thế giới",
+			"Công nghệ nhuộm Solid Dyed tạo nên hiệu ứng bắt mắt",
+			"Chất liệu vải độc đáo với hiệu ứng mắt chim độc đáo, mới lạ và trẻ trung",
+			"Vải mắt chim thông thoáng, thấm hút tốt có độ bền cao",
+			"Áo co giãn tốt, luôn giữ được form và bền màu"
+		],
+		"details": "/assets/img/item/id_1/banner.jpg",
+		"video": "/assets/img/item/id_1/video.mp4",
 		"comments": [
 			{
 				"user_name": "Long",
@@ -90,7 +104,6 @@
 		"subcategory_id": 1,
 		"name": "Áo Polo Nam Airymax Thêu Panda",
 		"sold": 9500,
-		"comments": [],
 		"price": 299000,
 		"discount": 0,
 		"colors": ["Be", "Hồng cam", "Vàng", "Xanh biển"],
@@ -321,6 +334,6 @@
 			"Thích hợp mặc đi chơi, đi làm, hoạt động thể thao, cafe, hẹn hò với bạn bè",
 			"YODY - Look good. Feel good"
 			]
-	},
+	}
 	
 ]

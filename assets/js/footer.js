@@ -5,7 +5,7 @@ if (footer) {
   <footer id="footer" class="footer py-4 fw-medium bg-blue text-white text-14">
 		<div class="container">
 			<!-- Footer Content -->
-			<div class="row ">
+			<div class="row">
 				<div class="col col-12 col-xl-4">
 					<p class="mb-4">
 						“Đặt sự hài lòng của khách hàng là ưu tiên số 1

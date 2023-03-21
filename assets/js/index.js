@@ -1,4 +1,5 @@
-import { getRandomValue } from "./shared.js";
+import { getRandomValue } from "./utility.js";
+import {activeHorizontalSlider} from './shared.js'
 // // Clock
 const clockItems = document.querySelectorAll(".clock__item span");
 
@@ -49,8 +50,8 @@ if (categoryList) {
 	fetch("/assets/data/subcategory.json")
 		.then((response) => response.json())
 		.then((data) => {
-			const hasImg = data.filter((item) => (item?.img));
-			
+			const hasImg = data.filter((item) => item?.img);
+
 			const html = hasImg.map((item) => {
 				return `<li class="category__item h-slider__item">
                   <div>
@@ -62,6 +63,7 @@ if (categoryList) {
                 </li>`;
 			});
 			categoryList.innerHTML = html.join("");
+			activeHorizontalSlider();
 		});
 }
 
