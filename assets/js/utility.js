@@ -1,11 +1,28 @@
-export { getImgColorPath };
 
-function getImgColorPath(color, id) {
-	const name = removeVietnameseTones(color)
+/**
+ * 
+ * @param {string} color : Tên màu
+ * @param {int} id : ID của sản phẩm
+ * @returns 
+ */
+function getImgPath(name, id) {
+	const nameFormatted = removeVietnameseTones(name)
 		.split(" ")
 		.join("_")
 		.toLowerCase();
-	return `/assets/img/shared/item/id_${id}/${name}.jpg`;
+	return `/assets/img/shared/item/id_${id}/${nameFormatted}.jpg`;
+}
+
+/**
+ * 
+ * @param {string} string: chuỗi tiếng việt
+ * @returns {string} : chuỗi tiếng việt không dấu
+ */
+function getTVKhongdau(string) {
+	return removeVietnameseTones(string)
+		.split(" ")
+		.join("_")
+		.toLowerCase();
 }
 
 // Chuyển tv -> không dấu
@@ -41,9 +58,27 @@ function removeVietnameseTones(str) {
 	return str;
 }
 
-// Get random [start, end]
+/**
+ * 
+ * @param {int} start : giá trị bắt đầu
+ * @param {int} end : giá trị kết thúc
+ * @returns {int}: số ngẫu nhiên trong [start, end]
+ */
 const getRandomValue = (start, end) => {
 	return Math.floor(Math.random() * (end - start + 1) + start);
 };
 
-export { getRandomValue };
+
+/**
+ * 
+ * @param {double} money : số tiền
+ * @returns {string} : tiền được định dạnh
+ * @example 20000 -> 20.000đ
+ */
+function formatVND(money) {
+	const formatter = new Intl.NumberFormat('vi-VN');
+
+	return formatter.format(money) + 'đ';
+}
+
+export { getImgPath, getRandomValue, formatVND, getTVKhongdau };

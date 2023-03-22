@@ -57,13 +57,15 @@
   color: var(--red-color);
 }
 
-.sale-price+.price {
+.sale-price + .price {
   color: lightgrey;
   text-decoration: line-through;
   font-weight: normal;
 }
 
-.price {}
+.price {
+  color: rgb(45, 45, 45);
+}
 
 .sale-percent {}
 

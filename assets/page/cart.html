@@ -19,17 +19,8 @@
   <header id="header"></header>
 
   <main>
-    <section class="container cart py-5">
-      <!-- <div class="cart__empty">
-        <img src="/assets/img/cart/blank_cart.svg" alt="" />
-        <span class="text-14 fw-medium">Giỏ hàng của bạn trống</span>
-        <div>
-          <a href="" class="mb-2 main-button">Đăng nhập/Đăng
-            ký</a>
-          <a href="" class="main-button">Mua ngay</a>
-        </div>
-      </div> -->
-      <div class="row">
+    <section class="container cart py-5" id="js-cart">
+      <div class="row" id="js-cart-show">
         <div class="col col-8 product">
           <div class="product__header d-flex align-items-end gap-2">
             <h4 class="product__heading mb-0">GIỎ HÀNG</h4>
@@ -44,96 +35,13 @@
                 <th class="col col-2 text-end">Tổng tiền</th>
               </tr>
             </thead>
-            <tbody>
-              <tr class="cart__item">
-                <td>
-                  <div class="row">
-                    <div class="col col-3">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/do_do.jpg" alt="">
-                    </div>
-                    <div class="col col-9">
-                      <div class="h-100 d-flex flex-column justify-content-between">
-                        <span class="name">Áo polo Nam pique mắt chim basic co giãn thoáng khi</span>
-                        <span class="variant">
-                          <span class="color">Đỏ đô</span>
-                          /
-                          <span class="size">XL</span>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </td>
-                <td>
-                  <div class="cart__item-price">
-                    <p class="sale-price">269.000đ</p>
-                    <p class="price">299.000đ</p>
-                  </div>
-                </td>
-                <td>
-                  <div class="qty btn-group mt-1" role="group" aria-label="Basic example">
-                    <button type="button" class="btn border">-</button>
-                    <button type="button" class="btn border disabled fw-semibold">0</button>
-                    <button type="button" class="btn border ">+</button>
-                  </div>
-                </td>
-                <td>
-                  <div class="h-100 d-flex flex-column justify-content-between">
-                    <p class="total fw-semibold">269.000đ</p>
-                    <div class="cart__remove mt-auto">
-                      <i class="fa-solid fa-trash-can"></i>
-                    </div>
-                  </div>
-                </td>
-              </tr>
-              <tr class="cart__item">
-                <td>
-                  <div class="row">
-                    <div class="col col-3">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/do_do.jpg" alt="">
-                    </div>
-                    <div class="col col-9">
-                      <div class="h-100 d-flex flex-column justify-content-between">
-                        <span class="name">Áo polo Nam pique mắt chim basic co giãn thoáng khi</span>
-                        <span class="variant">
-                          <span class="color">Đỏ đô</span>
-                          /
-                          <span class="size">XL</span>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </td>
-                <td>
-                  <div class="cart__item-price">
-                    <p class="price">299.000đ</p>
-                  </div>
-                </td>
-                <td>
-                  <div class="qty btn-group mt-1" role="group" aria-label="Basic example">
-                    <button type="button" class="btn border">-</button>
-                    <button type="button" class="btn border disabled fw-semibold">0</button>
-                    <button type="button" class="btn border ">+</button>
-                  </div>
-                </td>
-                <td>
-                  <div class="h-100 d-flex flex-column justify-content-between">
-                    <p class="total fw-semibold">269.000đ</p>
-                    <div class="cart__remove mt-auto">
-                      <i class="fa-solid fa-trash-can"></i>
-                    </div>
-                  </div>
-                </td>
-              </tr>
+            <tbody id="js-cart-list">
             </tbody>
           </table>
         </div>
         <div class="col col-4">
-          <div class="sub-total">
-            <div class="d-flex justify-content-between text-14 fw-semibold">
-              <p>Tổng đơn hàng (Tạm tính) :</p>
-              <span>768.000đ</span>
-            </div>
-            <button class="main-button">Đặt hàng (2)</button>
+          <div class="sub-total" id="sub-total">
+
           </div>
         </div>
       </div>
@@ -144,6 +52,7 @@
 
   <!-- JS -->
   <script src="../js/shared.js" type="module"></script>
+  <script src="../js/cart.js" type="module"></script>
 </body>
 
 </html>
