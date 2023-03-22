@@ -20,6 +20,9 @@ if (items) {
 			});
 		});
 	});
+<<<<<<< HEAD
+}
+=======
 }
 
 
@@ -112,3 +115,4 @@ function activeHorizontalSlider() {
 activeHorizontalSlider();
 export { activeHorizontalSlider };
 
+>>>>>>> 6607ad17323d978ad210234710cb85bcb6f313fd
