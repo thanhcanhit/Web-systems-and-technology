@@ -9,6 +9,7 @@ if (domCart) {
 	fetch("/assets/data/item.json")
 		.then((response) => response.json())
 		.then((itemsData) => {
+      console.log(dataList)
 			if (dataList.length === 0) {
 				domCart.innerHTML = `
         <div class="cart__empty">

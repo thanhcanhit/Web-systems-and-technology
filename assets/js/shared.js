@@ -20,11 +20,7 @@ if (items) {
 			});
 		});
 	});
-<<<<<<< HEAD
 }
-=======
-}
-
 
 // Horizontal Slider btn
 /**
@@ -38,15 +34,13 @@ if (items) {
 function activeHorizontalSlider() {
 	const hSliderList = document.querySelectorAll(".h-slider");
 	Array.from(hSliderList).forEach((item) => {
-
 		const sliderList = item.querySelector(".h-slider__list");
-		
+
 		// Clean btn when re-run
 		try {
 			item.querySelector(".h-slider__btn").remove();
 			item.querySelector(".h-slider__btn").remove();
-		} catch (e) {
-		}
+		} catch (e) {}
 
 		if (sliderList.scrollWidth >= sliderList.clientWidth) {
 			let isSmall = sliderList.className.includes("--small");
@@ -114,5 +108,3 @@ function activeHorizontalSlider() {
 
 activeHorizontalSlider();
 export { activeHorizontalSlider };
-
->>>>>>> 6607ad17323d978ad210234710cb85bcb6f313fd
