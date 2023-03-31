@@ -1,6 +1,5 @@
 [
-
-// Áo Polo
+	// Áo Polo
 	{
 		"id": 1,
 		"subcategory_id": 1,
@@ -46,14 +45,16 @@
 
 		"price": 399000,
 		"discount": 30,
-		"colors": ["cam_dat", "den", "hong", "trang", "xanh_coban", "xanh_ngoc"],
-	
-		"sizes": [
-			"M",
-			"L",
-			"XL",
-			"4XL"
+		"colors": [
+			"cam_dat",
+			"den",
+			"hong",
+			"trang",
+			"xanh_coban",
+			"xanh_ngoc"
 		],
+
+		"sizes": ["M", "L", "XL", "4XL"],
 		"characteristics": [
 			"Chất liệu: CoolMax với thành phần 95% CoolMax + 5% spandex",
 			"Vải coolmax nhẹ, xốp, thoáng mát, truyền dẫn ẩm tốt.",
@@ -88,12 +89,8 @@
 		"price": 299000,
 		"discount": 0,
 		"colors": ["be", "hong_cam", "vang", "xanh_bien"],
-		
-		"sizes": [
-			"L",
-			"XL",
-			"2XL"
-		],
+
+		"sizes": ["L", "XL", "2XL"],
 		"characteristics": [
 			"Áo polo nam chất liệu Airymax - dòng sản phẩm tiên tiến tại YODY",
 			"Thành phần vải: 47%cotton, 49%polyester, 4%spandex    ",
@@ -128,15 +125,15 @@
 
 		"price": 269.0,
 		"discount": 10,
-		"color": ["den", "do_do", "tim_than", "trang_kem", "vang", "xanh_coban"],
-		"sizes": [
-			"M",
-			"L",
-			"XL",
-			"2XL",
-			"3XL",
-			"4XL"
+		"color": [
+			"den",
+			"do_do",
+			"tim_than",
+			"trang_kem",
+			"vang",
+			"xanh_coban"
 		],
+		"sizes": ["M", "L", "XL", "2XL", "3XL", "4XL"],
 		"sizes": ["M", "L", "XL", "2XL", "3XL", "4XL"],
 		"characteristics": [
 			"Chất liệu: vải coolmax với cấu trúc sợi đặc biệt",
@@ -171,15 +168,15 @@
 		"sold": 442000,
 		"price": 269.0,
 		"discount": 10,
-		"color": ["grey", "nau", "navy", "trang_nau", "trang_phoi_navy", "vang"],
-		"sizes": [
-			"M",
-			"L",
-			"XL",
-			"2XL",
-			"3XL",
-			"4XL"
+		"color": [
+			"grey",
+			"nau",
+			"navy",
+			"trang_nau",
+			"trang_phoi_navy",
+			"vang"
 		],
+		"sizes": ["M", "L", "XL", "2XL", "3XL", "4XL"],
 		"sizes": ["M", "L", "XL", "2XL", "3XL", "4XL"],
 		"characteristics": [
 			"Áo polo nam Sợi Café với thành phần 50% sợi cafe và 50% sợi PET",
@@ -215,12 +212,15 @@
 
 		"price": 269.0,
 		"discount": 10,
-		"color": ["den", "do_do", "tim_than", "trang_kem", "vang", "xanh_coban"],
-		"sizes": [
-			"M",
-			"L",
-			"XL"
+		"color": [
+			"den",
+			"do_do",
+			"tim_than",
+			"trang_kem",
+			"vang",
+			"xanh_coban"
 		],
+		"sizes": ["M", "L", "XL"],
 		"sizes": ["M", "L", "XL"],
 		"characteristics": [
 			"Chất liệu vải: Airycool có thành phần 85% Polyamide và 15% spandex",
@@ -258,14 +258,7 @@
 		"price": 299.0,
 		"discount": 10,
 		"color": ["den", "do", "navy", "trang", "vang", "xanh"],
-		"sizes": [
-			"M",
-			"L",
-			"XL",
-			"2XL",
-			"3XL",
-			"4XL"
-		],
+		"sizes": ["M", "L", "XL", "2XL", "3XL", "4XL"],
 		"characteristics": [
 			"Chất liệu:Vải Airycool với thành phần 85% nylon + 15% spandex",
 			"Công nghệ làm mát FREEZING tiên tiến siêu khô thoáng",
@@ -301,15 +294,15 @@
 
 		"price": 299.0,
 		"discount": 10,
-		"color": ["hong", "tim_than", "trang", "vang", "xanh_ngoc", "xanh_vo_do"],
-		"sizes": [
-			"M",
-			"L",
-			"XL",
-			"2XL",
-			"3XL",
-			"4XL"
+		"color": [
+			"hong",
+			"tim_than",
+			"trang",
+			"vang",
+			"xanh_ngoc",
+			"xanh_vo_do"
 		],
+		"sizes": ["M", "L", "XL", "2XL", "3XL", "4XL"],
 		"sizes": ["M", "L", "XL", "2XL", "3XL", "4XL"],
 		"characteristics": [
 			"Áo polo Coolmax - một trong những dòng sản phẩm chủ đạo dành cho mùa hè tại Việt Nam",
@@ -339,8 +332,7 @@
 		]
 	},
 
-
-// Áo thun
+	// Áo thun
 	{
 		"id": 9,
 		"subcategory_id": 2,
@@ -349,13 +341,7 @@
 		"price": 299.0,
 		"discount": 0,
 		"color": ["trang"],
-		"sizes": [
-			"M",
-			"L",
-			"XL",
-			"2XL",
-			"3XL"
-		],
+		"sizes": ["M", "L", "XL", "2XL", "3XL"],
 		"characteristics": [
 			"Áo thun thể thao YODY thế hệ mới với 88% Recycle Polyester và 2% Elastane",
 			"Polyester Recycle được biết đến là dòng sợi dẫn đầu cho xu hướng xanh hoá ngành dệt may - thân thiện với môi trường ",
@@ -374,12 +360,7 @@
 		"price": 299.0,
 		"discount": 0,
 		"color": ["den", "navy", "trang", "xanh_lo", "xanh_luc"],
-		"sizes": [
-			"M",
-			"L",
-			"XL",
-			"2XL"
-		],
+		"sizes": ["M", "L", "XL", "2XL"],
 		"characteristics": [
 			"Áo thun nam chất liệu: 88% Recycle Polyester + 12% Elastane nhẹ, thoáng khí",
 			"Co giãn, thấm hút mồ hôi và kiểm soát mùi cơ thể tốt",
@@ -398,12 +379,7 @@
 		"price": 269.0,
 		"discount": 0,
 		"color": ["ba_trau", "den_1", "trang_1", "vang_1", "xanh_duong"],
-		"sizes": [
-			"M",
-			"L",
-			"XL",
-			"2XL"
-		],
+		"sizes": ["M", "L", "XL", "2XL"],
 		"characteristics": [
 			"Áo phông nam chất liệu cotton thoáng mát và thấm hút siêu tốt",
 			"Kiểu dáng cơ bản, hình thêu chú gấu chơi đàn",
@@ -422,13 +398,7 @@
 		"price": 299.0,
 		"discount": 0,
 		"color": ["den", "navy", "trang", "xam", "xanh_duong"],
-		"sizes": [
-			"M",
-			"L",
-			"XL",
-			"2XL",
-			"3XL"
-		],
+		"sizes": ["M", "L", "XL", "2XL", "3XL"],
 		"characteristics": [
 			"Chất liệu:  88% Recycle Polyester + 12% Elastane",
 			"Thấm hút siêu tốt, thông thoáng, kiểm soát mùi cơ thể",
@@ -447,14 +417,7 @@
 		"price": 229.0,
 		"discount": 0,
 		"color": ["den", "do", "vang"],
-		"sizes": [
-			"M",
-			"L",
-			"L",
-			"XL",
-			"2XL",
-			"3XL"
-		],
+		"sizes": ["M", "L", "L", "XL", "2XL", "3XL"],
 		"characteristics": [
 			"Chất liệu 100% Cotton USA cao cấp",
 			"Cotton bền vững: Góp phần bảo vệ môi trường sống",
@@ -467,28 +430,32 @@
 		],
 		"comments": [
 			{
-				"user_name":"hoacalang91",
+				"user_name": "hoacalang91",
 				"star": 5,
 				"content": "Đủ hàng đúng size chất mát áo đẹp giao hàng nhanh. Giá rẻ nữa. Áo màu đẹp. Mua chưa bao giờ là không hài lòng cả. Sẽ ủng hộ hãng dài dài"
 			}
 		]
 	},
-	
 
-// Áo khoác
+	// Áo khoác
 	{
 		"id": 14,
 		"subcategory_id": 3,
 		"name": "Áo Phao Nam Có Mũ Siêu Nhẹ Siêu Ấm",
-		"sold": 99.700,
-		"price": 599.000,
+		"sold": 99.7,
+		"price": 599.0,
 		"discount": 0,
-		"color": ["den", "do_do", "ghi_dam", "ghi", "reu", "tim_than", "xanh_than_nhat", "xanh_troi"],
-		"sizes": [
-			"M",
-			"L",
-			"XL"
+		"color": [
+			"den",
+			"do_do",
+			"ghi_dam",
+			"ghi",
+			"reu",
+			"tim_than",
+			"xanh_than_nhat",
+			"xanh_troi"
 		],
+		"sizes": ["M", "L", "XL"],
 		"characteristics": [
 			"Dòng Áo Phao 3S mùa đông năm 2022",
 			"Áo có cấu trúc 3 lớp chắc chắn: Lớp ngoài và lớp lót được làm từ 100% Nylon, Lớp giữa bông nhẹ 100% polyester",
@@ -500,7 +467,7 @@
 		],
 		"comments": [
 			{
-				"user_name":"nhanshop2013",
+				"user_name": "nhanshop2013",
 				"star": 5,
 				"content": "Hàng nên mua. Quá ok. Nhẹ. Ấm"
 			}
@@ -511,17 +478,11 @@
 		"id": 15,
 		"subcategory_id": 3,
 		"name": "Áo Khoác Gió Thông Minh Nam Trượt Nước",
-		"sold": 114.000,
-		"price": 599.000,
+		"sold": 114.0,
+		"price": 599.0,
 		"discount": 0,
 		"color": ["cam", "den", "ghi_sang", "navy", "xanh_than"],
-		"sizes": [
-			"M",
-			"L",
-			"XL",
-			"2XL",
-			"3XL"
-		],
+		"sizes": ["M", "L", "XL", "2XL", "3XL"],
 		"characteristics": [
 			"Áo khoác gió nam thông minh - thiết kế mới của YODY làm từ chất liệu vải gió, được cải tiến và nâng cấp với khả năng trượt nước và đặc biệt là tính thuận tiện khi mang theo",
 			"Chiếc áo có thể lộn ngược thành 1 chiếc túi ngọn nhẹ, dễ dàng mang đi mọi nơi",
@@ -532,17 +493,17 @@
 		],
 		"comments": [
 			{
-				"user_name":"nguyenhang_1977.2019",
+				"user_name": "nguyenhang_1977.2019",
 				"star": 5,
 				"content": "chất đpẹ đúng như mẫu Áo đẹp, chuẩn sze"
 			},
 			{
-				"user_name":"tuananhvphd",
+				"user_name": "tuananhvphd",
 				"star": 5,
 				"content": "đã mua"
 			},
 			{
-				"user_name":"thuhaithao89",
+				"user_name": "thuhaithao89",
 				"star": 5,
 				"content": "Mình mua size L về mặc bị rộng , mình ra YODY huyện nhờ hổ trợ đổi lại size M ,nhân viên vui vẽ nhiệt tình , mình cảm ơn YODY rất nhiều , mọi người nên mua ,mình thích YODY mặc đẹp ok"
 			}
@@ -553,17 +514,20 @@
 		"id": 16,
 		"subcategory_id": 3,
 		"name": "Áo Khoác Gió Nam 3C Plus Năng Động Chống Ngấm Nước, Cản Gió, Cản Bụi",
-		"sold": 207.000,
-		"price": 499.000,
+		"sold": 207.0,
+		"price": 499.0,
 		"discount": 0,
-		"color": ["cam", "den", "ghi", "nau_tay", "tim_than", "vang_cat", "xanh_than", "xanh_troi"],
-		"sizes": [
-			"M",
-			"L",
-			"XL",
-			"2XL",
-			"3XL"
+		"color": [
+			"cam",
+			"den",
+			"ghi",
+			"nau_tay",
+			"tim_than",
+			"vang_cat",
+			"xanh_than",
+			"xanh_troi"
 		],
+		"sizes": ["M", "L", "XL", "2XL", "3XL"],
 		"characteristics": [
 			"Áo khoác nam 3C PLUS - Cản gió, Chống thấm nước vào mặt trong, Cản bụi",
 			"Cấu trúc 2 lớp cơ bản",
@@ -575,17 +539,17 @@
 		],
 		"comments": [
 			{
-				"user_name":"QUỳnh",
+				"user_name": "QUỳnh",
 				"star": 5,
 				"content": "Sản phẩm hoàn hảo"
 			},
 			{
-				"user_name":"Có thể",
+				"user_name": "Có thể",
 				"star": 5,
 				"content": "Sản phẩm phù hợp với giá tiền"
 			},
 			{
-				"user_name":"Minh Tuyết",
+				"user_name": "Minh Tuyết",
 				"star": 5,
 				"content": "Sản phẩm tốt. Chất lượng cao. Hàng y hình. Mình rất ưng ý ạ. Sẽ mua lại"
 			}
@@ -596,13 +560,20 @@
 		"id": 17,
 		"subcategory_id": 3,
 		"name": "Áo Phao Nam 3s Plus",
-		"sold": 96.700,
-		"price": 699.000,
+		"sold": 96.7,
+		"price": 699.0,
 		"discount": 0,
-		"color": ["cam", "den", "nau", "tim_than", "xanh_bien", "xanh_co_vit", "xanh_ghi", "xanh_vo_do"],
-		"sizes": [
-			"M"
+		"color": [
+			"cam",
+			"den",
+			"nau",
+			"tim_than",
+			"xanh_bien",
+			"xanh_co_vit",
+			"xanh_ghi",
+			"xanh_vo_do"
 		],
+		"sizes": ["M"],
 		"characteristics": [
 			"ÁO PHAO NAM 3S PLUS: Siêu nhẹ - Siêu ấm - Siêu gọn - Trượt nước",
 			"Phiên bản nâng cấp của áo phao 3S",
@@ -616,17 +587,17 @@
 		],
 		"comments": [
 			{
-				"user_name":"dr.manhdat",
+				"user_name": "dr.manhdat",
 				"star": 5,
 				"content": "Mình 1m73, 60kg mặc size XL khá vừa vặn, thoải mái, mặc áo len bên trong cũng không bị kích."
 			},
 			{
-				"user_name":"tienanhtrann",
+				"user_name": "tienanhtrann",
 				"star": 5,
 				"content": "Áo rất ấm , giao hàng nhanh , nhưng mà tặng gối kèm hơi đồng bóng chút , áo đen gối hồng :)))"
 			},
 			{
-				"user_name":"catanh020314",
+				"user_name": "catanh020314",
 				"star": 5,
 				"content": "Thời gian chuẩn bị và giao hàng khá nhanh. Áo nhận được giống trên hình mẫu, mặc ấm. Đáng mua"
 			}
@@ -638,13 +609,10 @@
 		"subcategory_id": 3,
 		"name": "Áo Khoác Nam Chun Bo Gấu Cản Gió Cản Bụi",
 		"sold": 927,
-		"price": 699.000,
+		"price": 699.0,
 		"discount": 0,
 		"color": ["den"],
-		"sizes": [
-			"L",
-			"XL"
-		],
+		"sizes": ["L", "XL"],
 		"characteristics": [
 			"Áo khoác nam cản gió, cản bụi, giữ ấm",
 			"Chất liệu thành phần: 88% nylon, 12% spandex",
@@ -654,17 +622,17 @@
 		],
 		"comments": [
 			{
-				"user_name":"vidiep_86",
+				"user_name": "vidiep_86",
 				"star": 5,
 				"content": "Vải mềm, lên dáng khá đẹp, mặc rất thoải mái"
 			},
 			{
-				"user_name":"w4dy1fvcb8",
+				"user_name": "w4dy1fvcb8",
 				"star": 4,
 				"content": "Áo đẹp, vừa size, màu sắc ưng ý"
 			},
 			{
-				"user_name":"Mai Nguyen",
+				"user_name": "Mai Nguyen",
 				"star": 5,
 				"content": "Mẩu đẹp, chất liệu dày dặn. Nói chung cảm quang ban đầu là đẹp."
 			}
@@ -676,13 +644,10 @@
 		"subcategory_id": 3,
 		"name": "Áo Phao Nam Siêu Nhẹ Có Mũ Siêu Ấm",
 		"sold": 125000,
-		"price": 599.000,
+		"price": 599.0,
 		"discount": 0,
 		"color": ["do_do"],
-		"sizes": [
-			"L",
-			"XL"
-		],
+		"sizes": ["L", "XL"],
 		"characteristics": [
 			"Màu sắc sản phẩm đa dạng, thiết kế form dáng trẻ trung",
 			"Có thiết kế túi đựng nhỏ gọn, dễ dàng mang theo sản phẩm",
@@ -692,36 +657,32 @@
 		],
 		"comments": [
 			{
-				"user_name":"Hùng",
+				"user_name": "Hùng",
 				"star": 5,
 				"content": "Cao 1,62m, nặng 52kg dùng size nào shop ơi?"
 			},
 			{
-				"user_name":"Nguyễn Đình Thanh Tuyền",
+				"user_name": "Nguyễn Đình Thanh Tuyền",
 				"star": 3,
 				"content": "Áo đẹp nhưng size chưa chuẩn mặc ko vừa"
 			},
 			{
-				"user_name":"Phạm Anh Tài",
+				"user_name": "Phạm Anh Tài",
 				"star": 5,
 				"content": "Hàng đẹp, nhẹ, dùng cực ưng ý."
 			}
 		]
 	},
 
-
 	{
 		"id": 20,
 		"subcategory_id": 3,
 		"name": "Áo Khoác Gió Nam 3C 2 Lớp Thể Thao Phối Lưng",
 		"sold": 84200,
-		"price": 399.000,
+		"price": 399.0,
 		"discount": 0,
 		"color": ["den", "xanh"],
-		"sizes": [
-			"2XL",
-			"3XL"
-		],
+		"sizes": ["2XL", "3XL"],
 		"characteristics": [
 			"Chất liệu vải 95% Polyester + 5% cotton.",
 			"Vải có bề mặt lỳ, mềm mịn, ít nhăn, chắc chắn hơn so với chất liệu vải gió thông thường",
@@ -732,17 +693,17 @@
 		],
 		"comments": [
 			{
-				"user_name":"p*****9",
+				"user_name": "p*****9",
 				"star": 5,
 				"content": "shop giao hàng nhanh, đóng gói cẩn thận, áo chống nước tốt, mình 1m6 mặc size XL thì thấy dài vừa, mặc thoải mái, vai thì bị rộng hơn chút, tay dài thoải mái, mũ to, áo màu đen này dáng xuông, không có phần eo như video áo màu cam"
 			},
 			{
-				"user_name":"minhhthu1102",
+				"user_name": "minhhthu1102",
 				"star": 5,
 				"content": "Chất lượng đồ bên YD thì ko phải bàn rồi Phom dáng đẹp vs đường kim mũi chỉ sắc nét Mk mua trực tiếp tại cửa hàng hết hàng nên đặt onl Shop tv nhiệt tình và chu đáo Giao hàng khá nhanh"
 			},
 			{
-				"user_name":"Phạm Anh Tài",
+				"user_name": "Phạm Anh Tài",
 				"star": 5,
 				"content": "Hàng đẹp, nhẹ, dùng cực ưng ý."
 			}
@@ -754,19 +715,11 @@
 		"subcategory_id": 3,
 		"name": "Áo Khoác Thể Thao Nam Bo Gấu",
 		"sold": 12300,
-		"price": 649.000,
+		"price": 649.0,
 		"discount": 0,
 		"color": ["do", "trang"],
-		"sizes": [
-			"2XL",
-			"3XL"
-		],
-		"characteristics": [
-			
-		],
-		"comments": [
-		
-		]
+		"sizes": ["2XL", "3XL"],
+		"characteristics": [],
+		"comments": []
 	}
-	
 ]

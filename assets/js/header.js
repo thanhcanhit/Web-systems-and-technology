@@ -1,8 +1,12 @@
+import UserStored from "../store/UserStored.js";
+
 // Render header
 const header = document.querySelector("#header");
 if (header) {
+	const isLogin = new UserStored().isLogin();
+	console.log(isLogin);
+
 	header.outerHTML = `
-	
   <header id="header" class="header container-fluid fixed-top">
     <div class="container py-2 d-none d-lg-block">
       <!-- Search + Address Row -->
@@ -238,7 +242,7 @@ if (header) {
 
         <!-- Cart + Sign in/Sign up -->
         <div class="cart-sign-block col col-4 d-flex gap-4 align-items-center fw-semibold">
-          <div class="cart d-flex align-items-center gap-2 ms-auto">
+          <div class="cart d-flex align-items-center gap-2 ms-auto" id="js-cart">
             <span class="fs-4">
               <i class="fa-solid fa-bag-shopping position-relative">
                 <span class="bg-main text-blue position-absolute top-0 start-100 translate-middle badge rounded-pill"
@@ -265,12 +269,7 @@ if (header) {
                         <span class="cart__item-variant">Xanh Xám / XL</span>
                       </div>
                     </div>
-                    <div class="cart__item-footer">
-                      <div class="cart__item-qty btn-group small mt-1" role="group" aria-label="Basic example">
-                        <button type="button" class="btn border">-</button>
-                        <button type="button" class="btn border disabled fw-semibold">0</button>
-                        <button type="button" class="btn border ">+</button>
-                      </div>
+                    <div class="cart__item-footer mt-2">
                       <div class="cart__item-total">
                         Tổng cộng: <span class="text-red fw-semibold">100.000.000đ</span>
                       </div>
@@ -287,9 +286,13 @@ if (header) {
             <span class="fs-4">
               <i class="fa-solid fa-user"></i>
             </span>
-            <a href="/sign-up" class="header__link text-hover-main">ĐĂNG KÝ</a>
-            <span>/</span>
-            <a href="/sign-in" class="header__link text-hover-main">ĐĂNG NHẬP</a>
+            ${
+				isLogin
+					? new UserStored().name
+					: `<a href="/sign-up" class="header__link text-hover-main">ĐĂNG KÝ</a>
+          <span>/</span>
+          <a href="/sign-in" class="header__link text-hover-main">ĐĂNG NHẬP</a>`
+			}
           </div>
         </div>
       </div>
@@ -309,19 +312,9 @@ if (header) {
 			return false;
 		})();
 
-		if (subNavDisplay) headerLayer.style.display = "block";
+		if (subNavDisplay) $(".layer").show();
 		else {
-			let opa = 1;
-			const hideAnimate = setInterval(() => {
-				headerLayer.style.opacity = opa;
-				opa -= 0.03;
-
-				if (opa <= 0) {
-					clearInterval(hideAnimate);
-					headerLayer.style.display = "none";
-					headerLayer.style.opacity = 1;
-				}
-			}, 1);
+			$(".layer").fadeOut();
 		}
 	};
 

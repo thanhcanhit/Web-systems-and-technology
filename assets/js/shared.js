@@ -1,4 +1,5 @@
 import "../lib/bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.js"; // Bootstrap js
+import "../lib/jquery-3.6.4/jquery-3.6.4.js";
 import "./header.js"; // Header render + cover layer
 import "./footer.js"; // Footer render
 import "./utility.js";
@@ -31,6 +32,7 @@ if (items) {
  * 	</ul>
  * </section>
  */
+
 function activeHorizontalSlider() {
 	const hSliderList = document.querySelectorAll(".h-slider");
 	Array.from(hSliderList).forEach((item) => {
@@ -106,5 +108,24 @@ function activeHorizontalSlider() {
 	});
 }
 
+function activeQuantity() {
+	document.querySelectorAll(".ca-quantity").forEach((qtyItem) => {
+		qtyItem.dataset.value = 1;
+		const [remove, value, add] = [
+			qtyItem.querySelector("#ca-button-remove"),
+			qtyItem.querySelector("#ca-value"),
+			qtyItem.querySelector("#ca-button-add"),
+		];
+
+		value.value = qtyItem.dataset.value;
+
+		remove.addEventListener("click", () => {
+			if (value.value > 1) value.value--;
+		});
+		add.addEventListener("click", () => value.value++);
+	});
+}
+
 activeHorizontalSlider();
-export { activeHorizontalSlider };
+export { activeHorizontalSlider, activeQuantity };
+

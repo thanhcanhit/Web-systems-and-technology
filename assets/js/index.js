@@ -1,5 +1,9 @@
 import { getRandomValue } from "./utility.js";
-import {activeHorizontalSlider} from './shared.js'
+import { activeHorizontalSlider } from "./shared.js";
+import LocalStorageManager from "../store/LocalStorageManager.js";
+import CartStored from "../store/CartStored.js";
+import ItemViewStored from "../store/ItemViewStored.js";
+import SubCategoryViewStored from "../store/SubCategoryViewStored.js";
 // // Clock
 const clockItems = document.querySelectorAll(".clock__item span");
 
@@ -67,6 +71,3 @@ if (categoryList) {
 		});
 }
 
-/**
- *
- */
