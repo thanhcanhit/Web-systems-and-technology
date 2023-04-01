@@ -9,7 +9,7 @@ export default class CategoryViewStored {
 		this.#categoryID = this.#localStorageManager.value;
 
 		if (this.#categoryID === null) {
-			this.#categoryID = 0;
+			this.#categoryID = 1;
 			this.saveToLocalStorage();
 		}
 	}

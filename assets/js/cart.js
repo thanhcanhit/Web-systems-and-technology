@@ -105,7 +105,7 @@ function CardRender() {
 
 		// Nếu giỏ hàng trống
 		if (dataList.length == 0) {
-			domCart.innerHTML = EmptyCard();
+			document.querySelector('#js-cart-show').innerHTML = EmptyCard();
 			return;
 		}
 

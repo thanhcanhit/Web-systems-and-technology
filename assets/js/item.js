@@ -8,91 +8,97 @@ const domItem = document.querySelector("#item");
 if (domItem) {
 	// Data
 	let currentItem = await getItem(localID);
-	let currentSubcategory = await getSubcategory(currentItem.subcategory_id);
+	if (currentItem) {
+		console.log(currentItem)
+		let currentSubcategory = await getSubcategory(
+			currentItem.subcategory_id
+		);
 
-	// Value
-	const { colors, id, sizes, comments } = currentItem;
-	const salePrice =
-		currentItem.discount && currentItem.discount > 0
-			? (currentItem.price * (100 - currentItem.discount)) / 100
-			: 0;
-	let star = (
-		currentItem.comments.reduce((sum, current) => sum + current.star, 0) /
-		currentItem.comments.length
-	).toFixed(1);
-	star = star !== "NaN" ? star : 0;
+		// Value
+		const { colors, id, sizes, comments } = currentItem;
+		const salePrice =
+			currentItem.discount && currentItem.discount > 0
+				? (currentItem.price * (100 - currentItem.discount)) / 100
+				: 0;
+		let star = (
+			currentItem.comments.reduce(
+				(sum, current) => sum + current.star,
+				0
+			) / currentItem.comments.length
+		).toFixed(1);
+		star = star !== "NaN" ? star : 0;
 
-	// State
-	var currentColor = 0;
-	var currentSize = 0;
-	var currentQty = 1;
+		// State
+		var currentColor = 0;
+		var currentSize = 0;
+		var currentQty = 1;
 
-	function SubcategoryRender() {
-		document.querySelector("#js-breadcrumb").innerHTML = `
+		function SubcategoryRender() {
+			document.querySelector("#js-breadcrumb").innerHTML = `
       <li class="breadcrumb-item"><a href="/">Trang chủ</a></li>
       <li class="breadcrumb-item"><a href="#">${currentSubcategory.name}</a></li>
       <li class="breadcrumb-item active" aria-current="page">${currentItem.name}</li>`;
-	}
+		}
 
-	const ItemSizes = () => {
-		const wrapper = document.createElement("div");
-		wrapper.className = "size__list";
-		wrapper.id = "js-size-list";
-		sizes.forEach((size, index) => {
-			const sizeItem = document.createElement("div");
-			sizeItem.className = "size__item";
-			sizeItem.classList.toggle("active", index === currentSize);
-			sizeItem.innerHTML = `<span>${size}</span>`;
-			sizeItem.addEventListener("click", () => {
-				currentSize = index;
-				ItemInfoRender();
+		const ItemSizes = () => {
+			const wrapper = document.createElement("div");
+			wrapper.className = "size__list";
+			wrapper.id = "js-size-list";
+			sizes.forEach((size, index) => {
+				const sizeItem = document.createElement("div");
+				sizeItem.className = "size__item";
+				sizeItem.classList.toggle("active", index === currentSize);
+				sizeItem.innerHTML = `<span>${size}</span>`;
+				sizeItem.addEventListener("click", () => {
+					currentSize = index;
+					ItemInfoRender();
+				});
+				wrapper.appendChild(sizeItem);
 			});
-			wrapper.appendChild(sizeItem);
-		});
 
-		return wrapper;
-	};
+			return wrapper;
+		};
 
-	const ItemSizesRender = () => {
-		const oldE = domItem.querySelector("#js-size-list");
-		const newE = ItemSizes(currentItem.colors, currentItem.id);
-		oldE.parentElement.replaceChild(newE, oldE);
-	};
+		const ItemSizesRender = () => {
+			const oldE = domItem.querySelector("#js-size-list");
+			const newE = ItemSizes(currentItem.colors, currentItem.id);
+			oldE.parentElement.replaceChild(newE, oldE);
+		};
 
-	const ItemColors = () => {
-		const Wrapper = document.createElement("div");
-		Wrapper.className = "color__list";
-		Wrapper.id = "js-color-list";
+		const ItemColors = () => {
+			const Wrapper = document.createElement("div");
+			Wrapper.className = "color__list";
+			Wrapper.id = "js-color-list";
 
-		colors.forEach((color, index) => {
-			const colorItem = document.createElement("div");
-			colorItem.className = "color__item";
-			colorItem.classList.toggle("active", index === currentColor);
-			colorItem.dataset.bsTarget = "#item__library";
-			colorItem.dataset.bsSlideTo = index;
-			colorItem.innerHTML = `<img class="" src=${getImgPath(
-				color,
-				id
-			)} alt="" title=${color}>`;
-			colorItem.addEventListener("click", () => {
-				currentColor = index;
-				ItemInfoRender();
+			colors.forEach((color, index) => {
+				const colorItem = document.createElement("div");
+				colorItem.className = "color__item";
+				colorItem.classList.toggle("active", index === currentColor);
+				colorItem.dataset.bsTarget = "#item__library";
+				colorItem.dataset.bsSlideTo = index;
+				colorItem.innerHTML = `<img class="" src=${getImgPath(
+					color,
+					id
+				)} alt="" title=${color}>`;
+				colorItem.addEventListener("click", () => {
+					currentColor = index;
+					ItemInfoRender();
+				});
+				Wrapper.appendChild(colorItem);
 			});
-			Wrapper.appendChild(colorItem);
-		});
 
-		return Wrapper;
-	};
+			return Wrapper;
+		};
 
-	const ItemColorsRender = () => {
-		const oldE = domItem.querySelector("#js-color-list");
-		const newE = ItemColors(currentItem.colors, currentItem.id);
-		oldE.parentElement.replaceChild(newE, oldE);
-	};
+		const ItemColorsRender = () => {
+			const oldE = domItem.querySelector("#js-color-list");
+			const newE = ItemColors(currentItem.colors, currentItem.id);
+			oldE.parentElement.replaceChild(newE, oldE);
+		};
 
-	const ItemColorsDisplayImg = () => {
-		const html = colors.map(
-			(color, index) => `
+		const ItemColorsDisplayImg = () => {
+			const html = colors.map(
+				(color, index) => `
           <div class="carousel-item  ${index === currentColor ? "active" : ""}">
           <img src=${getImgPath(color, id)} class="d-block h-100" alt="">
           <div class="carousel-caption d-none d-md-block">
@@ -100,55 +106,58 @@ if (domItem) {
           </div>
         </div>
           `
-		);
-		return html.join("");
-	};
+			);
+			return html.join("");
+		};
 
-	function QtyRender() {
-		const qtyDom = document.querySelector(".ca-quantity");
+		function QtyRender() {
+			const qtyDom = document.querySelector(".ca-quantity");
 
-		const remove = document.createElement("button");
-		remove.className = "btn btn-outline-secondary";
-		remove.type = "button";
-		remove.id = "ca-button-remove";
-		remove.innerHTML = "-";
-		remove.addEventListener("click", () => {
-			if (currentQty > 1) currentQty--;
-			ItemInfoRender();
-		});
+			const remove = document.createElement("button");
+			remove.className = "btn btn-outline-secondary";
+			remove.type = "button";
+			remove.id = "ca-button-remove";
+			remove.innerHTML = "-";
+			remove.addEventListener("click", () => {
+				if (currentQty > 1) currentQty--;
+				ItemInfoRender();
+			});
 
-		const value = document.createElement("input");
-		value.type = "text";
-		value.className = "form-control text-center border-1";
-		value.id = "ca-value";
-		value.value = currentQty;
+			const value = document.createElement("input");
+			value.type = "text";
+			value.className = "form-control text-center border-1";
+			value.id = "ca-value";
+			value.value = currentQty;
 
-		const add = document.createElement("button");
-		add.className = "btn btn-outline-secondary";
-		add.type = "button";
-		add.id = "ca-button-add";
-		add.innerHTML = "+";
-		add.addEventListener("click", () => {
-			currentQty++;
-			ItemInfoRender();
-		});
+			const add = document.createElement("button");
+			add.className = "btn btn-outline-secondary";
+			add.type = "button";
+			add.id = "ca-button-add";
+			add.innerHTML = "+";
+			add.addEventListener("click", () => {
+				currentQty++;
+				ItemInfoRender();
+			});
 
-		qtyDom.replaceChild(remove, qtyDom.querySelector("#ca-button-remove"));
-		qtyDom.replaceChild(value, qtyDom.querySelector("#ca-value"));
-		qtyDom.replaceChild(add, qtyDom.querySelector("#ca-button-add"));
-	}
+			qtyDom.replaceChild(
+				remove,
+				qtyDom.querySelector("#ca-button-remove")
+			);
+			qtyDom.replaceChild(value, qtyDom.querySelector("#ca-value"));
+			qtyDom.replaceChild(add, qtyDom.querySelector("#ca-button-add"));
+		}
 
-	const Rating = (quantity) => {
-		let html = "";
-		for (let i = 0; i < Math.floor(quantity); i++)
-			html += '<i class="fa-solid fa-star"></i>';
+		const Rating = (quantity) => {
+			let html = "";
+			for (let i = 0; i < Math.floor(quantity); i++)
+				html += '<i class="fa-solid fa-star"></i>';
 
-		return html;
-	};
+			return html;
+		};
 
-	const ItemComments = () => {
-		const html = comments.map(
-			(comment) => `
+		const ItemComments = () => {
+			const html = comments.map(
+				(comment) => `
     <div class="comment__item">
       <div class="comment__item-heading d-flex gap-2 align-items-center">
         <b>${comment.user_name}</b>
@@ -160,36 +169,36 @@ if (domItem) {
         class="comment__content border-start border-secondary border-2 ps-2 ms-2 mt-2 text-14 fw-medium">
         ${comment.content}</p>
     </div>`
-		);
-		return html.join("");
-	};
+			);
+			return html.join("");
+		};
 
-	const AddToCartRender = () => {
-		const oldBtn = domItem.querySelector("#btn-add-to-cart");
-		const newBtn = document.createElement("button");
-		newBtn.classList = oldBtn.classList;
-		newBtn.id = oldBtn.id;
-		newBtn.innerHTML = oldBtn.innerHTML;
-		newBtn.addEventListener("click", () => {
-			const cartItem = {
-				item_id: id,
-				qty: currentQty,
-				color: currentColor,
-				size: currentSize,
-			};
-			// Add to local storage
-			const cartStorage = new CartStored();
-			cartStorage.addItem(cartItem);
-			cartStorage.saveToLocalStorage();
-		});
+		const AddToCartRender = () => {
+			const oldBtn = domItem.querySelector("#btn-add-to-cart");
+			const newBtn = document.createElement("button");
+			newBtn.classList = oldBtn.classList;
+			newBtn.id = oldBtn.id;
+			newBtn.innerHTML = oldBtn.innerHTML;
+			newBtn.addEventListener("click", () => {
+				const cartItem = {
+					item_id: id,
+					qty: currentQty,
+					color: currentColor,
+					size: currentSize,
+				};
+				// Add to local storage
+				const cartStorage = new CartStored();
+				cartStorage.addItem(cartItem);
+				cartStorage.saveToLocalStorage();
+			});
 
-		oldBtn.parentElement.replaceChild(newBtn, oldBtn);
-	};
+			oldBtn.parentElement.replaceChild(newBtn, oldBtn);
+		};
 
-	function ItemInfoRender() {
-		const domInfo = domItem.querySelector("#js-item-info");
+		function ItemInfoRender() {
+			const domInfo = domItem.querySelector("#js-item-info");
 
-		domInfo.innerHTML = `
+			domInfo.innerHTML = `
     <div class="info" id="item-info">
       <h3 class="name text-20 fw-semibold">${currentItem.name}</h3>
       <div class="rating text-warning">
@@ -242,15 +251,15 @@ if (domItem) {
     </div>
   </div>`;
 
-		// Render options
-		ItemColorsRender();
-		ItemSizesRender();
-		QtyRender();
-		AddToCartRender();
-	}
+			// Render options
+			ItemColorsRender();
+			ItemSizesRender();
+			QtyRender();
+			AddToCartRender();
+		}
 
-	function ItemRender() {
-		domItem.innerHTML = `
+		function ItemRender() {
+			domItem.innerHTML = `
     <section class="container">
     <div class="item row pb-5">
       <div class="col col-8">
@@ -351,9 +360,10 @@ if (domItem) {
         
       </div>
   </section>`;
-	}
+		}
 
-	SubcategoryRender();
-	ItemRender();
-	ItemInfoRender();
+		SubcategoryRender();
+		ItemRender();
+		ItemInfoRender();
+	}
 }

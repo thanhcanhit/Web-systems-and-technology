@@ -9,7 +9,7 @@ export default class ItemViewStored {
 		this.#itemID = this.#localStorageManager.value;
 
 		if (this.#itemID === null) {
-			this.#itemID = 0;
+			this.#itemID = 1;
 			this.saveToLocalStorage();
 		}
 	}

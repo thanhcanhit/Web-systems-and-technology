@@ -4,7 +4,6 @@ import UserStored from "../store/UserStored.js";
 const header = document.querySelector("#header");
 if (header) {
 	const isLogin = new UserStored().isLogin();
-	console.log(isLogin);
 
 	header.outerHTML = `
   <header id="header" class="header container-fluid fixed-top">
@@ -282,13 +281,21 @@ if (header) {
               </section>
             </div>
           </div>
-          <div class="d-flex align-items-center gap-2">
+          <div class="user d-flex align-items-center gap-2">
             <span class="fs-4">
               <i class="fa-solid fa-user"></i>
             </span>
             ${
 				isLogin
-					? new UserStored().name
+					? `<a href="/user">
+          ${new UserStored().name}
+          <div class="user-menu">
+              <ul>
+                <li>Thông tin tài khoản</li>
+                <li>Đăng xuất</li>
+              </ul>
+          </div>
+          </a>`
 					: `<a href="/sign-up" class="header__link text-hover-main">ĐĂNG KÝ</a>
           <span>/</span>
           <a href="/sign-in" class="header__link text-hover-main">ĐĂNG NHẬP</a>`

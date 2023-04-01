@@ -44,8 +44,15 @@
 
 		"price": 399000,
 		"discount": 30,
-		"colors": ["Cam Đất", "Đen", "Hồng", "Trắng", "Xanh Coban", "Xanh Ngọc"],
-	
+		"colors": [
+			"Cam Đất",
+			"Đen",
+			"Hồng",
+			"Trắng",
+			"Xanh Coban",
+			"Xanh Ngọc"
+		],
+
 		"sizes": ["M", "L", "XL", "4XL"],
 		"characteristics": [
 			"Chất liệu: CoolMax với thành phần 95% CoolMax + 5% spandex",
@@ -81,7 +88,7 @@
 		"price": 299000,
 		"discount": 20,
 		"colors": ["Be", "Hồng Cam", "Vàng", "Xanh Biển"],
-		
+
 		"sizes": ["L", "XL", "2XL"],
 		"characteristics": [
 			"Áo polo nam chất liệu Airymax - dòng sản phẩm tiên tiến tại YODY",
@@ -117,8 +124,14 @@
 
 		"price": 269000,
 		"discount": 10,
-		"color": ["Đen", "Đỏ Đô", "Tím Than", "Trắng Kem", "Vàng", "Xanh Coban"],
-		"sizes": ["M", "L", "XL", "2XL", "3XL", "4XL"],
+		"colors": [
+			"Đen",
+			"Đỏ Đô",
+			"Tím Than",
+			"Trắng Kem",
+			"Vàng",
+			"Xanh Coban"
+		],
 		"sizes": ["M", "L", "XL", "2XL", "3XL", "4XL"],
 		"characteristics": [
 			"Chất liệu: vải coolmax với cấu trúc sợi đặc biệt",
@@ -153,8 +166,15 @@
 		"sold": 442000,
 		"price": 269000,
 		"discount": 10,
-		"color": ["Grey", "Nâu", "Navy", "Trắng Nâu", "Trắng Phối Navy", "Vàng"],
-		"sizes": ["M", "L", "XL", "2XL","3XL", "4XL"],
+		"colors": [
+			"Grey",
+			"Nâu",
+			"Navy",
+			"Trắng Nâu",
+			"Trắng Phối Navy",
+			"Vàng"
+		],
+		"sizes": ["M", "L", "XL", "2XL", "3XL", "4XL"],
 
 		"characteristics": [
 			"Áo polo nam Sợi Café với thành phần 50% sợi cafe và 50% sợi PET",
@@ -189,8 +209,7 @@
 		"sold": 126000,
 		"price": 269000,
 		"discount": 10,
-		"color": ["Đen", "Đỏ Đô", "Tím Than", "Trắng Kem", "Vàng", "Xanh Coban"],
-		"sizes": ["M", "L", "XL"],
+		"colors": ["Đen", "Đỏ Đô", "Navy", "Trắng", "Vàng", "Xanh Ngọc"],
 		"sizes": ["M", "L", "XL"],
 		"characteristics": [
 			"Chất liệu vải: Airycool có thành phần 85% Polyamide và 15% spandex",
@@ -226,8 +245,8 @@
 		"sold": 98200,
 		"price": 299000,
 		"discount": 10,
-		"color": ["Đen", "Đỏ", "Navy", "Trắng", "Vàng", "xanh"],
-		"sizes": ["M", "L", "XL","2XL", "3XL", "4XL"],
+		"colors": ["Đen", "Đỏ", "Navy", "Trắng", "Vàng", "Xanh Mint"],
+		"sizes": ["M", "L", "XL", "2XL", "3XL", "4XL"],
 		"characteristics": [
 			"Chất liệu:Vải Airycool với thành phần 85% nylon + 15% spandex",
 			"Công nghệ làm mát FREEZING tiên tiến siêu khô thoáng",
@@ -262,8 +281,14 @@
 		"sold": 851000,
 		"price": 299000,
 		"discount": 10,
-		"color": ["Hồng", "Tím Than", "Trắng", "Vàng", "Xanh Ngọc", "Xanh Đỗ Vỏ"],
-		"sizes": ["M", "L", "XL", "2XL", "3XL", "4XL"],
+		"colors": [
+			"Hồng",
+			"Tím Than",
+			"Trắng",
+			"Vàng",
+			"Xanh Ngọc",
+			"Xanh Đỗ Vỏ"
+		],
 		"sizes": ["M", "L", "XL", "2XL", "3XL", "4XL"],
 		"characteristics": [
 			"Áo polo Coolmax - một trong những dòng sản phẩm chủ đạo dành cho mùa hè tại Việt Nam",
@@ -292,7 +317,6 @@
 			}
 		]
 	},
-
 	{
 		"id": 9,
 		"subcategory_id": 2,
@@ -300,7 +324,7 @@
 		"sold": 0,
 		"price": 299000,
 		"discount": 20,
-		"color": ["Trắng"],
+		"colors": ["Trắng"],
 		"sizes": ["M", "L", "XL", "2XL", "3XL"],
 		"characteristics": [
 			"Áo thun thể thao YODY thế hệ mới với 88% Recycle Polyester và 2% Elastane",
@@ -319,7 +343,7 @@
 		"sold": 0,
 		"price": 299000,
 		"discount": 0,
-		"color": ["Đen", "Navy", "Trắng", "Xanh Lơ", "Xanh Lục"],
+		"colors": ["Đen", "Navy", "Trắng", "Xanh Lơ", "Xanh Lục"],
 		"sizes": ["M", "L", "XL", "2XL"],
 		"characteristics": [
 			"Áo thun nam chất liệu: 88% Recycle Polyester + 12% Elastane nhẹ, thoáng khí",
@@ -338,13 +362,8 @@
 		"sold": 0,
 		"price": 269000,
 		"discount": 30,
-		"color": ["Bã Trầu", "Đen 1", "Trắng 1", "Vàng 1", "Xanh Dương"],
-		"sizes": [
-			"M",
-			"L",
-			"XL",
-			"2XL"
-		],
+		"colors": ["Bã Trầu", "Đen 1", "Trắng 1", "Vàng 1", "Xanh Dương"],
+		"sizes": ["M", "L", "XL", "2XL"],
 		"characteristics": [
 			"Áo phông nam chất liệu cotton thoáng mát và thấm hút siêu tốt",
 			"Kiểu dáng cơ bản, hình thêu chú gấu chơi đàn",
@@ -362,14 +381,8 @@
 		"sold": 0,
 		"price": 299000,
 		"discount": 30,
-		"color": ["Đen", "Navy", "Trắng", "Xám", "Xanh Dương"],
-		"sizes": [
-			"M",
-			"L",
-			"XL",
-			"2XL",
-			"3XL"
-		],
+		"colors": ["Đen", "Navy", "Trắng", "Xám", "Xanh Dương"],
+		"sizes": ["M", "L", "XL", "2XL", "3XL"],
 		"characteristics": [
 			"Chất liệu:  88% Recycle Polyester + 12% Elastane",
 			"Thấm hút siêu tốt, thông thoáng, kiểm soát mùi cơ thể",
@@ -387,15 +400,8 @@
 		"sold": 373,
 		"price": 229000,
 		"discount": 10,
-		"color": ["Đen", "Đỏ", "Vàng"],
-		"sizes": [
-			"M",
-			"L",
-			"L",
-			"XL",
-			"2XL",
-			"3XL"
-		],
+		"colors": ["Đen", "Đỏ", "Vàng"],
+		"sizes": ["M", "L", "L", "XL", "2XL", "3XL"],
 		"characteristics": [
 			"Chất liệu 100% Cotton USA cao cấp",
 			"Cotton bền vững: Góp phần bảo vệ môi trường sống",
@@ -421,7 +427,16 @@
 		"sold": 99700,
 		"price": 599000,
 		"discount": 0,
-		"color": ["Đen", "Đỏ Đô", "Ghi Đậm", "Ghi", "Rêu", "Tím Than", "Xanh Than Nhạt", "Xanh Dương"],
+		"colors": [
+			"Đen",
+			"Đỏ Đô",
+			"Ghi Đậm",
+			"Ghi",
+			"Rêu",
+			"Tím Than",
+			"Xanh Than Nhạt",
+			"Xanh Dương"
+		],
 		"sizes": ["M", "L", "XL"],
 		"characteristics": [
 			"Dòng Áo Phao 3S mùa đông năm 2022",
@@ -448,14 +463,8 @@
 		"sold": 114000,
 		"price": 599000,
 		"discount": 0,
-		"color": ["Cam", "Đen", "Ghi Sáng", "Navy", "Xanh Than"],
-		"sizes": [
-			"M",
-			"L",
-			"XL",
-			"2XL",
-			"3XL"
-		],
+		"colors": ["Cam", "Đen", "Ghi Sáng", "Navy", "Xanh Than"],
+		"sizes": ["M", "L", "XL", "2XL", "3XL"],
 		"characteristics": [
 			"Áo khoác gió nam thông minh - thiết kế mới của YODY làm từ chất liệu vải gió, được cải tiến và nâng cấp với khả năng trượt nước và đặc biệt là tính thuận tiện khi mang theo",
 			"Chiếc áo có thể lộn ngược thành 1 chiếc túi ngọn nhẹ, dễ dàng mang đi mọi nơi",
@@ -490,7 +499,16 @@
 		"sold": 207000,
 		"price": 499000,
 		"discount": 0,
-		"color": ["Cam", "Đen", "Ghi", "Nâu Tây", "Tím Than", "Vàng Cát", "Xanh Than", "Xanh Dương"],
+		"colors": [
+			"Cam",
+			"Đen",
+			"Ghi",
+			"Nâu Tây",
+			"Tím Than",
+			"Vàng Cát",
+			"Xanh Than",
+			"Xanh Dương"
+		],
 		"sizes": ["M", "L", "XL", "2XL", "3XL"],
 		"characteristics": [
 			"Áo khoác nam 3C PLUS - Cản gió, Chống thấm nước vào mặt trong, Cản bụi",
@@ -527,7 +545,16 @@
 		"sold": 96700,
 		"price": 699000,
 		"discount": 0,
-		"color": ["Cam", "Đen", "Nâu", "Tím Than", "Xanh Biển", "Xanh Cỏ Vịt", "Xanh Ghi", "Xanh Đỗ Vỏ"],
+		"colors": [
+			"Cam",
+			"Đen",
+			"Nâu",
+			"Tím Than",
+			"Xanh Biển",
+			"Xanh Cỏ Vịt",
+			"Xanh Ghi",
+			"Xanh Đỗ Vỏ"
+		],
 		"sizes": ["M"],
 		"characteristics": [
 			"ÁO PHAO NAM 3S PLUS: Siêu nhẹ - Siêu ấm - Siêu gọn - Trượt nước",
@@ -566,11 +593,8 @@
 		"sold": 927,
 		"price": 699000,
 		"discount": 0,
-		"color": ["Đen"],
-		"sizes": [
-			"L",
-			"XL"
-		],
+		"colors": ["Đen"],
+		"sizes": ["L", "XL"],
 		"characteristics": [
 			"Áo khoác nam cản gió, cản bụi, giữ ấm",
 			"Chất liệu thành phần: 88% nylon, 12% spandex",
@@ -604,11 +628,8 @@
 		"sold": 125000,
 		"price": 599000,
 		"discount": 0,
-		"color": ["Đỏ Đô"],
-		"sizes": [
-			"L",
-			"XL"
-		],
+		"colors": ["Đỏ Đô"],
+		"sizes": ["L", "XL"],
 		"characteristics": [
 			"Màu sắc sản phẩm đa dạng, thiết kế form dáng trẻ trung",
 			"Có thiết kế túi đựng nhỏ gọn, dễ dàng mang theo sản phẩm",
@@ -642,11 +663,8 @@
 		"sold": 84200,
 		"price": 399000,
 		"discount": 0,
-		"color": ["Đen", "xanh"],
-		"sizes": [
-			"2XL",
-			"3XL"
-		],
+		"colors": ["Đen", "xanh"],
+		"sizes": ["2XL", "3XL"],
 		"characteristics": [
 			"Chất liệu vải 95% Polyester + 5% cotton.",
 			"Vải có bề mặt lỳ, mềm mịn, ít nhăn, chắc chắn hơn so với chất liệu vải gió thông thường",
@@ -681,13 +699,8 @@
 		"sold": 27300,
 		"price": 599000,
 		"discount": 0,
-		"color": ["Đỏ"],
-		"sizes": [
-			"M",
-			"L",
-			"2XL",
-			"3XL"
-		],
+		"colors": ["Đỏ"],
+		"sizes": ["M", "L", "2XL", "3XL"],
 		"characteristics": [
 			"Áo khoác bomber nam vải gió giúp giữ ấm cơ thể tốt",
 			"Kiểu dáng thời trang cùng màu sắc trẻ trung, năng động, dễ dàng phối với nhiều trang phục khác nhau",
@@ -696,12 +709,8 @@
 			"Đường may tỉ mỉ, có độ bền cao khi sử dụng",
 			"YODY - Look good. Feel good."
 		],
-		"comments": [
-		
-		]
+		"comments": []
 	},
-
-
 
 	{
 		"id": 22,
@@ -710,7 +719,7 @@
 		"sold": 0,
 		"price": 459000,
 		"discount": 10,
-		"color": ["Đen", "Tím Than", "Trắng"],
+		"colors": ["Đen", "Tím Than", "Trắng"],
 		"sizes": ["M", "L", "XL", "2XL", "3XL"],
 		"characteristics": [
 			"Vải mềm mại, bền màu, có khả năng thấm hút tốt, bắt nhiệt lạnh nhanh tạo cảm giác mát mẻ cho người mặc",
@@ -719,9 +728,7 @@
 			"Áo phù hợp với nam giới làm việc công sở hoặc mặc hằng ngày",
 			"YODY - Look good. Feel good."
 		],
-		"comments": [
-
-		]
+		"comments": []
 	},
 	{
 		"id": 23,
@@ -730,7 +737,7 @@
 		"sold": 0,
 		"price": 499000,
 		"discount": 0,
-		"color": ["Tím Than", "Trắng", "Hồng", "Ghi"],
+		"colors": ["Tím Than", "Trắng", "Hồng", "Ghi"],
 		"sizes": ["M", "L", "XL", "2XL", "3XL"],
 		"characteristics": [
 			"Áo sơ mi nam vải cafe tiên tiến mới sở hữu những tính năng vô cùng nổi trội",
@@ -740,9 +747,7 @@
 			"CHỐNG NẮNG TRỌN ĐỜI: Cấu trúc  sợi S cafe có lỗ li ti và các lỗ này sẽ khúc xạ ánh sáng và cản được 98% tia UV chiếu vào da  khi tiếp xúc.",
 			"YODY - Look good. Feel good."
 		],
-		"comments": [
-			
-		]
+		"comments": []
 	},
 
 	{
@@ -752,7 +757,7 @@
 		"sold": 0,
 		"price": 459000,
 		"discount": 0,
-		"color": ["Đen","Tím Than", "Trắng", "Hồng", "Ghi"],
+		"colors": ["Đen", "Tím Than", "Trắng", "Hồng", "Ghi"],
 		"sizes": ["M", "L", "XL", "2XL", "3XL"],
 		"characteristics": [
 			"Chất liệu: Sợi cafe bao gồm 50% cafe và 50% recycle PET",
@@ -762,9 +767,7 @@
 			"Sợi vải thoáng khí, nhanh khô tạo cảm giác dễ chịu cho người mặc",
 			"YODY - Look good. Feel good."
 		],
-		"comments": [
-			
-		]
+		"comments": []
 	},
 
 	{
@@ -774,7 +777,7 @@
 		"sold": 0,
 		"price": 499000,
 		"discount": 0,
-		"color": ["Kẻ Đen", "Kẻ Vàng", "Kẻ Nâu"],
+		"colors": ["Kẻ Đen", "Kẻ Vàng", "Kẻ Nâu"],
 		"sizes": ["M", "L", "XL", "2XL", "3XL"],
 		"characteristics": [
 			"Chất liệu vải flannel Cotton 100%",
@@ -785,9 +788,7 @@
 			"Mang đến cảm giác thoải mái, thu hút mọi ánh nhìn, tạo nên vẻ ngoài nam tính.",
 			"YODY - Look good. Feel good"
 		],
-		"comments": [
-			
-		]
+		"comments": []
 	},
 
 	{
@@ -797,7 +798,7 @@
 		"sold": 8600,
 		"price": 649000,
 		"discount": 0,
-		"color": ["Kẻ Tím Than", "Kẻ Xám"],
+		"colors": ["Kẻ Tím Than", "Kẻ Xám"],
 		"sizes": ["M", "L", "XL", "2XL", "3XL"],
 		"characteristics": [
 			"Chất liệu Knit Nhật 100% polyester",
@@ -808,9 +809,7 @@
 			"Vải kẻ sọc tăm tinh tế và sang trong phù hợp với nhiều độ tuổi khác nhau.",
 			"YODY - Look good. Feel good."
 		],
-		"comments": [
-			
-		]
+		"comments": []
 	},
 
 	{
@@ -820,7 +819,7 @@
 		"sold": 5800,
 		"price": 449000,
 		"discount": 0,
-		"color": ["Nâu", "Tím Than"],
+		"colors": ["Nâu", "Tím Than"],
 		"sizes": ["M", "L", "XL", "2XL", "3XL"],
 		"characteristics": [
 			"Chất liệu vải Nhung Tăm 100% Cotton",
@@ -833,13 +832,12 @@
 		],
 		"comments": [
 			{
-				"user_name":"longhac",
+				"user_name": "longhac",
 				"star": 5,
 				"content": "Chất liệu: ổn đẹp. Màu sắc đúng mô tả, sẽ ủng hộ tiếp những lần sau!!!!!!!!!"
 			}
 		]
 	},
-
 
 	{
 		"id": 28,
@@ -848,7 +846,7 @@
 		"sold": 8300,
 		"price": 499000,
 		"discount": 0,
-		"color": ["Tím Than"],
+		"colors": ["Tím Than"],
 		"sizes": ["M", "L", "XL", "2XL", "3XL"],
 		"characteristics": [
 			"Chất liệu vải Nhung Tăm 100% Cotton",
@@ -860,7 +858,7 @@
 		],
 		"comments": [
 			{
-				"user_name":"nguyenty95",
+				"user_name": "nguyenty95",
 				"star": 4,
 				"content": "Hàng chuẩn, chồng chưa mặc ko bít có vừa"
 			}
@@ -874,7 +872,7 @@
 		"sold": 7500,
 		"price": 599000,
 		"discount": 10,
-		"color": ["Kẻ Xám", "Kẻ Trắng", "Kẻ Xanh"],
+		"colors": ["Kẻ Xám", "Kẻ Trắng", "Kẻ Xanh"],
 		"sizes": ["M", "L", "XL", "2XL", "3XL"],
 		"characteristics": [
 			"Áo sơ mi cao cấp vải knit Nhật - xu hướng mới của dòng sản phẩm sơ mi nam hiện nay",
@@ -885,12 +883,12 @@
 		],
 		"comments": [
 			{
-				"user_name":"Võ Ngọc mai",
+				"user_name": "Võ Ngọc mai",
 				"star": 5,
 				"content": "Vải mát kiểu đẹp mk ưng ý"
 			},
 			{
-				"user_name":"hoaithu.86",
+				"user_name": "hoaithu.86",
 				"star": 4,
 				"content": "Áo đẹp chất mềm mát nên mua nhé quá ok cho à"
 			}

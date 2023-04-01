@@ -9,7 +9,7 @@ export default class SubCategoryViewStored {
 		this.#subcategoryID = this.#localStorageManager.value;
 
 		if (this.#subcategoryID === null) {
-			this.#subcategoryID = 0;
+			this.#subcategoryID = 1;
 			this.saveToLocalStorage();
 		}
 	}
