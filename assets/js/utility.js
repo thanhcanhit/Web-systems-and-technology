@@ -17,7 +17,7 @@ function getImgPath(name, id) {
  * @param {string} string: chuỗi tiếng việt
  * @returns {string} : chuỗi tiếng việt không dấu
  */
-function getTVKhongdau(string) {
+function getChuKhongDau(string) {
 		return removeVietnameseTones(string).split(" ").join("_").toLowerCase();
 }
 
@@ -78,4 +78,4 @@ function formatVND(money) {
 	return formatter.format(money) + "đ";
 }
 
-export { getImgPath, getRandomValue, formatVND, getTVKhongdau };
+export { getImgPath, getRandomValue, formatVND, getChuKhongDau as getTVKhongdau };
