@@ -3,26 +3,41 @@ import "../lib/jquery-3.6.4/jquery-3.6.4.js";
 import "./header.js"; // Header render + cover layer
 import "./footer.js"; // Footer render
 import "./utility.js";
+import ItemViewStored from "../store/ItemViewStored.js";
 
 // Items
-const items = document.querySelectorAll(".product-item");
-if (items) {
-	items.forEach((item) => {
-		const imgDisplay = item.querySelector(".product-item__img-display");
-		const options = item.querySelectorAll(".product-item__option");
-
-		options.forEach((option) => {
-			option.addEventListener("click", (e) => {
-				if (e.target.src) {
-					imgDisplay.src = e.target.src;
-					item.querySelector(".active").classList.remove("active");
-					e.target.parentElement.classList.add("active");
+function activeItemColorChoose() {
+	const items = document.querySelectorAll(".product-item");
+	if (items) {
+		items.forEach((item) => {
+			item.addEventListener("click", (e) => {
+				let local = new ItemViewStored();
+				let id = e.target.parentElement.dataset.id;
+				if (id) {
+					local.itemID = Number.parseInt(id);
+					local.saveToLocalStorage();
+				} else {
+					e.preventDefault();
 				}
 			});
-		});
-	});
-}
+			const imgDisplay = item.querySelector(".product-item__img-display");
+			const options = item.querySelectorAll(".product-item__option");
+			("running");
 
+			options.forEach((option) => {
+				option.addEventListener("click", (e) => {
+					if (e.target.src) {
+						imgDisplay.src = e.target.src;
+						item.querySelector(".active")?.classList.remove(
+							"active"
+						);
+						e.target.parentElement?.classList.add("active");
+					}
+				});
+			});
+		});
+	}
+}
 // Horizontal Slider btn
 /**
  * How to use
@@ -127,5 +142,4 @@ function activeQuantity() {
 }
 
 activeHorizontalSlider();
-export { activeHorizontalSlider, activeQuantity };
-
+export { activeHorizontalSlider, activeQuantity, activeItemColorChoose };

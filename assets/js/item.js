@@ -1,7 +1,9 @@
 import ItemViewStored from "../store/ItemViewStored.js";
-import { formatVND, getImgPath, getTVKhongdau } from "./utility.js";
-import { getItem, getSubcategory } from "./data.js";
+import { formatVND, getImgPath } from "./utility.js";
+import { getAllItemData, getItem, getSubcategory } from "./data.js";
 import CartStored from "../store/CartStored.js";
+import Item from "../components/Item/Item.js";
+import { activeHorizontalSlider, activeItemColorChoose } from "../js/shared.js";
 
 const localID = new ItemViewStored().itemID;
 const domItem = document.querySelector("#item");
@@ -9,7 +11,7 @@ if (domItem) {
 	// Data
 	let currentItem = await getItem(localID);
 	if (currentItem) {
-		console.log(currentItem)
+		console.log(currentItem);
 		let currentSubcategory = await getSubcategory(
 			currentItem.subcategory_id
 		);
@@ -176,6 +178,9 @@ if (domItem) {
 		const AddToCartRender = () => {
 			const oldBtn = domItem.querySelector("#btn-add-to-cart");
 			const newBtn = document.createElement("button");
+			newBtn.setAttribute("data-bs-toggle", "modal");
+			newBtn.setAttribute("data-bs-target", "#addToCartComplete");
+
 			newBtn.classList = oldBtn.classList;
 			newBtn.id = oldBtn.id;
 			newBtn.innerHTML = oldBtn.innerHTML;
@@ -247,7 +252,7 @@ if (domItem) {
         </div>
       </div>
     <div class="control mt-3 w-100">
-      <button class="main-button" id="btn-add-to-cart">Thêm vào giỏ hàng</button>
+      <button class="main-button" id="btn-add-to-cart" >Thêm vào giỏ hàng</button>
     </div>
   </div>`;
 
@@ -359,6 +364,7 @@ if (domItem) {
       <div class="col col-4" id="js-item-info">
         
       </div>
+			
   </section>`;
 		}
 
@@ -367,3 +373,24 @@ if (domItem) {
 		ItemInfoRender();
 	}
 }
+
+// Suggest
+const dataItems = await getAllItemData();
+const filterItems = dataItems.filter(
+	(item) => item.subcategory_id === dataItems[localID].subcategory_id
+);
+const domSuggest = document.querySelector("#js-suggest");
+domSuggest.innerHTML = filterItems
+	? `
+<div class="container">
+	<h4 class="mb-4">SẢN PHẨM TƯƠNG TỰ</h4>
+	<div class="h-slider">
+		<section class="h-slider__list">
+			${filterItems.map((item) => Item(item))}
+		</section>
+	</div>
+</div>`
+	: ``;
+
+activeHorizontalSlider();
+activeItemColorChoose();

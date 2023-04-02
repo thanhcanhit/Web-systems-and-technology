@@ -1,9 +1,10 @@
-import { getRandomValue } from "./utility.js";
-import { activeHorizontalSlider } from "./shared.js";
-import LocalStorageManager from "../store/LocalStorageManager.js";
-import CartStored from "../store/CartStored.js";
-import ItemViewStored from "../store/ItemViewStored.js";
-import SubCategoryViewStored from "../store/SubCategoryViewStored.js";
+import { formatVND, getImgPath, getRandomValue } from "./utility.js";
+import {
+	activeHorizontalSlider,
+	activeItemColorChoose as activeItem,
+} from "./shared.js";
+import { getAllItemData, getAllSubCategoryData } from "./data.js";
+import Item from "../components/Item/item.js";
 // // Clock
 const clockItems = document.querySelectorAll(".clock__item span");
 
@@ -71,3 +72,61 @@ if (categoryList) {
 		});
 }
 
+// List View
+const itemData = await getAllItemData();
+// Flash Sales
+const domFlash = document.querySelector("#js-flash-sale");
+
+// random item
+const randomItem = [];
+while (randomItem.length < 8) {
+	const randomIndex = getRandomValue(0, itemData.length);
+	const id = itemData[randomIndex]?.id;
+
+	if (id && !randomItem.includes(id)) {
+		randomItem.push(itemData[randomIndex]);
+	}
+}
+
+const flashList = domFlash.querySelector(".h-slider__list");
+flashList.innerHTML = randomItem.map((item) => Item(item)).join("");
+
+// Category
+const subcategoryData = await getAllSubCategoryData();
+const mainDom = document.querySelector("#main");
+
+subcategoryData.map((subcategory) => {
+	const itemList = itemData.filter(
+		(item) => item.subcategory_id === subcategory.id
+	);
+	if (itemList.length > 0) {
+		const newDiv = document.createElement("div");
+		mainDom.appendChild(newDiv);
+		newDiv.outerHTML = `
+		<section class="items">
+			<div class="container">
+				<!-- Flash sale time -->
+				<div class="row items__heading">
+					<h4>${subcategory.name}</h4>
+				</div>
+
+
+				<section class="row mb-5 items__list">
+					<div class="col col-2">
+						<a href="/assets/page/category.html">
+							<img class="img-fluid" src="./assets/img/index/subcategory_banner/best_seller.jpg" alt="">
+						</a>
+					</div>
+					<div class="col col-10 h-slider">
+						<section class="h-slider__list">
+						${itemList.map((item) => Item(item)).join("")}
+						</section>
+					</div>
+				</section>
+			</div>
+	</section>`;
+	}
+});
+
+activeItem();
+activeHorizontalSlider();

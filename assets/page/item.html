@@ -29,8 +29,39 @@
 
     <!-- Main -->
     <div id="item">
-      
+
     </div>
+    <!-- Modal -->
+    <div class="modal fade " id="addToCartComplete" tabindex="-1" aria-labelledby="addToCartCompleteLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="addToCartCompleteLabel">Đã thêm vào giỏ hàng thành công</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="d-flex justify-content-center"><img src="/assets/img/cart/blank_cart.svg" alt=""></div>
+          </div>
+          <div class="modal-footer d-flex justify-content-center">
+            <a href="/assets/page/cart.html"> <button type="button" class="main-button" data-bs-dismiss="modal">Đi đến
+                giỏ hàng</button></a>
+            <a><button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Suggest -->
+    <section class="suggest pb-4" id="js-suggest">
+      <div class="container">
+        <h4 class="mb-4">SẢN PHẨM TƯƠNG TỰ</h4>
+        <div class="h-slider">
+          <section class="h-slider__list">
+          </section>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer id="footer"></footer>
