@@ -4,7 +4,7 @@ export default function Item(item) {
 	return `
 		<article class="product-item h-slider__item">
 			<div class="product-item__top">
-				<a href="/assets/page/item.html"  data-id=${item.id}>
+				<a href="/assets/page/item.html" data-id=${item.id}>
 					<img class="img-fluid product-item__img-display" src=${getImgPath(
 						item?.colors[0],
 						item?.id
@@ -12,7 +12,7 @@ export default function Item(item) {
 					onerror={this.src="/assets/img/shared/error-img.png"}
 						alt="">
 					</a>
-					<span class="sold">Đã bán ${Math.round(item.sold / 1000)}K</span>
+					${Math.round(item.sold / 1000) > 0 ? `<span class="sold">Đã bán ${Math.round(item.sold / 1000)}K</span>`: `<span class="sold ">Mới</span>`}
 					${
 						item.discount > 0
 							? `<span class="sales-percent">-${item.discount}%</span>`

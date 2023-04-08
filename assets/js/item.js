@@ -3,9 +3,11 @@ import { formatVND, getImgPath } from "./utility.js";
 import { getAllItemData, getItem, getSubcategory } from "./data.js";
 import CartStored from "../store/CartStored.js";
 import Item from "../components/Item/Item.js";
-import { activeHorizontalSlider, activeItemColorChoose } from "../js/shared.js";
+import { activeHorizontalSlider, activeItem } from "../js/shared.js";
+import { headerRender } from "./header.js";
 
 const localID = new ItemViewStored().itemID;
+console.log(localID);
 const domItem = document.querySelector("#item");
 if (domItem) {
 	// Data
@@ -38,7 +40,7 @@ if (domItem) {
 		function SubcategoryRender() {
 			document.querySelector("#js-breadcrumb").innerHTML = `
       <li class="breadcrumb-item"><a href="/">Trang chủ</a></li>
-      <li class="breadcrumb-item"><a href="#">${currentSubcategory.name}</a></li>
+      <li class="breadcrumb-item"><a href="/assets/page/category.html">${currentSubcategory.name}</a></li>
       <li class="breadcrumb-item active" aria-current="page">${currentItem.name}</li>`;
 		}
 
@@ -81,7 +83,7 @@ if (domItem) {
 				colorItem.innerHTML = `<img class="" src=${getImgPath(
 					color,
 					id
-				)} alt="" title=${color}>`;
+				)} alt=${color} onerror="this.src='/assets/img/shared/error-img.png'" title=${color}>`;
 				colorItem.addEventListener("click", () => {
 					currentColor = index;
 					ItemInfoRender();
@@ -102,7 +104,10 @@ if (domItem) {
 			const html = colors.map(
 				(color, index) => `
           <div class="carousel-item  ${index === currentColor ? "active" : ""}">
-          <img src=${getImgPath(color, id)} class="d-block h-100" alt="">
+          <img src=${getImgPath(
+				color,
+				id
+			)} onerror="this.src='/assets/img/shared/error-img.png'" class="d-block h-100" alt="">
           <div class="carousel-caption d-none d-md-block">
             <span>${color}</span>
           </div>
@@ -184,7 +189,7 @@ if (domItem) {
 			newBtn.classList = oldBtn.classList;
 			newBtn.id = oldBtn.id;
 			newBtn.innerHTML = oldBtn.innerHTML;
-			newBtn.addEventListener("click", () => {
+			newBtn.addEventListener("click", (e) => {
 				const cartItem = {
 					item_id: id,
 					qty: currentQty,
@@ -195,6 +200,7 @@ if (domItem) {
 				const cartStorage = new CartStored();
 				cartStorage.addItem(cartItem);
 				cartStorage.saveToLocalStorage();
+				headerRender();
 			});
 
 			oldBtn.parentElement.replaceChild(newBtn, oldBtn);
@@ -386,11 +392,11 @@ domSuggest.innerHTML = filterItems
 	<h4 class="mb-4">SẢN PHẨM TƯƠNG TỰ</h4>
 	<div class="h-slider">
 		<section class="h-slider__list">
-			${filterItems.map((item) => Item(item))}
+			${filterItems.map((item) => Item(item)).join("")}
 		</section>
 	</div>
 </div>`
 	: ``;
 
 activeHorizontalSlider();
-activeItemColorChoose();
+activeItem();

@@ -24,20 +24,32 @@ export default class CartStored {
 	 * @param item: { item_id: number, qty:number, color: number, size: number}
 	 */
 	addItem(item) {
-		if (item?.item_id && item?.qty && item?.color && item?.size) {
+		// Kiểm tra xem có hàng như vậy trong giỏ chưa
+		const current = this.#list.findIndex(
+			(localItem) =>
+				localItem.item_id === item.item_id &&
+				localItem.color === item.color &&
+				localItem.size === item.size
+		);
+
+		console.log(current)
+
+		if (current !== -1) {
+			this.#list[current].qty += item.qty;
+		} else {
 			this.#list.push({
 				item_id: item.item_id,
 				qty: item.qty,
 				color: item.color,
 				size: item.size,
 			});
-			return true;
 		}
-		return false;
+
+		return true;
 	}
 
 	removeItem(index) {
-		this.#list = this.#list.slice(index + 1);
+		this.#list.splice(index, 1);
 	}
 
 	saveToLocalStorage() {

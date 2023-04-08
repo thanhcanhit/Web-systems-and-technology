@@ -500,14 +500,14 @@
 		"price": 499000,
 		"discount": 0,
 		"colors": [
-			"Cam",
-			"Đen",
-			"Ghi",
 			"Nâu Tây",
 			"Tím Than",
 			"Vàng Cát",
 			"Xanh Than",
-			"Xanh Dương"
+			"Xanh Dương",
+			"Cam",
+			"Đen",
+			"Ghi"
 		],
 		"sizes": ["M", "L", "XL", "2XL", "3XL"],
 		"characteristics": [

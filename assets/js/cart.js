@@ -1,23 +1,23 @@
 import { getImgPath, formatVND } from "./utility.js";
 import { getAllItemData } from "./data.js";
 import CartStored from "../store/CartStored.js";
+import ItemViewStored from "../store/ItemViewStored.js";
+import { headerRender } from "./header.js";
 
 function EmptyCard() {
 	return `
-    <div class="cart__empty">
+    <div class="cart__empty py-5">
       <img src="/assets/img/cart/blank_cart.svg" alt="" />
       <span class="text-14 fw-medium">Giỏ hàng của bạn trống</span>
       <div>
-        <a href="" class="mb-2 main-button">Đăng nhập/Đăng
-          ký</a>
-        <a href="" class="main-button">Mua ngay</a>
+        <a href="/assets/page/allcategory.html" class="main-button">Mua ngay</a>
       </div>
     </div>`;
 }
 
 function CardListRender(dataList, itemsData) {
 	let subTotal = 0;
-	const htmlRender = dataList.map((cartItem) => {
+	const htmlRender = dataList.map((cartItem, index) => {
 		const item = Array.from(itemsData).find(
 			(items) => items.id === cartItem.item_id
 		);
@@ -31,25 +31,26 @@ function CardListRender(dataList, itemsData) {
 		const sum = quantity * (salePrice > 0 ? salePrice : item.price);
 		subTotal += sum;
 
-		return CartItem(item, color, size, quantity, salePrice, sum);
+		return CartItem(item, color, size, quantity, salePrice, sum, index);
 	});
 
 	return { subTotal, listRender: htmlRender.join("") };
 }
 
-function CartItem(item, color, size, quantity, salePrice, sum) {
+function CartItem(item, color, size, quantity, salePrice, sum, index) {
 	return `
 <tr class="cart__item">
   <td>
-    <div class="row">
+    <div class="row" >
       <div class="col col-3">
-        <img class="img-fluid" src=${getImgPath(color, item.id)} alt=${
-		item.name
-	}>
+        <img class="img-fluid" style="cursor: pointer" 
+				data-item="${item.id}" src=${getImgPath(color, item.id)} alt=${item.name}>
       </div>
       <div class="col col-9">
         <div class="h-100 d-flex flex-column justify-content-between">
-          <span class="name">${item.name}</span>
+          <span class="name" data-item="${item.id}" style="cursor: pointer" >${
+		item.name
+	}</span>
           <span class="variant">
             <span class="color">${color}</span>
             /
@@ -71,17 +72,15 @@ function CartItem(item, color, size, quantity, salePrice, sum) {
   </td>
   <td>
     <div class="qty btn-group mt-1" role="group" aria-label="Basic example">
-      <button type="button" class="btn border">-</button>
       <button type="button" class="btn border disabled fw-semibold">${quantity}</button>
-      <button type="button" class="btn border ">+</button>
     </div>
   </td>
   <td>
     <div class="h-100 d-flex flex-column justify-content-between">
       <p class="total fw-semibold">${formatVND(sum)}</p>
-      <div class="cart__remove mt-auto">
+      <a class="cart__remove mt-auto" data-cart=${index} style="cursor: pointer" >
         <i class="fa-solid fa-trash-can"></i>
-      </div>
+      </a>
     </div>
   </td>
 </tr>
@@ -98,14 +97,14 @@ function CartTotal(subTotal, qty) {
 `;
 }
 
-function CardRender() {
+function CartRender() {
 	const domCart = document.querySelector("#js-cart");
 	if (domCart) {
 		const dataList = new CartStored().list;
 
 		// Nếu giỏ hàng trống
 		if (dataList.length == 0) {
-			document.querySelector('#js-cart-show').innerHTML = EmptyCard();
+			document.querySelector("#js-cart-show").innerHTML = EmptyCard();
 			return;
 		}
 
@@ -123,8 +122,32 @@ function CardRender() {
 			domCartList.innerHTML = htmlList;
 
 			domSubTotal.innerHTML = CartTotal(subTotal, dataList.length);
+
+			(() => {
+				const list = document
+					.querySelectorAll("*[data-cart]")
+					.forEach((item) =>
+						item.addEventListener("click", (e) => {
+							const index = item.dataset.cart;
+							const cartLocal = new CartStored();
+							cartLocal.removeItem(index);
+							cartLocal.saveToLocalStorage();
+							headerRender();
+							CartRender();
+						})
+					);
+			})();
+
+			(() => {
+				$("*[data-item]").on("click", (e) => {
+					const localItem = new ItemViewStored();
+					localItem.itemID = Number(e.target.dataset.item);
+					localItem.saveToLocalStorage();
+					window.location.href = "/assets/page/item.html";
+				});
+			})();
 		});
 	}
 }
 
-CardRender();
+CartRender();

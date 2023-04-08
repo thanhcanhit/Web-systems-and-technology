@@ -24,8 +24,11 @@
   background: #dde1ef;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: #f9af1c;
-  border-radius: .5rem;
+  background-color: #ffd277;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #f8bb42;
 }
 
 main {
@@ -227,7 +230,9 @@ a:hover {
 
 .product-item__img-display {
   height: 280px;
+  width: 100%;
   object-fit: cover;
+  object-position: top;
   transition: all ease .65s;
 }
 

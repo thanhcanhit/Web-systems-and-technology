@@ -19,48 +19,26 @@
   <header id="header"></header>
 
   <main>
-    <section class="heading container pt-4 pb-4">
-      <nav aria-label="breadcrumb" class="d-flex justify-content-center fw-semibold mb-2">
-        <ol class="breadcrumb" style="--bs-breadcrumb-margin-bottom: 0rem;">
-          <li class="breadcrumb-item text-hover-main"><a href="/">Trang chủ</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Áo Nam</li>
-        </ol>
-      </nav>
-      <h2 class="heading">Áo Nam</h2>
+    <section class="heading container pt-4 pb-4" id="js-breadcrumb">
+
     </section>
 
     <section class="category container">
       <div class="row" style="--bs-gutter-x: 1rem;">
-        <div class="col col-2 pt-4">
-          <div class="filter d-flex flex-column gap-4">
+        <div class="col col-2 pt-4 position-relative">
+          <div class="filter d-flex flex-column gap-4 mb-4 position-sticky">
             <div class=" filter__type">
               <h4 class="filter__heading">Loại sản phẩm</h4>
-              <div class="filter__list">
-                <span class="filter__item">Áo ba lỗ nam</span>
-                <span class="filter__item">Áo giữ nhiệt nam</span>
-                <span class="filter__item">Áo giữ nhiệt nam</span>
-                <span class="filter__item">Áo giữ nhiệt nam</span>
-                <span class="filter__item">Áo giữ nhiệt nam</span>
-                <span class="filter__item">Áo giữ nhiệt nam</span>
-                <span class="filter__item">Áo giữ nhiệt nam</span>
-                <span class="filter__item">Áo giữ nhiệt nam</span>
-                <span class="filter__item">Áo giữ nhiệt nam</span>
-                <span class="filter__item">Áo giữ nhiệt nam</span>
-                <span class="filter__item">Áo giữ nhiệt nam</span>
-                <span class="filter__item">Áo giữ nhiệt nam</span>
-                <span class="filter__item">Áo giữ nhiệt nam</span>
-                <span class="filter__item">Áo giữ nhiệt nam</span>
+              <div class="filter__list" id="js-filter-list">
               </div>
             </div>
             <div class="filter__size">
               <h4 class="filter__heading">Kích thước</h4>
-              <div class="filter__list">
-                <span class="filter__item">S</span>
-                <span class="filter__item">M</span>
-                <span class="filter__item">L</span>
+              <div class="filter__list" id="js-filter-size">
               </div>
             </div>
-            <div class="filter__price">
+            <button class="main-button text-14" id="js-clear-all-btn">Loại bỏ tất cả bộ lọc</button>
+            <!-- <div class="filter__price">
               <h4 class="filter__heading">Khoảng giá</h4>
               <div class="filter__list">
                 <div class="form-check text-14 fw-semibold">
@@ -88,377 +66,22 @@
                   </label>
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
         <div class="col col-10 pb-4">
           <section class="sort container d-flex align-items-center justify-content-between fw-medium  mb-2 ">
-            <span class="quantity" style="color:var(--violet-gray)">99 Sản phẩm</span>
-            <div class="d-flex align-items-center"><span class="me-2">Sắp xếp theo</span>
-              <select name="" id="" class="form-select p-2 fw-medium" style="width: 230px;">
-                <option value="">Mặc định</option>
-                <option value="">Từ A-Z</option>
-                <option value="">Từ Z-A</option>
-                <option value="">Từ giá tăng</option>
-              </select>
+            <span class="quantity" id="js-quantity-item" style="color:var(--violet-gray)"></span>
+            <div class="d-flex">
+                <div class="d-flex align-items-center"><span class="me-2">Sắp xếp theo</span>
+                  <select name="" id="js-filter-sort" class="form-select p-2 fw-medium rounded-end-0" style="width: 230px;">
+                  </select>
+              </div>
             </div>
           </section>
-          <div class="product-list row gx-2">
-            <div class="product-item col col-3">
-              <article class="product-item h-slider__item">
-                <div class="product-item__top">
-                  <a href="">
-                    <img class="img-fluid product-item__img-display" src="/assets/img/shared/item/id_1/trang.jpg" alt="">
-                  </a>
-                  <span class="sold">Đã bán 15.3K</span>
-                  <span class="sales-percent">-50%</span>
-                </div>
-                <div class="product-item__body">
-                  <a href="" class="text-decoration-none">
-                    <p class="name">Áo polo</p>
-                  </a>
-                  <span class="sales-price">150.000đ</span>
-                  <span class="price">299.000đ</span>
-                </div>
-                <div class="h-slider">
-                  <div class="product-item__options h-slider__list --small">
-                    <div class="product-item__option active">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/trang.jpg" alt="">
-                    </div>
-                    <div class="product-item__option">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/vang.jpg" alt="">
-                    </div>
-                    <div class="product-item__option">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/do_do.jpg" alt="">
-                    </div>
-                    <div class="product-item__option">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/trang.jpg" alt="">
-                    </div>
-                    <div class="product-item__option">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/vang.jpg" alt="">
-                    </div>
-                    <div class="product-item__option">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/do_do.jpg" alt="">
-                    </div>
-                    <div class="product-item__option">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/trang.jpg" alt="">
-                    </div>
-                    <div class="product-item__option">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/vang.jpg" alt="">
-                    </div>
-                    <div class="product-item__option">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/do_do.jpg" alt="">
-                    </div>
-                  </div>
-                </div>
-              </article>
-            </div>  
-            <div class="product-item col col-3">
-              <article class="product-item h-slider__item">
-                <div class="product-item__top">
-                  <a href="">
-                    <img class="img-fluid product-item__img-display" src="/assets/img/shared/item/id_1/trang.jpg" alt="">
-                  </a>
-                  <span class="sold">Đã bán 15.3K</span>
-                  <span class="sales-percent">-50%</span>
-                </div>
-                <div class="product-item__body">
-                  <a href="" class="text-decoration-none">
-                    <p class="name">Áo polo</p>
-                  </a>
-                  <span class="sales-price">150.000đ</span>
-                  <span class="price">299.000đ</span>
-                </div>
-                <div class="h-slider">
-                  <div class="product-item__options h-slider__list --small">
-                    <div class="product-item__option active">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/trang.jpg" alt="">
-                    </div>
-                    <div class="product-item__option">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/vang.jpg" alt="">
-                    </div>
-                    <div class="product-item__option">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/do_do.jpg" alt="">
-                    </div>
-                    <div class="product-item__option">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/trang.jpg" alt="">
-                    </div>
-                    <div class="product-item__option">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/vang.jpg" alt="">
-                    </div>
-                    <div class="product-item__option">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/do_do.jpg" alt="">
-                    </div>
-                    <div class="product-item__option">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/trang.jpg" alt="">
-                    </div>
-                    <div class="product-item__option">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/vang.jpg" alt="">
-                    </div>
-                    <div class="product-item__option">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/do_do.jpg" alt="">
-                    </div>
-                  </div>
-                </div>
-              </article>
-            </div>  
-            <div class="product-item col col-3">
-              <article class="product-item h-slider__item">
-                <div class="product-item__top">
-                  <a href="">
-                    <img class="img-fluid product-item__img-display" src="/assets/img/shared/item/id_1/trang.jpg" alt="">
-                  </a>
-                  <span class="sold">Đã bán 15.3K</span>
-                  <span class="sales-percent">-50%</span>
-                </div>
-                <div class="product-item__body">
-                  <a href="" class="text-decoration-none">
-                    <p class="name">Áo polo</p>
-                  </a>
-                  <span class="sales-price">150.000đ</span>
-                  <span class="price">299.000đ</span>
-                </div>
-                <div class="h-slider">
-                  <div class="product-item__options h-slider__list --small">
-                    <div class="product-item__option active">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/trang.jpg" alt="">
-                    </div>
-                    <div class="product-item__option">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/vang.jpg" alt="">
-                    </div>
-                    <div class="product-item__option">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/do_do.jpg" alt="">
-                    </div>
-                    <div class="product-item__option">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/trang.jpg" alt="">
-                    </div>
-                    <div class="product-item__option">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/vang.jpg" alt="">
-                    </div>
-                    <div class="product-item__option">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/do_do.jpg" alt="">
-                    </div>
-                    <div class="product-item__option">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/trang.jpg" alt="">
-                    </div>
-                    <div class="product-item__option">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/vang.jpg" alt="">
-                    </div>
-                    <div class="product-item__option">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/do_do.jpg" alt="">
-                    </div>
-                  </div>
-                </div>
-              </article>
-            </div>  
-            <div class="product-item col col-3">
-              <article class="product-item h-slider__item">
-                <div class="product-item__top">
-                  <a href="">
-                    <img class="img-fluid product-item__img-display" src="/assets/img/shared/item/id_1/trang.jpg" alt="">
-                  </a>
-                  <span class="sold">Đã bán 15.3K</span>
-                  <span class="sales-percent">-50%</span>
-                </div>
-                <div class="product-item__body">
-                  <a href="" class="text-decoration-none">
-                    <p class="name">Áo polo</p>
-                  </a>
-                  <span class="sales-price">150.000đ</span>
-                  <span class="price">299.000đ</span>
-                </div>
-                <div class="h-slider">
-                  <div class="product-item__options h-slider__list --small">
-                    <div class="product-item__option active">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/trang.jpg" alt="">
-                    </div>
-                    <div class="product-item__option">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/vang.jpg" alt="">
-                    </div>
-                    <div class="product-item__option">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/do_do.jpg" alt="">
-                    </div>
-                    <div class="product-item__option">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/trang.jpg" alt="">
-                    </div>
-                    <div class="product-item__option">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/vang.jpg" alt="">
-                    </div>
-                    <div class="product-item__option">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/do_do.jpg" alt="">
-                    </div>
-                    <div class="product-item__option">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/trang.jpg" alt="">
-                    </div>
-                    <div class="product-item__option">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/vang.jpg" alt="">
-                    </div>
-                    <div class="product-item__option">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/do_do.jpg" alt="">
-                    </div>
-                  </div>
-                </div>
-              </article>
-            </div>  
-            <div class="product-item col col-3">
-              <article class="product-item h-slider__item">
-                <div class="product-item__top">
-                  <a href="">
-                    <img class="img-fluid product-item__img-display" src="/assets/img/shared/item/id_1/trang.jpg" alt="">
-                  </a>
-                  <span class="sold">Đã bán 15.3K</span>
-                  <span class="sales-percent">-50%</span>
-                </div>
-                <div class="product-item__body">
-                  <a href="" class="text-decoration-none">
-                    <p class="name">Áo polo</p>
-                  </a>
-                  <span class="sales-price">150.000đ</span>
-                  <span class="price">299.000đ</span>
-                </div>
-                <div class="h-slider">
-                  <div class="product-item__options h-slider__list --small">
-                    <div class="product-item__option active">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/trang.jpg" alt="">
-                    </div>
-                    <div class="product-item__option">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/vang.jpg" alt="">
-                    </div>
-                    <div class="product-item__option">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/do_do.jpg" alt="">
-                    </div>
-                    <div class="product-item__option">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/trang.jpg" alt="">
-                    </div>
-                    <div class="product-item__option">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/vang.jpg" alt="">
-                    </div>
-                    <div class="product-item__option">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/do_do.jpg" alt="">
-                    </div>
-                    <div class="product-item__option">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/trang.jpg" alt="">
-                    </div>
-                    <div class="product-item__option">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/vang.jpg" alt="">
-                    </div>
-                    <div class="product-item__option">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/do_do.jpg" alt="">
-                    </div>
-                  </div>
-                </div>
-              </article>
-            </div>  
-            <div class="product-item col col-3">
-              <article class="product-item h-slider__item">
-                <div class="product-item__top">
-                  <a href="">
-                    <img class="img-fluid product-item__img-display" src="/assets/img/shared/item/id_1/trang.jpg" alt="">
-                  </a>
-                  <span class="sold">Đã bán 15.3K</span>
-                  <span class="sales-percent">-50%</span>
-                </div>
-                <div class="product-item__body">
-                  <a href="" class="text-decoration-none">
-                    <p class="name">Áo polo</p>
-                  </a>
-                  <span class="sales-price">150.000đ</span>
-                  <span class="price">299.000đ</span>
-                </div>
-                <div class="h-slider">
-                  <div class="product-item__options h-slider__list --small">
-                    <div class="product-item__option active">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/trang.jpg" alt="">
-                    </div>
-                    <div class="product-item__option">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/vang.jpg" alt="">
-                    </div>
-                    <div class="product-item__option">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/do_do.jpg" alt="">
-                    </div>
-                    <div class="product-item__option">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/trang.jpg" alt="">
-                    </div>
-                    <div class="product-item__option">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/vang.jpg" alt="">
-                    </div>
-                    <div class="product-item__option">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/do_do.jpg" alt="">
-                    </div>
-                    <div class="product-item__option">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/trang.jpg" alt="">
-                    </div>
-                    <div class="product-item__option">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/vang.jpg" alt="">
-                    </div>
-                    <div class="product-item__option">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/do_do.jpg" alt="">
-                    </div>
-                  </div>
-                </div>
-              </article>
-            </div>  
-            <div class="product-item col col-3">
-              <article class="product-item h-slider__item">
-                <div class="product-item__top">
-                  <a href="">
-                    <img class="img-fluid product-item__img-display" src="/assets/img/shared/item/id_1/trang.jpg" alt="">
-                  </a>
-                  <span class="sold">Đã bán 15.3K</span>
-                  <span class="sales-percent">-50%</span>
-                </div>
-                <div class="product-item__body">
-                  <a href="" class="text-decoration-none">
-                    <p class="name">Áo polo</p>
-                  </a>
-                  <span class="sales-price">150.000đ</span>
-                  <span class="price">299.000đ</span>
-                </div>
-                <div class="h-slider">
-                  <div class="product-item__options h-slider__list --small">
-                    <div class="product-item__option active">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/trang.jpg" alt="">
-                    </div>
-                    <div class="product-item__option">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/vang.jpg" alt="">
-                    </div>
-                    <div class="product-item__option">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/do_do.jpg" alt="">
-                    </div>
-                    <div class="product-item__option">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/trang.jpg" alt="">
-                    </div>
-                    <div class="product-item__option">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/vang.jpg" alt="">
-                    </div>
-                    <div class="product-item__option">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/do_do.jpg" alt="">
-                    </div>
-                    <div class="product-item__option">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/trang.jpg" alt="">
-                    </div>
-                    <div class="product-item__option">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/vang.jpg" alt="">
-                    </div>
-                    <div class="product-item__option">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_1/do_do.jpg" alt="">
-                    </div>
-                  </div>
-                </div>
-              </article>
-            </div>  
+          <div class="product-list row ms-2 pb-4 gx-2 gap-4 justify-content-start" id="js-product-list">
           </div>
-          <div class="product__pagination d-flex justify-content-center pt-5">
-            <nav aria-label="Page navigation example">
-              <ul class="pagination">
-                <li class="page-item"><a class="page-link" href="#"><i class="fa-solid fa-arrow-left"></i></a></li>
-                <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                <li class="page-item"><a class="page-link" href="#"><i class="fa-solid fa-arrow-right"></i></a></li>
-              </ul>
-            </nav>
-          </div>
+          <hr>
         </div>
       </div>
     </section>
@@ -468,6 +91,7 @@
 
   <!-- JS -->
   <script src="../js/shared.js" type="module"></script>
+  <script src="../js/category.js" type="module"></script>
 </body>
 
 </html>

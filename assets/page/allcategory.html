@@ -19,12 +19,23 @@
 	<header id="header"></header>
 
 	<main>
-		<section class="hot container">
+		<section class="all container pt-2">
+			<h2 class="heading">Danh mục</h2>
+			<ul class="all__list" id="js-all-list">
+			</ul>
+		</section>
 
+		<section class="all container">
+			<hr class="my-4 w-75 mx-auto">
+			<ul class="all__list" id="js-sub-list">
+			</ul>
+		</section>
+
+		<section class="hot container">
 			<h2 class="heading">Danh mục nổi bật</h2>
 			<ul class="hot__list">
 				<li>
-					<a href="">
+					<a href="/assets/page/category.html" data-subcategory="1">
 						<div class="hot__item">
 							<img class="img" src="/assets/img/allcategory/category/ao_polo.svg" alt="">
 							<span class="name fw-medium">Áo Polo</span>
@@ -33,7 +44,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="">
+					<a href="/assets/page/category.html" data-subcategory="2">
 						<div class="hot__item">
 							<img class="img" src="/assets/img/allcategory/category/ao_thun.svg" alt="">
 							<span class="name fw-medium">Áo Thun</span>
@@ -42,7 +53,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="">
+					<a href="/assets/page/category.html" data-subcategory="10">
 						<div class="hot__item">
 							<img class="img" src="/assets/img/allcategory/category/quan_au.svg" alt="">
 							<span class="name fw-medium">Quần Âu</span>
@@ -50,7 +61,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="">
+					<a href="/assets/page/category.html" data-subcategory="4">
 						<div class="hot__item">
 							<img class="img" src="/assets/img/allcategory/category/ao_so_mi.svg" alt="">
 							<span class="name fw-medium">Áo Sơ Mi</span>
@@ -59,15 +70,15 @@
 					</a>
 				</li>
 				<li>
-					<a href="">
+					<a href="/assets/page/category.html" data-subcategory="9">
 						<div class="hot__item">
 							<img class="img" src="/assets/img/allcategory/category/quan_jeans.svg" alt="">
-							<span class="name fw-medium">Áo Jeans</span>
+							<span class="name fw-medium">Quần Jeans</span>
 						</div>
 					</a>
 				</li>
 				<li>
-					<a href="">
+					<a href="/assets/page/category.html" data-subcategory="19">
 						<div class="hot__item">
 							<img class="img" src="/assets/img/allcategory/category/do_lot.svg" alt="">
 							<span class="name fw-medium">Đồ Lót</span>
@@ -76,7 +87,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="">
+					<a href="/assets/page/category.html" data-subcategory="11">
 						<div class="hot__item">
 							<img class="img" src="/assets/img/allcategory/category/quan_kaki.svg" alt="">
 							<span class="name fw-medium">Quần Kaki</span>
@@ -84,7 +95,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="">
+					<a href="/assets/page/category.html" data-subcategory="22">
 						<div class="hot__item">
 							<img class="img" src="/assets/img/allcategory/category/phu_kien.svg" alt="">
 							<span class="name fw-medium">Phụ kiện</span>
@@ -179,6 +190,7 @@
 
 	<!-- JS -->
 	<script src="../js/shared.js" type="module"></script>
+	<script type="module" src="../js/allcategory.js"></script>
 </body>
 
 </html>

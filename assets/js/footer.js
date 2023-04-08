@@ -10,7 +10,7 @@ if (footer) {
 					<p class="mb-4">
 						“Đặt sự hài lòng của khách hàng là ưu tiên số 1
 						trong mọi suy nghĩ hành động của mình” là sứ mệnh,
-						là triết lý, chiến lược.. luôn cùng YODY tiến bước
+						là triết lý, chiến lược.. luôn cùng MENLY tiến bước
 					</p>
 
 					<!-- Footer Email -->
@@ -50,7 +50,7 @@ if (footer) {
 				</div>
 				<div class="col col-12 col-md-4 col-xl-2">
 					<h6 data-bs-toggle="collapse" data-bs-target="#footer__col-1">
-						VỀ YODY
+						VỀ MENLY
 					</h6>
 					<ul class="footer__list collapse show" id="footer__col-1">
 						<li class="footer__item">
@@ -100,18 +100,17 @@ if (footer) {
 				</div>
 				<div class="col col-12 col-md-4 col-xl-3">
 					<h6 data-bs-toggle="collapse" data-bs-target="#footer__col-3">
-						CÔNG TY CP THỜI TRANG YODY
+						CÔNG TY CP THỜI TRANG MENLY
 					</h6>
 					<ul class="footer__list collapse show" id="footer__col-3">
 						<li class="footer__item">
 							<address class="fw-normal">
 								<span class="footer__icon"><i class="fa-solid fa-location-dot"></i></span>
-								Công ty cổ phần Thời trang YODY
+								Công ty cổ phần Thời trang MENLY
 								<br />
 								Mã số thuế: 0801206940
 								<br />
-								Địa chỉ: Đường An Định - Phường Việt Hòa -
-								Thành phố Hải Dương - Hải Dương
+								Địa chỉ: Gò vấp - Hồ Chí Minh
 							</address>
 						</li>
 						<li class="footer__item">
@@ -128,9 +127,9 @@ if (footer) {
 							<a href="" class="footer__link">Góp ý khiếu nại: 1800 2086</a>
 						</li>
 						<li class="footer__item">
-							<a class="footer__link" href="mailto:chamsockhachhang@yody.vn">
+							<a class="footer__link" href="mailto:chamsockhachhang@menly.vn">
 								<span class="footer__icon"><i class="fa-solid fa-envelope"></i></span>
-								Email: chamsockhachhang@yody.vn</a>
+								Email: chamsockhachhang@menly.vn</a>
 						</li>
 					</ul>
 					<div>
@@ -146,7 +145,7 @@ if (footer) {
 			<!-- Copyright -->
 			<div class="text-center text-14">
 				<span>@ Bản quyền thuộc về
-					<a href="#" class="text-main text-decoration-none">Menly.vn</a>
+					<a href="/" class="text-main text-decoration-none">Menly.vn</a>
 					All right reserved</span>
 			</div>
 		</div>

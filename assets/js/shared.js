@@ -4,9 +4,13 @@ import "./header.js"; // Header render + cover layer
 import "./footer.js"; // Footer render
 import "./utility.js";
 import ItemViewStored from "../store/ItemViewStored.js";
+import SubCategoryViewStored from "../store/SubCategoryViewStored.js";
+import CategoryViewStored from "../store/CategoryViewStored.js";
+import { getSubcategory } from "./data.js";
+import FilterStored from "../store/FilterStored.js";
 
 // Items
-function activeItemColorChoose() {
+function activeItem() {
 	const items = document.querySelectorAll(".product-item");
 	if (items) {
 		items.forEach((item) => {
@@ -22,7 +26,6 @@ function activeItemColorChoose() {
 			});
 			const imgDisplay = item.querySelector(".product-item__img-display");
 			const options = item.querySelectorAll(".product-item__option");
-			("running");
 
 			options.forEach((option) => {
 				option.addEventListener("click", (e) => {
@@ -38,6 +41,57 @@ function activeItemColorChoose() {
 		});
 	}
 }
+
+function resetFilter() {
+	const localFilter = new FilterStored();
+	localFilter.size = 0;
+	localFilter.sort = 0;
+	localFilter.saveToLocalStorage();
+}
+
+function activeSubCategory(renderFunction) {
+	const list = document.querySelectorAll("*[data-subcategory]");
+
+	list.forEach((item) => {
+		item.addEventListener("click", async (e) => {
+			if (renderFunction) e.preventDefault();
+			const itemSubcategoryID = Number(item.dataset.subcategory);
+			const currentSubcategory = await getSubcategory(itemSubcategoryID);
+
+			// subcategory
+			const local = new SubCategoryViewStored();
+			local.subcategoryID = itemSubcategoryID;
+			local.saveToLocalStorage();
+
+			// category
+			const localCategory = new CategoryViewStored();
+			localCategory.categoryID = Number(currentSubcategory.category_id);
+			localCategory.saveToLocalStorage();
+
+			resetFilter();
+			renderFunction();
+		});
+	});
+}
+
+function activeCategory() {
+	const list = document.querySelectorAll("*[data-category]");
+
+	list.forEach((item) => {
+		item.addEventListener("click", (e) => {
+			const local = new CategoryViewStored();
+			local.categoryID = Number(item.dataset.category);
+			local.saveToLocalStorage();
+
+			const subcategoryLocal = new SubCategoryViewStored();
+			subcategoryLocal.subcategoryID = 0;
+			subcategoryLocal.saveToLocalStorage();
+
+			resetFilter();
+		});
+	});
+}
+
 // Horizontal Slider btn
 /**
  * How to use
@@ -47,7 +101,6 @@ function activeItemColorChoose() {
  * 	</ul>
  * </section>
  */
-
 function activeHorizontalSlider() {
 	const hSliderList = document.querySelectorAll(".h-slider");
 	Array.from(hSliderList).forEach((item) => {
@@ -142,4 +195,10 @@ function activeQuantity() {
 }
 
 activeHorizontalSlider();
-export { activeHorizontalSlider, activeQuantity, activeItemColorChoose };
+export {
+	activeHorizontalSlider,
+	activeQuantity,
+	activeItem,
+	activeSubCategory,
+	activeCategory,
+};

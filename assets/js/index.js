@@ -1,10 +1,11 @@
 import { formatVND, getImgPath, getRandomValue } from "./utility.js";
 import {
 	activeHorizontalSlider,
-	activeItemColorChoose as activeItem,
+	activeItem,
+	activeSubCategory,
 } from "./shared.js";
 import { getAllItemData, getAllSubCategoryData } from "./data.js";
-import Item from "../components/Item/item.js";
+import Item from "../components/Item/Item.js";
 // // Clock
 const clockItems = document.querySelectorAll(".clock__item span");
 
@@ -58,9 +59,9 @@ if (categoryList) {
 			const hasImg = data.filter((item) => item?.img);
 
 			const html = hasImg.map((item) => {
-				return `<li class="category__item h-slider__item">
+				return `<li class="category__item h-slider__item" data-subcategory="${item.id}">
                   <div>
-                    <a href=${item.link}>
+                    <a href="/assets/page/category.html">
                       <img class="category__item-img" src=${item.img} alt=${item.name}}>
                       <span class="category__item-name">${item.name}</span>
                     </a>
@@ -113,10 +114,10 @@ subcategoryData.map((subcategory) => {
 
 				<section class="row mb-5 items__list">
 					<div class="col col-2">
-						<a href="/assets/page/category.html">
+						<a href="/assets/page/category.html" data-subcategory="${subcategory.id}">
 							<img class="img-fluid" src="./assets/img/index/subcategory_banner/best_seller.jpg" alt="">
 						</a>
-					</div>
+				</div>
 					<div class="col col-10 h-slider">
 						<section class="h-slider__list">
 						${itemList.map((item) => Item(item)).join("")}
@@ -128,5 +129,6 @@ subcategoryData.map((subcategory) => {
 	}
 });
 
+activeSubCategory();
 activeItem();
 activeHorizontalSlider();

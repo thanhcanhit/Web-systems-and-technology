@@ -1,8 +1,9 @@
 .hot {
-  padding: 2rem 0;
+  padding: 1rem 0;
 }
 
 .hot__list {
+  margin-top: 1rem;
   padding-left: 0;
   display: flex;
   flex-wrap: wrap;
@@ -20,6 +21,7 @@
   background: gray;
   top: 105%;
   left: 50%;
+  transform: translateX(-50%);
 }
 
 .hot__item {
@@ -85,3 +87,22 @@
   font-size: 1rem;
 } 
 
+.all {
+  padding: 0;
+}
+.all__list {
+  margin-top: 1rem;
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.all__list li {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  width: fit-content;
+}

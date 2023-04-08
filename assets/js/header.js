@@ -1,11 +1,22 @@
+import CartStored from "../store/CartStored.js";
 import UserStored from "../store/UserStored.js";
+import { getAllCategoryData, getSubcategoriesWithCategory } from "./data.js";
+import { activeCategory, activeSubCategory } from "./shared.js";
 
 // Render header
-const header = document.querySelector("#header");
-if (header) {
-	const isLogin = new UserStored().isLogin();
+async function headerRender() {
+	const header = document.querySelector("#header");
+	if (header) {
+		const isLogin = new UserStored().isLogin();
+		const cartQuantity = new CartStored().list.length;
+		const categoryList = await getAllCategoryData();
+		const subcategoryListArray = await Promise.all(
+			categoryList.map(async (category) => {
+				return await getSubcategoriesWithCategory(category.id);
+			})
+		);
 
-	header.outerHTML = `
+		header.outerHTML = `
   <header id="header" class="header container-fluid fixed-top">
     <div class="container py-2 d-none d-lg-block">
       <!-- Search + Address Row -->
@@ -65,175 +76,45 @@ if (header) {
                 <div class="sub-nav container">
                   <div class="sub-nav__content row mx-auto p-4">
                     <div class="col col-9 row row-gap-4">
-                      <!-- Column 1 -->
-                      <div class="col col-3">
-                        <ul class="sub-nav__list">
-                          <li class="sub-nav__item">
-                            <h4 class="sub-nav__header">
-                              ÁO NAM
-                            </h4>
-                          </li>
-                          <li class="sub-nav__item">
-                            <a class="sub-nav__link" href="">Áo Polo</a>
-                          </li>
-                          <li class="sub-nav__item">
-                            <a class="sub-nav__link" href="">Áo Thun</a>
-                          </li>
-                          <li class="sub-nav__item">
-                            <a class="sub-nav__link" href="">Áo khoác</a>
-                          </li>
-                          <li class="sub-nav__item">
-                            <a class="sub-nav__link" href="">Áo sơ mi</a>
-                          </li>
-                          <li class="sub-nav__item">
-                            <a class="sub-nav__link" href="">Áo len</a>
-                          </li>
-                          <li class="sub-nav__item">
-                            <a class="sub-nav__link" href="">Áo nỉ</a>
-                          </li>
-                          <li class="sub-nav__item">
-                            <a class="sub-nav__link" href="">Áo vest</a>
-                          </li>
-                        </ul>
-                      </div>
-                      <!-- Column 2 -->
-                      <div class="col col-3">
-                        <ul class="sub-nav__list">
-                          <li class="sub-nav__item">
-                            <h4 class="sub-nav__header">
-                              QUẦN NAM
-                            </h4>
-                          </li>
-                          <li class="sub-nav__item">
-                            <a class="sub-nav__link" href="">Quần Jeans</a>
-                          </li>
-                          <li class="sub-nav__item">
-                            <a class="sub-nav__link" href="">Quần Âu</a>
-                          </li>
-                          <li class="sub-nav__item">
-                            <a class="sub-nav__link" href="">Quần Kaki</a>
-                          </li>
-                          <li class="sub-nav__item">
-                            <a class="sub-nav__link" href="">Quần Short</a>
-                          </li>
-                        </ul>
-                      </div>
-                      <!-- Column 3 -->
-                      <div class="col col-3">
-                        <ul class="sub-nav__list">
-                          <li class="sub-nav__item">
-                            <h4 class="sub-nav__header">
-                              ĐỒ THỂ THAO NAM
-                            </h4>
-                          </li>
-                          <li class="sub-nav__item">
-                            <a class="sub-nav__link" href="">Bộ thể thao</a>
-                          </li>
-                          <li class="sub-nav__item">
-                            <a class="sub-nav__link" href="">Áo thun thể
-                              thao</a>
-                          </li>
-                          <li class="sub-nav__item">
-                            <a class="sub-nav__link" href="">Áo polo thể
-                              thao</a>
-                          </li>
-                          <li class="sub-nav__item">
-                            <a class="sub-nav__link" href="">Quần thể
-                              Thao</a>
-                          </li>
-                        </ul>
-                      </div>
-                      <!-- Column 4 -->
-                      <div class="col col-3">
-                        <ul class="sub-nav__list">
-                          <li class="sub-nav__item">
-                            <h4 class="sub-nav__header text-red">
-                              NỔI BẬT
-                            </h4>
-                          </li>
-                          <li class="sub-nav__item">
-                            <a class="sub-nav__link" href="">Hàng mới về</a>
-                          </li>
-                          <li class="sub-nav__item">
-                            <a class="sub-nav__link" href="">Bán chạy
-                              nhất</a>
-                          </li>
-                          <li class="sub-nav__item">
-                            <a class="sub-nav__link" href="">Khử mùi vượt
-                              trội</a>
-                          </li>
-                          <li class="sub-nav__item">
-                            <a class="sub-nav__link" href="">Thoáng mát tối
-                              đa</a>
-                          </li>
-                          <li class="sub-nav__item">
-                            <a class="sub-nav__link" href="">Chống UV</a>
-                          </li>
-                        </ul>
-                      </div>
-                      <!-- Column 5 -->
-                      <div class="col col-3">
-                        <ul class="sub-nav__list">
-                          <li class="sub-nav__item">
-                            <h4 class="sub-nav__header">
-                              ĐỒ BỘ NAM
-                            </h4>
-                          </li>
-                        </ul>
-                      </div>
-                      <!-- Column 6 -->
-                      <div class="col col-3">
-                        <ul class="sub-nav__list">
-                          <li class="sub-nav__item">
-                            <h4 class="sub-nav__header">
-                              ĐỒ MẶC TRONG NAM
-                            </h4>
-                          </li>
-                          <li class="sub-nav__item">
-                            <a class="sub-nav__link" href="">Áo ba lỗ</a>
-                          </li>
-                          <li class="sub-nav__item">
-                            <a class="sub-nav__link" href="">Áo giữ nhiệt</a>
-                          </li>
-                          <li class="sub-nav__item">
-                            <a class="sub-nav__link" href="">Quần lót</a>
-                          </li>
-                        </ul>
-                      </div>
-                      <!-- Column 7 -->
-                      <div class="col col-3">
-                        <ul class="sub-nav__list">
-                          <li class="sub-nav__item">
-                            <h4 class="sub-nav__header">
-                              PHỤ KIỆN NAM
-                            </h4>
-                          </li>
-                          <li class="sub-nav__item">
-                            <a class="sub-nav__link" href="">Thắt lưng</a>
-                          </li>
-                          <li class="sub-nav__item">
-                            <a class="sub-nav__link" href="">Giày</a>
-                          </li>
-                          <li class="sub-nav__item">
-                            <a class="sub-nav__link" href="">Phụ kiện
-                              khác</a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-
-                    <!-- IMG -->
-                    <div class="col col-3">
+                    ${categoryList
+						.map(
+							(category, index) => `
+                                <div class="col col-3">
+                                  <ul class="sub-nav__list">
+                                    <li class="sub-nav__item">
+                                     <a href="/assets/page/category.html" data-category="${
+											category.id
+										}">
+                                      <h4 class="sub-nav__header">
+                                        ${category.name}
+                                      </h4>
+                                    </a>
+                                    </li>
+                                    ${subcategoryListArray[index]
+										.map(
+											(subcategory) => `
+                                    <li class="sub-nav__item">
+                                      <a class="sub-nav__link" href="/assets/page/category.html" data-subcategory="${subcategory.id}">${subcategory.name}</a>
+                                    </li>
+                                    `
+										)
+										.join("")}
+                                  </ul>
+                                </div>`
+						)
+						.join("")}
+                  </div>
+                  <!-- IMG -->
+                    <div class="col ms-auto col-3">
                       <a href="">
                         <img class="img-fluid rounded-4 w-75 object-fit-cover mt-4 ms-4"
                           src="/assets/img/shared/header/category_men.jpg" alt="Men category" />
                       </a>
                     </div>
-                  </div>
                 </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link fw-semibold text-14 text-blue text-hover-main" href="#">Thành viên</a>
+                <a class="nav-link fw-semibold text-14 text-blue text-hover-main" href="#">Giới thiệu</a>
               </li>
             </ul>
           </nav>
@@ -245,41 +126,11 @@ if (header) {
             <span class="fs-4">
               <i class="fa-solid fa-bag-shopping position-relative">
                 <span class="bg-main text-blue position-absolute top-0 start-100 translate-middle badge rounded-pill"
-                  style="font-size: 10px">0</span>
+                  style="font-size: 10px">${cartQuantity}</span>
               </i>
             </span>
             <a href="/assets/page/cart.html" class="header__link text-hover-main"><span>GIỎ HÀNG</span></a>
-            <div class="cart__content">
-              <!-- <div class="cart__empty">
-								<img src="/assets/img/cart/blank_cart.svg" alt="" />
-								<span class="text-14 fw-medium">Giỏ hàng của bạn trống</span>
-								<a href="" class="text-black text-hover-main fw-medium text-decoration-none text-14">Đăng nhập/Đăng
-									ký</a>
-								<a href="" class="text-black text-hover-main fw-medium text-decoration-none text-14">Mua ngay</a>
-							</div> -->
-              <section>
-                <div class="cart__list">
-                  <div class="cart__item">
-                    <div class="cart__item-body">
-                      <img class="img-fluid" src="/assets/img/shared/item/id_5/navy.jpg" alt="">
-                      <div class="d-flex flex-column align-items-start gap-1">
-                        <p>Áo polo Nam pique mắt chim basic co giãn thoáng khi</p>
-                        <span class="cart__item-price text-main">269.000đ</span>
-                        <span class="cart__item-variant">Xanh Xám / XL</span>
-                      </div>
-                    </div>
-                    <div class="cart__item-footer mt-2">
-                      <div class="cart__item-total">
-                        Tổng cộng: <span class="text-red fw-semibold">100.000.000đ</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <hr>
-                <p class = "cart__total text-end m-0">Tổng đơn hàng: <span class="text-red">200.000.000đ</span></p>  
-                <button class="main-button mt-2" >Xem Giỏ Hàng</button>
-              </section>
-            </div>
+            
           </div>
           <div class="user d-flex align-items-center gap-2">
             <span class="fs-4">
@@ -307,28 +158,39 @@ if (header) {
 
     <div class="layer"></div>
   </header>`;
-	const headerLayer = document.querySelector(".layer");
+		const headerLayer = document.querySelector(".layer");
 
-	const toggleLayer = () => {
-		const subNavList = document.querySelectorAll(".sub-nav");
-		const subNavDisplay = (() => {
-			for (let i = 0; i < subNavList.length; i++) {
-				if (window.getComputedStyle(subNavList[i]).display == "block")
-					return true;
+		const toggleLayer = () => {
+			const subNavList = document.querySelectorAll(".sub-nav");
+			const subNavDisplay = (() => {
+				for (let i = 0; i < subNavList.length; i++) {
+					if (
+						window.getComputedStyle(subNavList[i]).display ==
+						"block"
+					)
+						return true;
+				}
+				return false;
+			})();
+
+			if (subNavDisplay) $(".layer").show();
+			else {
+				$(".layer").fadeOut();
 			}
-			return false;
-		})();
+		};
 
-		if (subNavDisplay) $(".layer").show();
-		else {
-			$(".layer").fadeOut();
-		}
-	};
+		document.querySelectorAll(".nav-item").forEach((item) => {
+			item.addEventListener("mouseenter", toggleLayer);
+			item.addEventListener("mouseout", toggleLayer);
+		});
 
-	document.querySelectorAll(".nav-item").forEach((item) => {
-		item.addEventListener("mouseenter", toggleLayer);
-		item.addEventListener("mouseout", toggleLayer);
-	});
+		headerLayer.addEventListener("mouseenter", toggleLayer);
 
-	headerLayer.addEventListener("mouseenter", toggleLayer);
+		activeSubCategory();
+		activeCategory();
+	}
 }
+
+headerRender();
+
+export {headerRender};
