@@ -107,6 +107,9 @@ a:hover {
   color: var(--main-color);
 }
 
+.text-sub {
+  color: var(--sub-color)
+}
 /* Background Color */
 .bg-main {
   background-color: var(--main-color);

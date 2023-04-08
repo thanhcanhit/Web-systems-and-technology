@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tìm kiếm</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="../img/shared/favicon.png" type="image/x-icon" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="../css/shared.css" />
+  <link rel="stylesheet" href="../css/search.css">
+</head>
+
+<body>
+  <header id="header"></header>
+
+  <main>
+    <div class="container py-4">
+
+      <div class="bread-crumb d-flex justify-content-center">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb fw-medium text-20">
+            <li class="breadcrumb-item text-main"><a href="/">Trang chủ</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Tìm kiếm</li>
+          </ol>
+        </nav>
+      </div>
+      <h4 class="text-center text-main mb-4">Kết quả tìm kiếm sản phẩm "<span  id="js-title"></span>"</h4>
+
+      <div id="content">
+      </div>
+    </div>
+  </main>
+
+  <footer id="footer"></footer>
+
+  <!-- JS -->
+  <script src="../js/shared.js" type="module"></script>
+  <script src="../js/search.js" type="module"></script>
+</body>
+
+</html>

@@ -1,4 +1,5 @@
 import CartStored from "../store/CartStored.js";
+import SearchStored from "../store/SearchStored.js";
 import UserStored from "../store/UserStored.js";
 import { getAllCategoryData, getSubcategoriesWithCategory } from "./data.js";
 import { activeCategory, activeSubCategory } from "./shared.js";
@@ -26,8 +27,8 @@ async function headerRender() {
         </a>
         <div class="col col-5">
           <div class="input-group">
-            <input type="text" class="form-control py-2" placeholder="Tìm kiếm" list="search-previous" />
-            <button class="btn btn-warning px-4">
+            <input type="text" class="form-control py-2" id="js-search-input" placeholder="Tìm kiếm" list="search-previous" />
+            <button class="btn btn-warning px-4" id="js-search-btn">
               <i class="fa-solid fa-magnifying-glass fs-5"></i>
             </button>
           </div>
@@ -184,6 +185,20 @@ async function headerRender() {
 			item.addEventListener("mouseout", toggleLayer);
 		});
 
+		function handleSearch() {
+			const input = $("#js-search-input").val();
+			const localSearchInput = new SearchStored();
+			localSearchInput.input = input;
+			localSearchInput.saveToLocalStorage();
+
+			window.location.href = "/assets/page/search.html";
+		}
+
+		$("#js-search-btn").on("click", handleSearch);
+		$("#js-search-input").on("keydown", (e) => {
+			if (e.key == "Enter") handleSearch();
+		});
+
 		headerLayer.addEventListener("mouseenter", toggleLayer);
 
 		activeSubCategory();
@@ -193,4 +208,4 @@ async function headerRender() {
 
 headerRender();
 
-export {headerRender};
+export { headerRender };

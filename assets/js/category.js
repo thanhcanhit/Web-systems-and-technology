@@ -185,7 +185,7 @@ async function renderCategory() {
 
 $("#js-filter-sort").on("change", (e) => {
 	const localFilter = new FilterStored();
-	localFilter.sort = document.querySelector('#js-filter-sort').value;
+	localFilter.sort = document.querySelector("#js-filter-sort").value;
 	localFilter.saveToLocalStorage();
 	renderCategory();
-})
+});
