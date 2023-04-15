@@ -89,7 +89,7 @@ async function renderCategory() {
 	$("#js-breadcrumb").html(`
 	<nav aria-label="breadcrumb" class="d-flex justify-content-center fw-semibold mb-2">
 		<ol class="breadcrumb" style="--bs-breadcrumb-margin-bottom: 0rem;">
-			<li class="breadcrumb-item text-hover-main"><a href="/">Trang chủ</a></li>
+			<li class="breadcrumb-item text-hover-main"><a href="../page/home.html">Trang chủ</a></li>
 			<li class="breadcrumb-item text-hover-main"><a href="../page/allcategory.html">Danh mục</a></li>
 			<li class="breadcrumb-item active" aria-current="page">${
 				currentCategory.name

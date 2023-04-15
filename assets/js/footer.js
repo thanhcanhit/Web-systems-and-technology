@@ -145,7 +145,7 @@ if (footer) {
 			<!-- Copyright -->
 			<div class="text-center text-14">
 				<span>@ Bản quyền thuộc về
-					<a href="/" class="text-main text-decoration-none">Menly.vn</a>
+					<a href="../page/home.html" class="text-main text-decoration-none">Menly.vn</a>
 					All right reserved</span>
 			</div>
 		</div>

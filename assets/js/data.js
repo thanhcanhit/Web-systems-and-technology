@@ -98,7 +98,7 @@ function login(user) {
 	const localUser = new UserStored();
 	localUser.user = user;
 	localUser.saveToLocalStorage();
-	window.location.href = "/";
+	window.location.href = "../page/home.html";
 }
 
 export {

@@ -22,7 +22,7 @@ async function headerRender() {
     <div class="container py-2 d-none d-lg-block">
       <!-- Search + Address Row -->
       <div class="row align-items-center">
-        <a class="logo col col-1" href="/">
+        <a class="logo col col-1" href="../page/home.html">
           <img class="img-fluid" src="../img/shared/header/logo.png" alt="logo" />
         </a>
         <div class="col col-5">
@@ -67,7 +67,7 @@ async function headerRender() {
           <nav class="navbar">
             <ul class="navbar-nav d-flex flex-row gap-3">
               <li class="nav-item active">
-                <a class="nav-link fw-semibold text-14 text-blue text-hover-main" href="/">
+                <a class="nav-link fw-semibold text-14 text-blue text-hover-main" href="../page/home.html">
                   Trang chủ
                 </a>
               </li>
