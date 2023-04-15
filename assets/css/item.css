@@ -67,13 +67,10 @@
   color: rgb(45, 45, 45);
 }
 
-.sale-percent {}
 
 .option {
   margin-top: 1rem;
 }
-
-.option__color {}
 
 .option__name {
   font-size: .875rem;
@@ -125,8 +122,22 @@
   border: none;
 }
 
+
+.carousel-img {
+  animation: display .8s ease .5s;
+  transition: all .5s ease;
+}
+
+@keyframes display {
+  40% {
+    transform: scale(1.01);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
 /* More info */
-#item-more {}
 
 .overall {
   display: flex;

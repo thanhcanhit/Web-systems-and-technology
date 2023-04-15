@@ -150,13 +150,13 @@
   white-space: normal;
   box-shadow: var(--box-shadow-default);
   display: none;
-  animation: cart-scale-up .3s ease;
+  animation: cart-scale-up .5s ease;
 }
 
 @keyframes cart-scale-up {
   from {
     transform: scale(.75);
-    transform-origin: top right;
+    transform-origin: top;
   }
 }
 
@@ -199,7 +199,6 @@
   margin-top: 0;
 }
 
-#header .cart__item {}
 
 #header .cart__item-body {
   display: grid;
@@ -235,7 +234,7 @@
   left: 0;
   background: white;
   padding: 0rem 1rem 0;
-  animation: cart-scale-up .3s ease;
+  animation: cart-scale-up .35s ease;
   transition: all ease .1s;
 }
 

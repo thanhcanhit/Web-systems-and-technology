@@ -135,9 +135,9 @@ if (footer) {
 					<div>
 						<a
 							href="https://www.dmca.com/Protection/Status.aspx?ID=d3a2c2c5-a581-451b-b7ff-ff08fee58d6a&refurl=https://yody.vn/flash-sale"><img
-								src="/assets/img/shared/footer/logo_bct.png" alt="Logo bộ công thương" /></a>
+								src="../img/shared/footer/logo_bct.png" alt="Logo bộ công thương" /></a>
 						<a href="http://online.gov.vn/Home/WebDetails/44085?AspxAutoDetectCookieSupport=1"><img
-								src="/assets/img/shared/footer/_dmca_premi_badge_5.png" alt="DMCA PROTECTED" /></a>
+								src="../img/shared/footer/_dmca_premi_badge_5.png" alt="DMCA PROTECTED" /></a>
 					</div>
 				</div>
 			</div>

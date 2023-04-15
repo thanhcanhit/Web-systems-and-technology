@@ -8,7 +8,7 @@ function getImgPath(name, id) {
 	const removeVN = removeVietnameseTones(name);
 	if (removeVN) {
 		const nameFormatted = removeVN.split(" ").join("_").toLowerCase();
-		return `/assets/img/shared/item/id_${id}/${nameFormatted}.jpg`;
+		return `../img/shared/item/id_${id}/${nameFormatted}.jpg`;
 	}
 }
 

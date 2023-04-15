@@ -30,7 +30,7 @@ export default class UserStored {
 		return this.#user.name;
 	}
 
-	get account() {
+	get username() {
 		return this.#user.username;
 	}
 

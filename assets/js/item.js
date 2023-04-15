@@ -5,15 +5,14 @@ import CartStored from "../store/CartStored.js";
 import Item from "../components/Item/Item.js";
 import { activeHorizontalSlider, activeItem } from "../js/shared.js";
 import { headerRender } from "./header.js";
+import UserStored from "../store/UserStored.js";
 
 const localID = new ItemViewStored().itemID;
-console.log(localID);
 const domItem = document.querySelector("#item");
 if (domItem) {
 	// Data
 	let currentItem = await getItem(localID);
 	if (currentItem) {
-		console.log(currentItem);
 		let currentSubcategory = await getSubcategory(
 			currentItem.subcategory_id
 		);
@@ -39,10 +38,38 @@ if (domItem) {
 
 		function SubcategoryRender() {
 			document.querySelector("#js-breadcrumb").innerHTML = `
-      <li class="breadcrumb-item"><a href="/">Trang chủ</a></li>
-      <li class="breadcrumb-item"><a href="/assets/page/category.html">${currentSubcategory.name}</a></li>
+      <li class="breadcrumb-item"><a href="../page/home.html">Trang chủ</a></li>
+      <li class="breadcrumb-item"><a href="../page/category.html">${currentSubcategory.name}</a></li>
       <li class="breadcrumb-item active" aria-current="page">${currentItem.name}</li>`;
 		}
+
+		const modal = (isLogin) => {
+			let title = isLogin
+				? "Đã thêm vào giỏ hàng thành công"
+				: "Bạn phải đăng nhập để sử dụng tính năng này";
+
+			document.querySelector(
+				"#js-modal"
+			).innerHTML = `<div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="addToCartCompleteLabel">${title}</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="d-flex justify-content-center"><img src="../img/cart/blank_cart.svg" alt=""></div>
+          </div>
+          <div class="modal-footer d-flex justify-content-center">
+            ${
+				isLogin
+					? `<a href="../page/cart.html"> <button type="button" class="main-button" data-bs-dismiss="modal">Đi đến
+								giỏ hàng</button></a> <a><button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button></a>`
+					: `<a href="../page/login.html"> <button type="button" class="main-button" data-bs-dismiss="modal">Đăng nhập</button></a>
+					<a href="../page/signin.html"> <button type="button" class="main-button" data-bs-dismiss="modal">Đăng ký</button></a>`
+			}
+            
+          </div>
+        </div>`;
+		};
 
 		const ItemSizes = () => {
 			const wrapper = document.createElement("div");
@@ -83,7 +110,7 @@ if (domItem) {
 				colorItem.innerHTML = `<img class="" src=${getImgPath(
 					color,
 					id
-				)} alt=${color} onerror="this.src='/assets/img/shared/error-img.png'" title=${color}>`;
+				)} alt=${color} onerror="this.src='../img/shared/error-img.png'" title=${color}>`;
 				colorItem.addEventListener("click", () => {
 					currentColor = index;
 					ItemInfoRender();
@@ -103,11 +130,11 @@ if (domItem) {
 		const ItemColorsDisplayImg = () => {
 			const html = colors.map(
 				(color, index) => `
-          <div class="carousel-item  ${index === currentColor ? "active" : ""}">
+          <div class="carousel-item ${index === currentColor ? "active" : ""}">
           <img src=${getImgPath(
 				color,
 				id
-			)} onerror="this.src='/assets/img/shared/error-img.png'" class="d-block h-100" alt="">
+			)} onerror="this.src='../img/shared/error-img.png'" class="d-block h-100  carousel-img" alt="">
           <div class="carousel-caption d-none d-md-block">
             <span>${color}</span>
           </div>
@@ -190,6 +217,10 @@ if (domItem) {
 			newBtn.id = oldBtn.id;
 			newBtn.innerHTML = oldBtn.innerHTML;
 			newBtn.addEventListener("click", (e) => {
+				const isLogin = new UserStored().isLogin();
+				modal(isLogin);
+				if (!isLogin) return;
+
 				const cartItem = {
 					item_id: id,
 					qty: currentQty,
@@ -258,7 +289,7 @@ if (domItem) {
         </div>
       </div>
     <div class="control mt-3 w-100">
-      <button class="main-button" id="btn-add-to-cart" >Thêm vào giỏ hàng</button>
+      <button class="main-button" id="btn-add-to-cart" >Thêm vào giỏ hàng <i class="fa-solid fa-cart-plus fa-bounce ms-2"></i></button>
     </div>
   </div>`;
 
@@ -274,7 +305,7 @@ if (domItem) {
     <section class="container">
     <div class="item row pb-5">
       <div class="col col-8">
-        <div id="item__library" class="carousel slide w-100">
+        <div id="item__library" class="carousel slide w-100" style="overflow: hidden">
           <div class="carousel-inner">
             ${ItemColorsDisplayImg(
 				currentItem.colors,

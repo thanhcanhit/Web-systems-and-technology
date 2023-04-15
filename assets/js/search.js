@@ -1,6 +1,7 @@
 import Item from "../components/Item/Item.js";
 import SearchStored from "../store/SearchStored.js";
 import { getAllItemData } from "./data.js";
+import {activeItem}  from "../js/shared.js"
 
 $(async () => {
 	const localInput = new SearchStored();
@@ -16,7 +17,7 @@ $(async () => {
 		filterData.length == 0
 			? `
     <div class="empty w-75 mx-auto d-flex justify-content-center flex-column align-items-center">
-      <img src="/assets/img/search/search-page.svg" width="100" alt="">
+      <img src="../img/search/search-page.svg" width="100" alt="">
       <p class="fw-semibold mt-4">Tìm kiếm <span class="text-main">${localInput.input}</span> của bạn không có sản phẩm phù hợp
       </p>
       <p class="text-sub fw-semibold text-14">HÃY THỬ LẠI CÁCH KHÁC NHƯ:</p>
@@ -35,4 +36,6 @@ $(async () => {
     ${filterData.map((item) => Item(item)).join("")}
   </div>`
 	);
+
+  activeItem();
 });

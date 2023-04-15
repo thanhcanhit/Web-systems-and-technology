@@ -4,7 +4,7 @@ import {
 	activeItem,
 	activeSubCategory,
 } from "./shared.js";
-import { getAllItemData, getAllSubCategoryData } from "./data.js";
+import { getAllItemData, getAllSubCategoryData, getAllUser, handleLogin } from "./data.js";
 import Item from "../components/Item/Item.js";
 // // Clock
 const clockItems = document.querySelectorAll(".clock__item span");
@@ -53,7 +53,7 @@ carousel.cycle();
 // Read subcategory
 const categoryList = document.querySelector(".js-category");
 if (categoryList) {
-	fetch("/assets/data/subcategory.json")
+	fetch("../data/subcategory.json")
 		.then((response) => response.json())
 		.then((data) => {
 			const hasImg = data.filter((item) => item?.img);
@@ -61,7 +61,7 @@ if (categoryList) {
 			const html = hasImg.map((item) => {
 				return `<li class="category__item h-slider__item" data-subcategory="${item.id}">
                   <div>
-                    <a href="/assets/page/category.html">
+                    <a href="../page/category.html">
                       <img class="category__item-img" src=${item.img} alt=${item.name}}>
                       <span class="category__item-name">${item.name}</span>
                     </a>
@@ -93,8 +93,17 @@ const flashList = domFlash.querySelector(".h-slider__list");
 flashList.innerHTML = randomItem.map((item) => Item(item)).join("");
 
 // Category
-const subcategoryData = await getAllSubCategoryData();
 const mainDom = document.querySelector("#main");
+
+// Random position subcategory
+let subcategoryData = await getAllSubCategoryData();
+const temp = [];
+while (subcategoryData.length > 0) {
+	const randomIndex = Math.floor(Math.random() * subcategoryData.length);
+	temp.push(subcategoryData[randomIndex]);
+	subcategoryData.splice(randomIndex, 1);
+}
+subcategoryData = temp;
 
 subcategoryData.map((subcategory) => {
 	const itemList = itemData.filter(
@@ -104,21 +113,21 @@ subcategoryData.map((subcategory) => {
 		const newDiv = document.createElement("div");
 		mainDom.appendChild(newDiv);
 		newDiv.outerHTML = `
-		<section class="items">
+		<section class="items py-4">
 			<div class="container">
 				<!-- Flash sale time -->
 				<div class="row items__heading">
-					<h4>${subcategory.name}</h4>
+					<h4 class="text-main">${subcategory.name} <i class="star-slide fa-solid ${
+			Math.random() > 0.5 ? "fa-star" : "fa-lemon"
+		} fa-spin" style="color: var(--main-color);"></i></h4>
 				</div>
-
-
-				<section class="row mb-5 items__list">
+				<section class="row items__list">
 					<div class="col col-2">
-						<a href="/assets/page/category.html" data-subcategory="${subcategory.id}">
-							<img class="img-fluid" src="./assets/img/index/subcategory_banner/best_seller.jpg" alt="">
+						<a href="../page/category.html" data-subcategory="${subcategory.id}">
+							<img class="img-fluid" src="../img/index/subcategory_banner/best_seller.jpg" alt="">
 						</a>
 				</div>
-					<div class="col col-10 h-slider">
+				<div class="col col-10 h-slider">
 						<section class="h-slider__list">
 						${itemList.map((item) => Item(item)).join("")}
 						</section>

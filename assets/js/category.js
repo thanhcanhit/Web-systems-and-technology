@@ -90,7 +90,7 @@ async function renderCategory() {
 	<nav aria-label="breadcrumb" class="d-flex justify-content-center fw-semibold mb-2">
 		<ol class="breadcrumb" style="--bs-breadcrumb-margin-bottom: 0rem;">
 			<li class="breadcrumb-item text-hover-main"><a href="/">Trang chủ</a></li>
-			<li class="breadcrumb-item text-hover-main"><a href="/assets/page/allcategory.html">Danh mục</a></li>
+			<li class="breadcrumb-item text-hover-main"><a href="../page/allcategory.html">Danh mục</a></li>
 			<li class="breadcrumb-item active" aria-current="page">${
 				currentCategory.name
 			}</li>
@@ -123,7 +123,7 @@ async function renderCategory() {
 			${subcategoryList
 				.map(
 					(subcategory) => `
-			<a href="/assets/page/category.html" class="filter__item ${
+			<a href="../page/category.html" class="filter__item ${
 				subcategory?.id === currentSubCategory?.id ? "active" : ""
 			}" data-subcategory=${subcategory.id}>${subcategory.name}</a>
 			`

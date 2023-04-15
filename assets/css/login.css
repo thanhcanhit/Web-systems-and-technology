@@ -1,0 +1,37 @@
+main {
+  padding: 50px 0;
+  min-height: 100vh;
+  background: url(../img/login/bg_login.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.form {
+  padding: 80px;
+}
+
+.form-input {
+  padding: 12px;
+}
+
+.alter {
+  width: fit-content;
+  display: block;
+  padding: 0 4px;
+  margin-inline: auto;
+  background-color: #fff;
+  position: relative;
+  z-index: 2;
+}
+
+.alter-line {
+  top: -10px;
+}
+
+
+.social-btn {
+  border: 1px solid #ccc;
+  border-radius: 80px;  
+  cursor: pointer;
+}

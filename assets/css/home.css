@@ -129,3 +129,16 @@
   font-weight: 600;
   margin-top: 1rem;
 }
+
+
+.star-slide {
+  animation: slide ease 2s alternate infinite;
+}
+
+@keyframes slide {
+
+
+  to {
+    transform: translateX(100px) rotate(360deg);
+  }
+}

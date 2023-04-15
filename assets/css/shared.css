@@ -190,11 +190,11 @@ a:hover {
 }
 
 
-/* Items */
+/* Items List */
 
 .items__heading h4{
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 1.25rem;
   text-transform: uppercase;
 }
 

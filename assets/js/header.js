@@ -23,7 +23,7 @@ async function headerRender() {
       <!-- Search + Address Row -->
       <div class="row align-items-center">
         <a class="logo col col-1" href="/">
-          <img class="img-fluid" src="/assets/img/shared/header/logo.png" alt="logo" />
+          <img class="img-fluid" src="../img/shared/header/logo.png" alt="logo" />
         </a>
         <div class="col col-5">
           <div class="input-group">
@@ -73,7 +73,7 @@ async function headerRender() {
               </li>
               <li class="nav-item">
                 <a class="nav-link fw-semibold text-14 text-blue text-hover-main"
-                  href="/assets/page/allcategory.html">Danh mục</a>
+                  href="../page/allcategory.html">Danh mục</a>
                 <div class="sub-nav container">
                   <div class="sub-nav__content row mx-auto p-4">
                     <div class="col col-9 row row-gap-4">
@@ -83,7 +83,7 @@ async function headerRender() {
                                 <div class="col col-3">
                                   <ul class="sub-nav__list">
                                     <li class="sub-nav__item">
-                                     <a href="/assets/page/category.html" data-category="${
+                                     <a href="../page/category.html" data-category="${
 											category.id
 										}">
                                       <h4 class="sub-nav__header">
@@ -95,7 +95,7 @@ async function headerRender() {
 										.map(
 											(subcategory) => `
                                     <li class="sub-nav__item">
-                                      <a class="sub-nav__link" href="/assets/page/category.html" data-subcategory="${subcategory.id}">${subcategory.name}</a>
+                                      <a class="sub-nav__link" href="../page/category.html" data-subcategory="${subcategory.id}">${subcategory.name}</a>
                                     </li>
                                     `
 										)
@@ -109,10 +109,13 @@ async function headerRender() {
                     <div class="col ms-auto col-3">
                       <a href="">
                         <img class="img-fluid rounded-4 w-75 object-fit-cover mt-4 ms-4"
-                          src="/assets/img/shared/header/category_men.jpg" alt="Men category" />
+                          src="../img/shared/header/category_men.jpg" alt="Men category" />
                       </a>
                     </div>
                 </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold text-14 text-blue text-hover-main" href="#">Tin tức</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link fw-semibold text-14 text-blue text-hover-main" href="#">Giới thiệu</a>
@@ -125,12 +128,12 @@ async function headerRender() {
         <div class="cart-sign-block col col-4 d-flex gap-4 align-items-center fw-semibold">
           <div class="cart d-flex align-items-center gap-2 ms-auto" id="js-cart">
             <span class="fs-4">
-              <i class="fa-solid fa-bag-shopping position-relative">
+              <i class="fa-solid fa-solid fa-cart-shopping position-relative">
                 <span class="bg-main text-blue position-absolute top-0 start-100 translate-middle badge rounded-pill"
-                  style="font-size: 10px">${cartQuantity}</span>
+                  style="font-size: 10px">${isLogin ? cartQuantity : 0}</span>
               </i>
             </span>
-            <a href="/assets/page/cart.html" class="header__link text-hover-main"><span>GIỎ HÀNG</span></a>
+            <a href="../page/cart.html" class="header__link text-hover-main"><span>GIỎ HÀNG</span></a>
             
           </div>
           <div class="user d-flex align-items-center gap-2">
@@ -139,18 +142,17 @@ async function headerRender() {
             </span>
             ${
 				isLogin
-					? `<a href="/user">
+					? `<a href="">
           ${new UserStored().name}
           <div class="user-menu">
               <ul>
-                <li>Thông tin tài khoản</li>
-                <li>Đăng xuất</li>
+                <li id="btn-logout"><i class="fa-solid fa-right-from-bracket me-2"></i>Đăng xuất</li>
               </ul>
           </div>
           </a>`
-					: `<a href="/sign-up" class="header__link text-hover-main">ĐĂNG KÝ</a>
+					: `<a href="../page/signin.html" class="header__link text-hover-main">ĐĂNG KÝ</a>
           <span>/</span>
-          <a href="/sign-in" class="header__link text-hover-main">ĐĂNG NHẬP</a>`
+          <a href="../page/login.html" class="header__link text-hover-main">ĐĂNG NHẬP</a>`
 			}
           </div>
         </div>
@@ -191,12 +193,18 @@ async function headerRender() {
 			localSearchInput.input = input;
 			localSearchInput.saveToLocalStorage();
 
-			window.location.href = "/assets/page/search.html";
+			window.location.href = "../page/search.html";
 		}
 
 		$("#js-search-btn").on("click", handleSearch);
 		$("#js-search-input").on("keydown", (e) => {
 			if (e.key == "Enter") handleSearch();
+		});
+
+		$("#btn-logout").on("click", () => {
+			const localUser = new UserStored();
+			localUser.logout();
+			localUser.saveToLocalStorage();
 		});
 
 		headerLayer.addEventListener("mouseenter", toggleLayer);

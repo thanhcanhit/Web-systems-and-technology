@@ -3,25 +3,25 @@
 		"id": 1,
 		"category_id": 1,
 		"name": "Áo Polo",
-		"img": "./assets/img/shared/subcategory/ao_polo.png"
+		"img": "../img/shared/subcategory/ao_polo.png"
 	},
 	{
 		"id": 2,
 		"category_id": 1,
 		"name": "Áo Thun",
-		"img": "./assets/img/shared/subcategory/ao_thun.png"
+		"img": "../img/shared/subcategory/ao_thun.png"
 	},
 	{
 		"id": 3,
 		"category_id": 1,
 		"name": "Áo Khoác",
-		"img": "./assets/img/shared/subcategory/ao_khoac.png"
+		"img": "../img/shared/subcategory/ao_khoac.png"
 	},
 	{
 		"id": 4,
 		"category_id": 1,
 		"name": "Áo Sơ Mi",
-		"img": "./assets/img/shared/subcategory/ao_so_mi.png"
+		"img": "../img/shared/subcategory/ao_so_mi.png"
 	},
 	{
 		"id": 5,
@@ -32,7 +32,7 @@
 		"id": 6,
 		"category_id": 1,
 		"name": "Áo Nỉ",
-		"img": "./assets/img/shared/subcategory/ao_ni.png"
+		"img": "../img/shared/subcategory/ao_ni.png"
 	},
 	{
 		"id": 7,
@@ -43,31 +43,31 @@
 		"id": 9,
 		"category_id": 2,
 		"name": "Quần Jeans",
-		"img": "./assets/img/shared/subcategory/quan_bo.png"
+		"img": "../img/shared/subcategory/quan_bo.png"
 	},
 	{
 		"id": 10,
 		"category_id": 2,
 		"name": "Quần Âu",
-		"img": "./assets/img/shared/subcategory/quan_au.png"
+		"img": "../img/shared/subcategory/quan_au.png"
 	},
 	{
 		"id": 11,
 		"category_id": 2,
 		"name": "Quần Kaki",
-		"img": "./assets/img/shared/subcategory/quan_kaki.png"
+		"img": "../img/shared/subcategory/quan_kaki.png"
 	},
 	{
 		"id": 12,
 		"category_id": 2,
 		"name": "Quần Short",
-		"img": "./assets/img/shared/subcategory/quan_dui.png"
+		"img": "../img/shared/subcategory/quan_dui.png"
 	},
 	{
 		"id": 13,
 		"category_id": 3,
 		"name": "Bộ Thể Thao",
-		"img": "./assets/img/shared/subcategory/do_bo.png"
+		"img": "../img/shared/subcategory/do_bo.png"
 	},
 	{
 		"id": 14,
@@ -98,7 +98,7 @@
 		"id": 19,
 		"category_id": 5,
 		"name": "Quần lót",
-		"img": "./assets/img/shared/subcategory/do_lot.png"
+		"img": "../img/shared/subcategory/do_lot.png"
 	},
 	{
 		"id": 20,
@@ -114,6 +114,6 @@
 		"id": 22,
 		"category_id": 6,
 		"name": "Phụ kiện khác",
-		"img": "./assets/img/shared/subcategory/phu_kien.png"
+		"img": "../img/shared/subcategory/phu_kien.png"
 	}
 ]

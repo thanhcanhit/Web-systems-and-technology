@@ -176,28 +176,9 @@ function activeHorizontalSlider() {
 	});
 }
 
-function activeQuantity() {
-	document.querySelectorAll(".ca-quantity").forEach((qtyItem) => {
-		qtyItem.dataset.value = 1;
-		const [remove, value, add] = [
-			qtyItem.querySelector("#ca-button-remove"),
-			qtyItem.querySelector("#ca-value"),
-			qtyItem.querySelector("#ca-button-add"),
-		];
-
-		value.value = qtyItem.dataset.value;
-
-		remove.addEventListener("click", () => {
-			if (value.value > 1) value.value--;
-		});
-		add.addEventListener("click", () => value.value++);
-	});
-}
-
 activeHorizontalSlider();
 export {
 	activeHorizontalSlider,
-	activeQuantity,
 	activeItem,
 	activeSubCategory,
 	activeCategory,

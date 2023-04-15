@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menly - Thời trang dành cho phái mạnh</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="../img/shared/favicon.png" type="image/x-icon" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="../css/shared.css" />
+  <link rel="stylesheet" href="../css/home.css" />
+</head>
+
+<body>
+  <header id="header"></header>
+
+  <main id="main">
+
+    <!-- Top carousel -->
+    <section class="container">
+      <div class="carousel slide" id="top-carousel">
+        <!-- Carousel indicators -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#top-carousel" data-bs-slide-to="0" class="active" aria-current="true"
+            aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#top-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#top-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#top-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+
+        <!-- Carousel item -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../img/index/slider/slider_1.jpg" class="d-block w-100 object-fit-contain" alt="banner 1" />
+          </div>
+          <div class="carousel-item">
+            <img src="../img/index/slider/slider_2.jpg" class="d-block w-100 object-fit-contain" alt="banner 2" />
+          </div>
+          <div class="carousel-item">
+            <img src="../img/index/slider/slider_3.jpg" class="d-block w-100 object-fit-contain" alt="banner 3" />
+          </div>
+          <div class="carousel-item">
+            <img src="../img/index/slider/slider_4.jpg" class="d-block w-100 object-fit-contain" alt="banner 4" />
+          </div>
+        </div>
+
+        <!-- Carousel control -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#top-carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#top-carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Banner -->
+    <section class="container d-none d-lg-block">
+      <div class="banner row">
+        <div class="banner__heading col col-5">
+          <span>ĐẶC BIỆT</span>
+        </div>
+        <ul class="banner__list col col-7">
+          <li class="banner__item">
+            <a href="#"><img src="../img/index/banner/home_khuyenmai_1_image.png" class="img-fluid" alt="">
+              <span class="banner__item-text">Xả hàng lẻ size</span>
+            </a>
+          </li>
+          <li class="banner__item">
+            <a href="#"><img src="../img/index/banner/home_khuyenmai_2_image.png" class="img-fluid" alt="">
+              <span class="banner__item-text">Sale 50%</span>
+            </a>
+          </li>
+          <li class="banner__item">
+            <a href="#"><img src="../img/index/banner/home_khuyenmai_3_image.png" class="img-fluid" alt="">
+              <span class="banner__item-text">9999 Phần quà</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Category -->
+    <section class="container">
+      <div class="category h-slider">
+        <ul class="category__list h-slider__list js-category">
+        </ul>
+      </div>
+    </section>
+
+    <!-- Flash Sale -->
+    <section class="items" id="js-flash-sale">
+      <div class="container">
+        <!-- Flash sale time -->
+        <section
+          class="items__header flash-sale container d-flex justify-content-start align-items-center gap-3 user-select-none">
+          <div class="d-flex justify-content-center align-items-center gap-2">
+            <img src="../img/index/flash-sale/title-flash-sale-top.png" alt="">
+            <img src="../img/index/flash-sale/finish-after.png" alt="">
+          </div>
+          <div class="flash-sale__clock d-flex gap-1">
+            <div class="clock__item">
+              <span>00</span>
+            </div>
+            <div class="clock__item">
+              <span>00</span>
+            </div>
+            <div class="clock__item">
+              <span>00</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="row mb-5 items__list">
+          <div class="col col-2">
+            <a href="#">
+              <img class="img-fluid" src="../img/index/flash-sale/flash_sale_banner.jpg" alt="">
+            </a>
+          </div>
+          <div class="col col-10 h-slider">
+            <section class="h-slider__list">
+
+            </section>
+          </div>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer"></footer>
+  <!-- JS -->
+  <script src="../js/shared.js" type="module"></script>
+  <script src="../js/home.js" type="module"></script>
+</body>
+
+</html>

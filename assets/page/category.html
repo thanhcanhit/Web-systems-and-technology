@@ -28,54 +28,35 @@
         <div class="col col-2 pt-4 position-relative">
           <div class="filter d-flex flex-column gap-4 mb-4 position-sticky">
             <div class=" filter__type">
-              <h4 class="filter__heading">Loại sản phẩm</h4>
+              <h4 class="filter__heading">
+                <i class="fa-solid fa-layer-group fa-beat me-2" style="color: var(--main-color);"></i>
+                Loại sản phẩm
+              </h4>
               <div class="filter__list" id="js-filter-list">
               </div>
             </div>
             <div class="filter__size">
-              <h4 class="filter__heading">Kích thước</h4>
+              <h4 class="filter__heading"><i class="fa-solid fa-maximize fa-beat me-2"
+                  style="color: var(--main-color);"></i>
+                Kích thước</h4>
               <div class="filter__list" id="js-filter-size">
               </div>
             </div>
-            <button class="main-button text-14" id="js-clear-all-btn">Loại bỏ tất cả bộ lọc</button>
-            <!-- <div class="filter__price">
-              <h4 class="filter__heading">Khoảng giá</h4>
-              <div class="filter__list">
-                <div class="form-check text-14 fw-semibold">
-                  <input class="form-check-input" type="radio" name="filter__price" id="filter__price-1">
-                  <label class="form-check-label" for="filter__price-1">
-                    Nhỏ hơn 100.000đ
-                  </label>
-                </div>
-                <div class="form-check text-14 fw-semibold">
-                  <input class="form-check-input" type="radio" name="filter__price" id="filter__price-2">
-                  <label class="form-check-label" for="filter__price-2">
-                    Từ 200.000đ đến 300.000đ
-                  </label>
-                </div>
-                <div class="form-check text-14 fw-semibold">
-                  <input class="form-check-input" type="radio" name="filter__price" id="filter__price-3">
-                  <label class="form-check-label" for="filter__price-3">
-                    Từ 300.000đ đến 400.000đ
-                  </label>
-                </div>
-                <div class="form-check text-14 fw-semibold">
-                  <input class="form-check-input" type="radio" name="filter__price" id="filter__price-4">
-                  <label class="form-check-label" for="filter__price-4">
-                    Lớn hơn 400.000đ
-                  </label>
-                </div>
-              </div>
-            </div> -->
+            <button class="main-button text-14 position-relative" id="js-clear-all-btn"><i
+                class="fa-solid fa-rotate fa-spin me-2 position-absolute" style="top: 32%; left: 8px;"></i> Loại bỏ tất
+              cả bộ lọc</button>
+
           </div>
         </div>
         <div class="col col-10 pb-4">
           <section class="sort container d-flex align-items-center justify-content-between fw-medium  mb-2 ">
             <span class="quantity" id="js-quantity-item" style="color:var(--violet-gray)"></span>
             <div class="d-flex">
-                <div class="d-flex align-items-center"><span class="me-2">Sắp xếp theo</span>
-                  <select name="" id="js-filter-sort" class="form-select p-2 fw-medium rounded-end-0" style="width: 230px;">
-                  </select>
+              <div class="d-flex align-items-center"><span class="me-2"><i class="fa-solid fa-filter fa-beat me-1"
+                    style="color: #fea916;"></i> Sắp xếp theo </span>
+                <select name="" id="js-filter-sort" class="form-select p-2 fw-medium rounded-end-0"
+                  style="width: 230px;">
+                </select>
               </div>
             </div>
           </section>

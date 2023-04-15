@@ -3,14 +3,19 @@ import { getAllItemData } from "./data.js";
 import CartStored from "../store/CartStored.js";
 import ItemViewStored from "../store/ItemViewStored.js";
 import { headerRender } from "./header.js";
+import UserStored from "../store/UserStored.js";
+
+const isLogin = new UserStored().isLogin();
+
+console.log(isLogin);
 
 function EmptyCard() {
 	return `
     <div class="cart__empty py-5">
-      <img src="/assets/img/cart/blank_cart.svg" alt="" />
+      <img src="../img/cart/blank_cart.svg" alt="" />
       <span class="text-14 fw-medium">Giỏ hàng của bạn trống</span>
       <div>
-        <a href="/assets/page/allcategory.html" class="main-button">Mua ngay</a>
+        <a href="../page/allcategory.html" class="main-button">Mua ngay</a>
       </div>
     </div>`;
 }
@@ -78,7 +83,7 @@ function CartItem(item, color, size, quantity, salePrice, sum, index) {
   <td>
     <div class="h-100 d-flex flex-column justify-content-between">
       <p class="total fw-semibold">${formatVND(sum)}</p>
-      <a class="cart__remove mt-auto" data-cart=${index} style="cursor: pointer" >
+      <a class="cart__remove mt-auto" data-cart=${index} style="cursor: pointer" data-bs-toggle="modal" data-bs-target="#confirm-modal">
         <i class="fa-solid fa-trash-can"></i>
       </a>
     </div>
@@ -89,9 +94,9 @@ function CartItem(item, color, size, quantity, salePrice, sum, index) {
 
 function CartTotal(subTotal, qty) {
 	return `
-  <div class="d-flex justify-content-between text-14 fw-semibold">
-  <p>Tổng đơn hàng (Tạm tính) :</p>
-  <span>${formatVND(subTotal)}</span>
+  <div class="d-flex align-items-center justify-content-between text-14 fw-semibold bg-white p-2 py-3 rounded-2 mb-2">
+  <p class="m-0">Tổng đơn hàng (Tạm tính) :</p>
+  <span class="text-main text-20">${formatVND(subTotal)}</span>
   </div>
   <button class="main-button">Đặt hàng (${qty})</button>
 `;
@@ -102,7 +107,22 @@ function CartRender() {
 	if (domCart) {
 		const dataList = new CartStored().list;
 
-		// Nếu giỏ hàng trống
+		// Chưa đăng nhập
+		if (!isLogin) {
+			document.querySelector(
+				"#js-cart-show"
+			).innerHTML = `<div class="cart__empty py-5">
+										<img src="../img/cart/blank_cart.svg" alt="" />
+										<span class="text-14 fw-medium">Bạn phải đăng nhập để sử dụng giỏ hàng</span>
+										<div class="d-flex flex-column gap-2">
+											<a href="../page/login.html" class="main-button">Đăng nhập</a>
+											<a href="../page/signing.html" class="main-button">Đăng ký</a>
+										</div>
+									</div>`;
+			return;
+		}
+
+		// Giỏ hàng trống
 		if (dataList.length == 0) {
 			document.querySelector("#js-cart-show").innerHTML = EmptyCard();
 			return;
@@ -123,17 +143,27 @@ function CartRender() {
 
 			domSubTotal.innerHTML = CartTotal(subTotal, dataList.length);
 
+			// Trash event
 			(() => {
 				const list = document
 					.querySelectorAll("*[data-cart]")
 					.forEach((item) =>
 						item.addEventListener("click", (e) => {
-							const index = item.dataset.cart;
-							const cartLocal = new CartStored();
-							cartLocal.removeItem(index);
-							cartLocal.saveToLocalStorage();
-							headerRender();
-							CartRender();
+
+							$("#modal-footer").html(`
+							<button type="button" class="btn btn-primary" id="confirm-btn" data-bs-dismiss="modal">Xác nhận</button>
+							<button type="button" class="btn btn-warning text-white" data-bs-dismiss="modal">Hủy</button>`);
+
+							$("#confirm-btn").on("click", () => {
+								const index = item.dataset.cart;
+								const cartLocal = new CartStored();
+
+								cartLocal.removeItem(index);
+								cartLocal.saveToLocalStorage();
+
+								headerRender();
+								CartRender();
+							});
 						})
 					);
 			})();
@@ -143,7 +173,7 @@ function CartRender() {
 					const localItem = new ItemViewStored();
 					localItem.itemID = Number(e.target.dataset.item);
 					localItem.saveToLocalStorage();
-					window.location.href = "/assets/page/item.html";
+					window.location.href = "../page/item.html";
 				});
 			})();
 		});
