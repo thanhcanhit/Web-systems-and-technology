@@ -22,7 +22,7 @@ $(() => {
 	}
 
 	$("#js-login-btn").on("click", login);
-  window.addEventListener('keydown', (e) => {
-    if (e.key === 'Enter') login();
-  })
+	window.addEventListener("keydown", (e) => {
+		if (e.key === "Enter") login();
+	});
 });

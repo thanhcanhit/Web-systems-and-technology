@@ -7,11 +7,15 @@ if (footer) {
 			<!-- Footer Content -->
 			<div class="row">
 				<div class="col col-12 col-xl-4">
-					<p class="mb-4">
-						“Đặt sự hài lòng của khách hàng là ưu tiên số 1
-						trong mọi suy nghĩ hành động của mình” là sứ mệnh,
-						là triết lý, chiến lược.. luôn cùng MENLY tiến bước
-					</p>
+					
+					<div class="mb-4">
+						Bài tập lớn môn hệ thống công nghệ web IUH 2023, Đề tài: Website thời trang nam. 
+						Thành viên thực hiện:
+						<ul>
+							<li>Nguyễn Thanh Cảnh 21086671</li>
+							<li>Nguyễn Xuân Nam 2108787</li>
+						</ul>  
+					</div>
 
 					<!-- Footer Email -->
 					<div class="mb-2">
@@ -151,4 +155,3 @@ if (footer) {
 		</div>
 	</footer>`;
 }
-

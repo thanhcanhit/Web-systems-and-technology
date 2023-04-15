@@ -34,4 +34,7 @@ main {
   border: 1px solid #ccc;
   border-radius: 80px;  
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

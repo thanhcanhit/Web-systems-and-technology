@@ -66,12 +66,12 @@ async function headerRender() {
         <div class="col col-8">
           <nav class="navbar">
             <ul class="navbar-nav d-flex flex-row gap-3">
-              <li class="nav-item active">
+              <li class="nav-item ${window.location.href.includes('/home.html')? 'active': ''}">
                 <a class="nav-link fw-semibold text-14 text-blue text-hover-main" href="../page/home.html">
                   Trang chủ
                 </a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item ${window.location.href.includes('/allcategory.html')? 'active': ''}">
                 <a class="nav-link fw-semibold text-14 text-blue text-hover-main"
                   href="../page/allcategory.html">Danh mục</a>
                 <div class="sub-nav container">
@@ -114,11 +114,8 @@ async function headerRender() {
                     </div>
                 </div>
               </li>
-              <li class="nav-item">
-                <a class="nav-link fw-semibold text-14 text-blue text-hover-main" href="#">Tin tức</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fw-semibold text-14 text-blue text-hover-main" href="#">Giới thiệu</a>
+              <li class="nav-item ${window.location.href.includes('/info.html')? 'active': ''}">
+                <a class="nav-link fw-semibold text-14 text-blue text-hover-main" href="../page/info.html">Giới thiệu</a>
               </li>
             </ul>
           </nav>

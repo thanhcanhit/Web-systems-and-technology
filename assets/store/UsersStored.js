@@ -9,7 +9,7 @@ export default class UsersStored {
 		this.#list = this.#localStorageManager.value;
 
 		if (this.#list === null) {
-      this.#list = [];
+			this.#list = [];
 			this.saveToLocalStorage();
 		}
 	}
@@ -19,10 +19,17 @@ export default class UsersStored {
 	}
 
 	addUser(userData) {
-		if ((userData?.username, userData?.name)) {
+		if (
+			userData?.username &&
+			userData?.name &&
+			userData?.sdt &&
+			userData?.password
+		) {
 			this.#list.push({
 				username: userData.username,
 				name: userData.name,
+				sdt: userData.sdt,
+				password: userData.password,
 			});
 		}
 	}

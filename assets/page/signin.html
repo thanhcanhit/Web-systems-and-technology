@@ -22,17 +22,16 @@
     <div class="container h-100 d-flex align-items-center justify-content-center">
       <div class="form w-50 mx-auto bg-white">
         <div class="form-header mb-4">
-          <p class="text-center opacity-75 fw-medium">Chảo mừng bạn đến với menly!</p>
+          <p class="text-center opacity-75 fw-medium">Chào mừng bạn đến với Menly!</p>
           <h3 class="text-uppercase text-center fw-semibold mb-3 text-main"><span class="text-blue">Đăng</span> ký
           </h3>
         </div>
         <div class="form-body mb-4">
           <form action="" class=" d-flex flex-column gap-4">
-            <div><input type="text" name="" id="name" class="form-control form-input rounded-0"
-                placeholder="Họ và tên">
-              <span id="nameError" class=" text-red text-12 fw-medium"></span>
+            <div><input type="text" name="" id="name" class="form-control form-input rounded-0" placeholder="Họ và tên">
+              <span id="nameError" class="m-0 text-red text-12 fw-medium"></span>
             </div>
-            <div><input type="text" name="" id="name" class="form-control form-input rounded-0"
+            <div><input type="tel" name="" id="sdt" class="form-control form-input rounded-0"
                 placeholder="Số điện thoại">
               <span id="sdtError" class=" text-red text-12 fw-medium"></span>
             </div>
@@ -44,10 +43,14 @@
                 placeholder="Mật khẩu">
               <span id="passError" class=" text-red text-12 fw-medium"></span>
             </div>
+            <div><input type="password" name="" id="repassword" class="form-control form-input rounded-0"
+                placeholder="Nhập lại mật khẩu">
+              <span id="repassError" class=" text-red text-12 fw-medium"></span>
+            </div>
           </form>
         </div>
         <div class="form-footer">
-          <button class="main-button fw-semibold text-20 mb-3" id="js-login-btn">Đăng nhập</button>
+          <button class="main-button fw-semibold text-20 mb-3" id="js-sign-btn">Đăng ký</button>
           <p class="text-main text-center fw-semibold">Quên mật khẩu</p>
           <div class="flex justify-content-center">
             <span class="alter">Hoặc đăng ký bằng</span>
@@ -68,7 +71,7 @@
 
   <!-- js -->
   <script src="../js/shared.js" type="module"></script>
-  <script src="../js/login.js" type="module"></script>
+  <script src="../js/signin.js" type="module"></script>
 </body>
 
 </html>
