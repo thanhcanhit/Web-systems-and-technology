@@ -736,7 +736,7 @@
 		"sold": 0,
 		"price": 499000,
 		"discount": 0,
-		"colors": ["Tím Than", "Trắng", "Hồng", "Ghi"],
+		"colors": ["Tím Than", "Trắng", "Hồng", "Ghi", "Đen"],
 		"sizes": ["M", "L", "XL", "2XL", "3XL"],
 		"characteristics": [
 			"Áo sơ mi nam vải cafe tiên tiến mới sở hữu những tính năng vô cùng nổi trội",
@@ -752,7 +752,7 @@
 	{
 		"id": 24,
 		"subcategory_id": 4,
-		"name": "Áo Sơ Mi Nam Dài Tay Vải Cafe",
+		"name": "Áo Sơ Mi Cộc Tay Nam Cafe",
 		"sold": 0,
 		"price": 459000,
 		"discount": 0,
@@ -797,7 +797,7 @@
 		"sold": 8600,
 		"price": 649000,
 		"discount": 0,
-		"colors": ["Kẻ Tím Than", "Kẻ Xám"],
+		"colors": ["Kẻ Xám"],
 		"sizes": ["M", "L", "XL", "2XL", "3XL"],
 		"characteristics": [
 			"Chất liệu Knit Nhật 100% polyester",
@@ -885,12 +885,893 @@
 				"user_name": "Võ Ngọc mai",
 				"star": 5,
 				"content": "Vải mát kiểu đẹp mk ưng ý"
-			},
-			{
-				"user_name": "hoaithu.86",
-				"star": 4,
-				"content": "Áo đẹp chất mềm mát nên mua nhé quá ok cho à"
 			}
 		]
+	},
+
+	{
+		"id": 30,
+		"subcategory_id": 5,
+		"name": "Áo Len Nam Gia Đình Dệt Kẻ",
+		"sold": 8600,
+		"price": 399000,
+		"discount": 10,
+		"colors": ["Đen Kẻ Trắng", "Trắng Kẻ Xanh"],
+		"sizes": ["L", "XL"],
+		"characteristics": [
+			"Chất liệu len với thành phần 70.8% viscose + 29.2% polyester",
+			"Áo len nam dệt kẻ hiện đại",
+			"Chất len viscose mềm mại, đồ dày vừa phải thích hợp mặc trong mùa thu đông",
+			"Giữ ấm tốt, thiết kế kẻ ngang hiện đại, trẻ trung",
+			"Màu sắc nhã nhặn hài hòa",
+			"Nằm trong thiết kế áo gia đình mới nhất",
+			"YODY - Look good. Feel good."
+		],
+		"comments": [		
+		]
+	},
+
+	{
+		"id": 31,
+		"subcategory_id": 6,
+		"name": "Áo Thể Thao Nam Nỉ In Limitless",
+		"sold": 7200,
+		"price": 499000,
+		"discount": 10,
+		"colors": ["Cam", "Trắng"],
+		"sizes": ["M", "L", "XL", "2XL"],
+		"characteristics": [
+			"Chất liệu nỉ 2 mặt 87% Polyester + 13% Spandex",
+			"Công nghệ dệt hiện đại giúp sản phẩm có độ xốp, mềm mại, giữ ấm cho cơ thể",
+			"Bề mặt vải mềm mịn, chắc chắn, không xù lông vón cục",
+			"Thấm hút tốt, hạn chế tĩnh điện",
+			"Co giãn đàn hồi, không bai gião ,độ bền cao",
+			"Kiểu dáng cơ bản ôm, khỏa khoắn trẻ trung, hình in phản quang nổi bật",
+			"Phù hợp mặc đi làm, đi học, đi chơi, mix cùng quần joger, quần jeans",
+			"YODY - Look good. Feel good."
+		],
+		"comments": [
+			{
+				"user_name": "Hoàng thị vân",
+				"star": 5,
+				"content": "Áo chất đẹp lên from chuẩn"
+			}	
+		]
+	},
+
+	{
+		"id": 32,
+		"subcategory_id": 6,
+		"name": "Áo Thu Đông Nam Kẻ In Gấu",
+		"sold": 4500,
+		"price": 499000,
+		"discount": 10,
+		"colors": ["Đỏ kẻ trắng", "Trắng kẻ đen", "Trắng kẻ ghi đậm"],
+		"sizes": ["XL"],
+		"characteristics": [
+			"Áo thu đông nam chất liệu nỉ ấm áp",
+			"Vải co giãn, giữ ấm, bề mặt vải mịn cùng màu sắc thanh lịch",
+			"Áo có form dáng suông rộng giúp tạo sự cử động thoải mái cho người mặc",
+			"Hình in gấu trước ngực tạo điểm nhấn trẻ trung",
+			"Kết hợp cùng quần nỉ hoặc quần jeans",
+			"Thích hợp mặc ở nhà, đi chơi và đi làm vào mùa đông.",
+			"YODY - Look good.Feel good."
+		],
+		"comments": [
+			{
+				"user_name": "Nguyễn Thị Phượng",
+				"star": 5,
+				"content": "Sản phẩm dùng rất thích"
+			}	
+		]
+	},
+
+	{
+		"id": 33,
+		"subcategory_id": 6,
+		"name": "Áo Thun Thu Đông Nam Họa Tiết Kẻ Ngang Hiện Đại",
+		"sold": 6000,
+		"price": 499000,
+		"discount": 10,
+		"colors": ["Tím than kẻ xanh", "Trắng kẻ cobalt", "Trắng kẻ ghi đậm"],
+		"sizes": ["XL", "2XL"],
+		"characteristics": [
+			"Áo thu đông kẻ ngang làm từ chất liệu nỉ co giãn, bề mặt vải mịn",
+			"Áo có khả năng giữ ấm cùng màu mắc thanh lịch",
+			"Thiết kế kẻ ngang tạo điểm nhấn trẻ trung. Phom dáng rộng tạo sự thoải mái khi cử động cho người mặc",
+			"Chiếc áo có thể kết hợp cùng quần nỉ hoặc quần jeans, thích hợp để mặc ở nhà, đi làm và đi chơi",
+			"YODY - Look good. Feel good."
+		],
+		"comments": [
+			{
+				"user_name": "Nguyễn thị phương",
+				"star": 5,
+				"content": "Sản phẩm tốt"
+			}	
+		]
+	},
+
+	{
+		"id": 34,
+		"subcategory_id": 6,
+		"name": "Áo Thu Đông Nam In Gấu Puff",
+		"sold": 19000,
+		"price": 499000,
+		"discount": 0,
+		"colors": ["Đen"],
+		"sizes": ["L"],
+		"characteristics": [
+			"Chất liệu vải nỉ",
+			"Công nghệ dệt hiện đại giúp sản phẩm có độ xốp, mềm mại, giữ ấm cho cơ thể",
+			"Bề mặt vải mềm mịn, chắc chắn, không xù lông vón cục",
+			"Thấm hút tốt, hạn chế tĩnh điện",
+			"Co giãn đàn hồi, không bai gião ,độ bền cao",
+			"Kiểu dáng cơ bản, trẻ trung, hình in nổi bật ở trước ngực và sau lưng đầy cá tính",
+			"Phù hợp mặc đi làm, đi học, đi chơi, mix cùng quần joger, quần jeans",
+			"YODY - Look good. Feel good."
+		],
+		"comments": [
+			{
+			}	
+		]
+	},
+
+	{
+		"id": 35,
+		"subcategory_id": 7,
+		"name": "Áo Vest Nam Nano Công Sở Trẻ Trung",
+		"sold": 9100,
+		"price": 1589000,
+		"discount": 0,
+		"colors": ["Đen", "Tím than", "Xám đá", "Xanh đậm", "Xanh nhạt"],
+		"sizes": ["L"],
+		"characteristics": [
+			"Chất liệu vải polyester công nghệ Nano",
+			"Ve áo hẹp với chi tiết thùa khuyết. Ve áo được cài chặt bằng hai nút phía trước",
+			"Thân trước có 2 bên túi cân xứng cùng túi trong giúp để những vật dụng quan trọng như ví, thẻ",
+			"Hàng cúc trên cổ tay áo có bọ nổi",
+			"Kiểu dáng Slim Fit, vừa vặn với ngực và eo, và tay áo",
+			"YODY - Look good. Feel good"
+		],
+		"comments": [
+			{
+				"user_name": "tiendat9966",
+				"star": 5,
+				"content": "Bộ vest đứng dáng, may đẹp, chất ok. Nói chung bộ này mua về rất ưng ý luôn, rất đáng tiền. Giao hàng nhanh. 5 sao nhá shop 🥰"
+			},
+			{
+				"user_name": "Nguyễn Thương",
+				"star": 5,
+				"content": "Giao hàng cực kì nhanh. Shop tư vấn nhiệt tình. Đường may đẹp, không chỉ thừa. Phần túi và cổ may đẹp. Chất vải ok, nên mua nha các bạn :))) cho shop 5 sao"
+			},
+			{
+				"user_name": "huyenmeo555",
+				"star": 5,
+				"content": "Màu đẹp. ship hơi lâu nhưng vải dày dặn nên bỏ qua. Ông nhà mình 83kg 1m75 mặc vừa áo nhưng quần hơi rộng bụng, còn lại mọi thứ ok"
+			}
+		]
+	},
+
+	{
+		"id": 36,
+		"subcategory_id": 9,
+		"name": "Quần Jeans Nam Cotton USA Ống Suông Co Giãn Tốt",
+		"sold": 15900,
+		"price": 529000,
+		"discount": 0,
+		"colors": ["Xanh đậm", "Xanh"],
+		"sizes": ["28", "29", "30", "31", "32", "33", "34"],
+		"characteristics": [
+			"Chất liệu 89% Cotton USA + 10% Polyester + 1% Sapndex",
+			"Chất liệu Denim Cotton pha với Polyester mang lại cảm giác mềm mại",
+			"Vải Denim được dệt từ sợi bông USA cao cấp"
+		],
+		"comments": [
+		]
+	},
+
+	{
+		"id": 37,
+		"subcategory_id": 9,
+		"name": "Quần Jeans Nam SlimFit Dáng Ôm Co Giãn",
+		"sold": 16100,
+		"price": 529000,
+		"discount": 0,
+		"colors": ["Xanh đậm", "Xanh"],
+		"sizes": ["28", "29", "30", "31", "32", "33"],
+		"characteristics": [
+			"Chất liệu vải Denim bao gồm 98,5% cotton + 1,5% Spandex",
+			"Khả năng thấm hút tốt giúp giảm nhiệt và đem tới sự thoải mái tự nhiên cho người mặc",
+			"Co giãn 4 chiều thoải mái, thoáng mát và không có cảm giác bị gò bó.",
+			"Độ bền vải cao",
+			"Mềm nhẹ, ít nhăn và dễ nhuộm màu",
+			"Phom dáng suông dễ dàng phối đồ cùng áo sơ mi, áo thun, áo polo...",
+			"YODY - Look good. Feel good."
+		],
+		"comments": [
+		]
+	},
+
+	{
+		"id": 38,
+		"subcategory_id": 9,
+		"name": "Quần Jeans Nam Slim Fit Lycra Siêu Co Giãn",
+		"sold": 16100,
+		"price": 529000,
+		"discount": 0,
+		"colors": ["Đen chì", "Đen khói", "den"],
+		"sizes": ["30", "31", "32", "33", "34"],
+		"characteristics": [
+			"Chất liệu 70% Cotton + 20% Polyester + 8% Rayon + 2% Sapndex",
+			"Chất liệu Denim Cotton pha với Polyester mang lại cảm giác mềm mại",
+			"Vải bền đẹp, chắc chắn, không phai màu, không co rút khi giặt.",
+			"Kiểu dáng slimfit ôm dáng vừa vặn, cùng chi tiết wash nhẹ tạo sự năng động, cá tính",
+			"Kết hợp cùng nhiều trang phục khác nhau để mang tới cho mình một phong cách cá tính riêng",
+			"YODY - Look good. Feel good"
+		],
+		"comments": [
+		]
+	},
+
+	{
+		"id": 39,
+		"subcategory_id": 9,
+		"name": "Quần Jeans Nam Ống Đứng Slimfit Basic",
+		"sold": 20200,
+		"price": 529000,
+		"discount": 10,
+		"colors": ["Xanh đậm", "Xanh"],
+		"sizes": ["30", "31", "32", "33", "34"],
+		"characteristics": [
+			"Chất liệu vải Jeans với thành phần  89% Cotton USA + 10% Polyester + 1% Spandex",
+			"Chất liệu cotton Mỹ bền sạch hơn các loại chất liệu cotton khác",
+			"Dễ nhuộm màu đem lại cho sản phẩm màu sắc tươi sáng và đa dạng",
+			"Co giãn 4 chiều mang lại cảm giác thoải mái cho người mặc",
+			"Kiểu dáng slimfit ôm dáng vừa vặn",
+			"YODY - Look good. Feel good"
+		],
+		"comments": [
+		]
+	},
+
+	{
+		"id": 40,
+		"subcategory_id": 9,
+		"name": "Quần Jean Nam Cafe Thân Thiện Với Môi Trường",
+		"sold": 5,
+		"price": 599000,
+		"discount": 0,
+		"colors": ["Xanh đậm", "Xanh"],
+		"sizes": ["28","29","30", "31", "32", "33", "34"],
+		"characteristics": [
+			"Quần jeans nam chất liệu cotton USA - loại vải cao cấp được cả thế giới tin dùng với nhiều ưu điểm nổi bật",
+			"Cotton USA sạch hơn các loại bông khác do quá trình thu hoạch sử dụng thiết bị điều khiển bằng máy tính tân tiến nhất",
+			"Sợi S-cafe: sản xuất từ công nghệ độc quyền có khả năng chống tia UV hiệu quả nhờ khả năng khúc xạ ánh sáng, hạn ché tia UVA và UVB tiếp xúc với cơ thể người mặc",
+			"Kiểm soát mùi tốt vì bột café được tích hợp vào sợi café theo công nghệ S.cafe",
+			"Co giãn tốt do có chứa thành phần spandex nên thoải mái khi vận động",
+			"YODY - Look good. Feel good."
+		],
+		"comments": [
+			{
+				"user_name": "Trung Đức",
+				"star": 5,
+				"content": "Giao hàng hơi lâu, không biết có phải do chủ nhật nghỉ không nhưng nên cải thiện thời gian giao hàng online. sản phẩm thì ok, chắc chắn, cũng k có chỉ thừa, đóng gói cẩn thận, gọn gàng."
+			},
+			{
+				"user_name": "Nguyễn Thùy Linh",
+				"star": 5,
+				"content": "Mình đặt đơn trên 850k được tặng quà nhưng quên không chọn, nhân viên Yody vẫn gọi và bổ sung quà cho mình. 5 sao vì sự tận tâm này!"
+			},
+			{
+				"user_name": "Vinh",
+				"star": 5,
+				"content": "không ưng vì quá ưng màu quần này! mình không thích quần mài rách quá nhiều vì nhìn hơi trẻ quá tuổi nhưng mẫu này mài màu đều, lên form đẹp, mặc với polo trắng hợp."
+			}
+		]
+	},
+
+	{
+		"id": 41,
+		"subcategory_id": 9,
+		"name": "Quần Jean Nam S-Cafe Siêu Co Giãn Thoáng Mát",
+		"sold": 5,
+		"price": 599000,
+		"discount": 0,
+		"colors": ["Xanh đậm", "Xanh"],
+		"sizes": ["28","29","30", "31", "32", "33", "34"],
+		"characteristics": [
+			"Thành phần chất liệu: 76% Cotton USA + 22% S-cafe + 2% Spandex",
+			"Quần jeans nam dáng slim fit",
+			"Thiết kế trẻ trung, năng động với điểm nhấn ở dây dệt miệng túi đồng hồ",
+			"Dễ dàng mix đồ đi học, đi làm, đi chơi hay cafe với bạn bè",
+			"YODY - Look good. Feel good."
+		],
+		"comments": [
+			{
+				"user_name": "dam_hung_h",
+				"star": 5,
+				"content": "Quẩn đẹp, mặc trẻ, rộng thoải mái, giao nhanh. Đúng miêu tả, màu đẹp. Nói chung hài lòng cho shop 5 sao cảm ơn"
+			},
+			{
+				"user_name": "Văn Đức",
+				"star": 5,
+				"content": "Sp đẹp ngoài mong đợi. Shop phục vụ nhiệt tình. Chuẩn bị và giao hàng nhanh. Mình thấy đồ mẫu mã màu sác như hình, uy tín. Sẽ tiếp tục ủng hộ"
+			},
+			{
+				"user_name": "juntrongdatt",
+				"star": 5,
+				"content": "Quần ok form đẹp như hình, giá cả hợp lý, sẽ order thêm , giao nhanh"
+			}
+		]
+	},
+
+	{
+		"id": 42,
+		"subcategory_id": 9,
+		"name": "Quần Jeans Nam Cotton Chỉ Phối Màu",
+		"sold": 4,
+		"price": 579000,
+		"discount": 10,
+		"colors": ["Xanh đậm", "Xanh"],
+		"sizes": ["28","29","30", "31", "32", "33", "34"],
+		"characteristics": [
+			"Thành phần: 63.5% Cotton USA + 35.5% Polyester + 1% Spandex",
+			"Chất liệu cotton USA là một trong những loại nguyên liệu cao cấp được cả thế giới tin dùng",
+			"Chất liệu có độ bền cao, mềm mại, thông thoáng và thấm hút tốt.",
+			"Co giãn nhẹ do có chứa thành phần spandex.",
+			"YODY - Look good. Feel good."
+		],
+		"comments": [
+			{
+				"user_name": "nguyên khôi",
+				"star": 5,
+				"content": "ôi chất liệu mê cực luôn, không kì vọng nhiều khi mua nhưng về rất ưng ý luôn, chất vải tốt, may cẩn thận"
+			},
+			{
+				"user_name": "Nguyễn minh đức",
+				"star": 5,
+				"content": "quần đẹp lắm nhaaa mọi người, không có chỉ thừa, giao hàng nhanh nữa"
+			},
+			{
+				"user_name": "Dũng Lê",
+				"star": 4,
+				"content": "Mặc siêu tôn dáng luôn chất vải co dãn nhẹ mặc thoải mái dễ chịu. Ưng quá luo nên mua nha các bạn"
+			}
+		]
+	},
+
+	{
+		"id": 43,
+		"subcategory_id": 9,
+		"name": "Quần Jeans Nam Cotton Mỏng Nhẹ Thoáng Khí",
+		"sold": 1000,
+		"price": 569000,
+		"discount": 10,
+		"colors": ["Xanh đậm", "Xanh"],
+		"sizes": ["28","29","30", "31", "32", "33", "34"],
+		"characteristics": [
+			"Chất liệu Cotton",
+			"Thoải mái với chất liệu thấm hút tốt, co giãn vừa phải.",
+			"Chất liệu chịu lực và độ bền cao giúp tăng thời gian sử dụng sản phẩm.",
+			"Form dáng suông cơ bản dành cho nam giới.",
+			"Thích hợp phối với đa dạng items đi làm, đi chơi, đi học như áo polo, sơ mi, áo thun…",
+			"YODY - Look good. Feel good."
+		],
+		"comments": [
+		]
+	},
+
+	{
+		"id": 44,
+		"subcategory_id": 10,
+		"name": "Quần Âu Nam Cao Cấp Giữ Phom, Co Giãn Thoải Mái",
+		"sold": 21300,
+		"price": 499000,
+		"discount": 10,
+		"colors": ["Đen", "Ghi Sáng", "Nâu", "Tím Than", "Xám đậm", "Xanh đậm", "Xanh đen", "Xanh nhạt"],
+		"sizes": ["28","29","30", "31", "32", "33", "34"],
+		"characteristics": [
+			"Chất liệu: Vải chéo 79",
+			"Thiết kế suông nhẹ, vừa đảm bảo sự thoải mái",
+			"Túi được xẻ 2 bên, sau hông có tùi cài tiện lợi, cạp cao",
+			"Cảm giác co giãn tốt, tăng cường khả năng chống nhăn trên vải, thấm hút mồ hôi và hút ẩm cao, thoáng mát ",
+			"Thiết kế trẻ trung mà vẫn lịch lãm hứa hẹn sẽ là chiếc quần đắt giá mà bạn muốn diện trong mọi công việc.",
+			"YODY - Look good. Feel good."
+		],
+		"comments": [
+			{
+				"user_name": "monaco141991",
+				"star": 5,
+				"content": "Shop giao hàng nhanh chóng. Vừa y luôn. Chồng mình rất thích luôn. Cho shop 5 sao luôn"
+			},
+			{
+				"user_name": "vucanh27",
+				"star": 5,
+				"content": "Sản phẩm giống như trong hình ảnh, hàng Yody thì tốt rồi, vẫn luôn ủng hộ Yody"
+			},
+			{
+				"user_name": "kimanhcnh2k3",
+				"star": 4,
+				"content": "Giao hàng nhanh, hàng chất lượng oke. Quà tặng đẹp. Rất ưng ý."
+			}
+		]
+	},
+
+	{
+		"id": 45,
+		"subcategory_id": 10,
+		"name": "Quần Âu Nam Ống Đứng Vải Nano Cao Cấp Giữ Phom, Co Giãn Thoải Mái",
+		"sold": 10400,
+		"price": 499000,
+		"discount": 0,
+		"colors": ["Đen", "Ghi Sáng", "Nâu", "Tím Than", "Vàng", "Xám đá", "Xanh đậm", "Xanh nhạt"],
+		"sizes": ["28","29","30", "31", "32", "33", "34"],
+		"characteristics": [
+			"Chất liệu vải Nano được tạo thành từ 100% Polyester",
+			"Vải sử dụng công nghệ Nano xoắn nhiều sợi li ti thành một sợi.",
+			"Nano thuộc nhóm vải công nghệ mới,là bước đột phá trong ngành vải sợi thế giới",
+			"Vải dệt đôi 2 mặt là kiểu dệt khá phức tạp giúp định hình form dáng sản phẩm",
+			"Cấu trúc dệt khác biệt, giúp tạo cảm giác thoải mái.",
+			"YODY - Look good. Feel good"
+		],
+		"comments": [
+			{
+				"user_name": "an khoang",
+				"star": 5,
+				"content": "Chất lượng vải mềm mịn mát, mặc vừa và ôm chân. Mặc lên nhìn khá sang và lịch sự. Nên mua nha"
+			},
+			{
+				"user_name": "nguyễn minh công",
+				"star": 5,
+				"content": "Quần chuẩn phom, vải nhẹ sờ rất thích, sẽ mua thử áo sơ mi vải này cho đủ bộ lần mua tới"
+			},
+			{
+				"user_name": "lê thành",
+				"star": 4,
+				"content": "Đóng gói sản phẩm kỹ càng, chất lượng sản phẩm tuyệt vời, vải mêm ghê"
+			},
+			{
+				"user_name": "Na Na",
+				"star": 5,
+				"content": "mình mua cho ck, ck mình rất ưng, vải suông lên dáng, các bạn nv tv nhiệt tình"
+			}
+		]
+	},
+
+	{
+		"id": 46,
+		"subcategory_id": 10,
+		"name": "Quần Âu Nam Phối Cạp Chun Siêu Tiện Lợi",
+		"sold": 18300,
+		"price": 499000,
+		"discount": 0,
+		"colors": ["Chì", "Đen", "Ghi", "Tím Than"],
+		"sizes": ["29","30", "31", "32", "33"],
+		"characteristics": [
+			"Quần âu nam dáng hợp thời trending, trẻ trung thoải mái",
+			"Sản phẩm được thiết kế theo hướng hiện đại kết hợp cạp chun phía sau giúp người dùng thoải mái, linh hoạt và siêu tiện lợi ",
+			"Ống suông đứng ngang mắt cá chân tôn dáng người mặc",
+			"Chất liệu co giãn và giữ phom thích hợp phối cùng polo, t-shirt, áo sơ mi",
+			"YODY - Look good. Feel good."
+		],
+		"comments": [
+			{
+				"user_name": "Bình",
+				"star": 5,
+				"content": "Thấy dvien việt anh mặc đẹp nên mình cũng mua và khá ưng ý. màu ghi này rất lịch sự, không quá nhạt nhoà. vải mềm mặc thoải mái, đi làm rất hợp."
+			},
+			{
+				"user_name": "Hải Nguyễn",
+				"star": 4,
+				"content": "màu sắc đúng như hình, thiết kế như mô tả, giao hàng hơi lâu."
+			},
+			{
+				"user_name": "Ly",
+				"star": 5,
+				"content": "Anh xã mình bụng bia nên rất cần những chiếc quần như thế này, sáng tạo mà dễ mặc ghê. 10 điểm tinh tế ạ ^^"
+			}
+		]
+	},
+
+	{
+		"id": 47,
+		"subcategory_id": 10,
+		"name": "Quần Âu Nam Cafe",
+		"sold": 18100,
+		"price": 549000,
+		"discount": 0,
+		"colors": ["Đen", "Ghi Sáng", "Vàng"],
+		"sizes": ["29","30", "31", "32", "33"],
+		"characteristics": [
+			"Quần âu nam dáng Classic - lịch lãm, sang trọng",
+			"Chất liệu vải cafe thoáng khí, thoải mái khi sử dụng",
+			"Chi tiết túi 2 bên sườn cực kì mới lạ nhưng vẫn giữ được kết cấu cơ bản",
+			"Quần có túi hậu cài cúc chắc chắn",
+			"Cạp quần bản to vừa vặn với vòng bụng người châu Á",
+			"YODY - Look good. Feel good."
+		],
+		"comments": [
+			
+		]
+	},
+
+	{
+		"id": 48,
+		"subcategory_id": 11,
+		"name": "Quần Kaki Nam Regular",
+		"sold": 17100,
+		"price": 499000,
+		"discount": 0,
+		"colors": ["Đen", "Nâu Sữa", "Tím Than", "Vàng"],
+		"sizes": ["29","30", "31", "32", "33"],
+		"characteristics": [
+			"Quần kaki nam dáng regular thoải mái, tôn dáng",
+			"Thiết kế basic, màu sắc hiện đại, dễ phối đồ",
+			"Chất vải co giãn vừa phải, thoải mái khi sử dụng",
+			"Đường may tỉ mỉ, chắc chắn cùng các chi tiết túi, đai tiện lợi",
+			"YODY - Look good. Feel good."
+		],
+		"comments": [
+		]
+	},
+
+	{
+		"id": 49,
+		"subcategory_id": 11,
+		"name": "Quần Kaki Nam Slim",
+		"sold": 17100,
+		"price": 499000,
+		"discount": 0,
+		"colors": ["Đen", "Nâu Sữa", "Tím Than", "Vàng", "Xám"],
+		"sizes": ["33"],
+		"characteristics": [
+			"Chất liệu Kaki co giãn thoải mái khi mặc",
+			"Thiết kế cơ bản túi chéo canh sườn và túi hậu có cái cúc, cạp quần to chắc chắn có đỉa để đeo thắt lưng",
+			"Quần kaki nam slim phù hợp cho nam giới và có thể sử dụng trong nhiều hoàn cảnh khác nhau",
+			"YODY - Look good. Feel good."
+		],
+		"comments": [
+
+		]
+	},
+
+	{
+		"id": 50,
+		"subcategory_id": 11,
+		"name": "Quần Kaki Nam Basic",
+		"sold": 10800,
+		"price": 499000,
+		"discount": 0,
+		"colors": ["Be", "Đen", "Tím Than", "Xám", "Xanh Than"],
+		"sizes": ["29","30","31","32", "33"],
+		"characteristics": [
+			"Quần kaki nam basic dáng ôm",
+			"Chất liệu kaki dày dặn, co giãn đàn hồi tốt",
+			"Thiết kế cơ bản có túi chéo cạnh sườn, cúc khắc logo YODY, khóa đồng chắc chắn và túi hậu cài cúc hai bên",
+			"Sản phẩm phù hợp để cánh mày râu sử dụng trong nhiều hoàn cảnh khác nhau",
+			"YODY - Look good. Feel good."
+		],
+		"comments": [
+			{
+				"user_name": "Long",
+				"star": 5,
+				"content": "Quần đẹp y hình, mặc lên form chuẩn , thoải mái, đáng tiền. T m75 nặng 71kg size 32 vừa in, sẽ ủng hộ lần sau"
+			},
+			{
+				"user_name": "Ngọc Hải",
+				"star": 4,
+				"content": "shop giao đúng đủ, quần mặc thoải mái 1m76 75kg bụng 92cm, đường may đẹp, chất lượng vải tốt"
+			},
+			{
+				"user_name": "nguyenquanghoa",
+				"star": 5,
+				"content": "Quần đẹp, mình m73 65kg mặc size 31 vừa. Ống quần dài 97cm nhé, bụng mình 84cm, b nào bụng 85cm vẫn ok, quần thô loại mềm nhé. Hài lòng"
+			}
+		]
+	},
+
+	{
+		"id": 51,
+		"subcategory_id": 11,
+		"name": "Quần Kaki Nam Regular Thêu Cạnh Túi",
+		"sold": 10100,
+		"price": 499000,
+		"discount": 0,
+		"colors": ["Be", "Đen", "Tím Than", "Xám", "Xanh Than"],
+		"sizes": ["29","30","31","32", "33"],
+		"characteristics": [
+			"Quần kaki nam dáng regular thoải mái, dễ mặc",
+			"Chất liệu kaki dày dặn, bền chắc",
+			"Thiết kế basic, phù hợp với nhiều dáng người châu Á",
+			"Thích hợp mặc đi làm, đi chơi, đi học",
+			"Phối đồ đa dạng cùng sơ mi, áo thun, áo polo, áo khoác…",
+			"YODY - Look good. Feel good."
+		],
+		"comments": [
+			{
+				"user_name": "lê hoàn",
+				"star": 5,
+				"content": "Sản phẩm đẹp, chất lượng, đường may thẩm mỹ, rất hài lòng"
+			},
+			{
+				"user_name": "Ngọc Hải",
+				"star": 4,
+				"content": "Quần có chất vải và form đúng như mô tả. Chuyển hàng hơi lâu xíu chắc do nhiều đơn quá. Mặc thoải mái, màu sắc đúng như hình."
+			},
+			{
+				"user_name": "Mạnh",
+				"star": 5,
+				"content": "Mình mới nhận hàng xong. Đúng size, đúng màu, vải khá dày chắc là bền"
+			}
+		]
+	},
+
+	{
+		"id": 52,
+		"subcategory_id": 11,
+		"name": "Quần Kaki Nam Dáng Ngắn",
+		"sold": 9400,
+		"price": 549000,
+		"discount": 0,
+		"colors": ["Be", "Đen", "Ghi", "Xám", "Xanh Than"],
+		"sizes": ["29","30","31","32", "33"],
+		"characteristics": [
+			"Chất liệu Kaki",
+			"Vải kaki dày dặn, co giãn đàn hồi tốt",
+			"Thiết kế cơ bản có túi chéo cạnh sườn, cúc khắc logo YODY",
+			"Khóa đồng chắc chắn và túi hậu cài cúc hai bên",
+			"Form dáng basic dáng ôm tôn dáng",
+			"Dễ dàng kết hợp với áo sowmi, áo thun.. mặc đi làm, đi chơi... ",
+			"YODY - Look good. Feel good."
+		],
+		"comments": [
+			{
+				"user_name": "hương thu",
+				"star": 5,
+				"content": "Quần chất vải đẹp, ck mình 1m65, 68kg, mặc size 31 vừa bụng nhưng chiều dài chắc phải mang ra cửa hàng hỗ trợ cắt gấu lên 10cm nữa"
+			},
+			{
+				"user_name": "Vinh Quang",
+				"star": 4,
+				"content": "Form quần đẹp mình mặc vừa rất hài lòng về sản phẩm có dịp sẽ ủng hộ tiếp"
+			},
+			{
+				"user_name": "thiên đức",
+				"star": 5,
+				"content": "Quần chất liệu khá, hợp mặc mùa hè hơn. Có co giãn nhẹ. Dáng quần vs xu hướng ng trẻ."
+			}
+		]
+	},
+
+	{
+		"id": 53,
+		"subcategory_id": 12,
+		"name": "Quần Short Nam Kaki Ống Đứng Thể Thao",
+		"sold": 60400,
+		"price": 299000,
+		"discount": 0,
+		"colors": ["Be", "Đen", "Ghi", "Xanh đá", "Xanh nhạt"],
+		"sizes": ["29","30","31","32", "33"],
+		"characteristics": [
+			"Chất liệu Kaki",
+			"Kaki là chất liệu vải được dệt nên có cấu trúc vô cùng chắc chắn, bè mặt vải khít.",
+			"Chất liệu mang lại sự thoáng mát, dễ chịu, không gây gò bó vào cơ thể.",
+			"Vải khaki co giãn 4 chiều tạo sự thoải mái khi mặc",
+			"Thiết kế dáng suông, đơn giản, dễ mặc, dễ phối đồ",
+			"YODY - Look good. Feel good"
+		],
+		"comments": [
+			{
+				"user_name": "Nguyễn huy định",
+				"star": 5,
+				"content": "Sản phẩm rất ưng ý hàng chuẩn chất lượng"
+			}
+		]
+	},
+
+	{
+		"id": 54,
+		"subcategory_id": 12,
+		"name": "Quần Short Nam Ống Đứng Gấu Lơ Vê",
+		"sold": 3500,
+		"price": 359000,
+		"discount": 0,
+		"colors": ["Đen", "Ghi", "Tím Than", "Xám", "Xanh"],
+		"sizes": ["28" ,"29","30","31","32", "33", "34"],
+		"characteristics": [
+			"Sử dụng chất liệu: 100% polyester",
+			"Thoáng mát khi sử dụng",
+			"Bề mặt vải ít nhăn,  có thể giặt mái mà không lo đến bề mặt vải",
+			"Nhanh khô, mát, nhẹ",
+			"Đàn hồi, co giãn tốt",
+			"YODY - Look good. Feel good"
+		],
+		"comments": [
+			{
+				"user_name": "Lê Tiến Công",
+				"star": 5,
+				"content": "Quần vải đẹp, mặc nhẹ, đứng phom, chất lượng tốt, mặc đi chơi rất thoải mái"
+			},
+			{
+				"user_name": "Sang",
+				"star": 5,
+				"content": "Quần đẹp lắm, mặc mát, chất lượng, shop phục vụ rất tốt, phù hợp để đi chơi."
+			},
+			{
+				"user_name": "Huy",
+				"star": 4,
+				"content": "Hàng như hình,nhưng mình đặt size 30 mặc vừa, nhưng phần Mông hơi ôm, mình sẽ ra cửa hàng để đổi size to hơn"
+			}
+		]
+	},
+
+	{
+		"id": 55,
+		"subcategory_id": 12,
+		"name": "Quần Sooc Nam Ống Đứng Trẻ Trung",
+		"sold": 48400,
+		"price": 359000,
+		"discount": 0,
+		"colors": ["Be", "Đen", "Ghi", "Xanh đá", "Xanh nhạt"],
+		"sizes": ["28" ,"29","30","31","32", "33", "34"],
+		"characteristics": [
+			"Quần short nam kaki ngang gối",
+			"Sản phẩm basic thiết yếu dành cho mọi chàng trai",
+			"Cạp quần thiết kế bản to có đỉa mang lại sự chỉn chu có thể mặc ra ngoài cafe, hẹn hò",
+			"Tụi hậu có cúc tiện lợi",
+			"Chất vải kaki mềm nhẹ, thoải mái, thích hợp với điều kiện thời tiết nhiệt đới ",
+			"YODY - Look good. Feel good."
+		],
+		"comments": [
+			{
+				"user_name": "b*****u",
+				"star": 5,
+				"content": "Vải mỏng hơn mình nghĩ nhưng chắc là mát nên ok. Sẽ mua thêm màu khác"
+			},
+			{
+				"user_name": "nhuquynh.595",
+				"star": 5,
+				"content": "Cảm ơn shop rất nhiều. Bố mình rất thích và hạnh phúc. Vải rất mềm thoáng, đường may tỉ mỉ. Thật đáng để mua."
+			},
+			{
+				"user_name": "nguyenthihang_2001",
+				"star": 4,
+				"content": "Quần đẹp lắm nha mn, mình sợ chật lấy to hơn 1 size nên hơi rộng xíu, nhưng ko sao vẫn đẹp lắm nha"
+			}
+		]
+	},
+
+	{
+		"id": 56,
+		"subcategory_id": 12,
+		"name": "Quần Short Nam Kaki Ống Đứng Lịch Lãm",
+		"sold": 59900,
+		"price": 359000,
+		"discount": 0,
+		"colors": ["Be", "Đen", "Ghi", "Xanh đá", "Xanh nhạt"],
+		"sizes": ["28" ,"29","30","31","32", "33", "34"],
+		"characteristics": [
+			"Chất liệu Kaki mềm nhẹ, thoải mái",
+			"Quần short nam thiết kế cơ bản dài ngang gối",
+			"Cạp quần to bản có đỉa tiện lợi",
+			"Túi cúc phía sau có thể đựng đồ nhỏ gọn như ví, chìa khóa",
+			"Phom dáng trẻ trung, lịch lãm tạo sự chỉn chu, thích hợp mặc ở nhà hay ra ngoài cafe, hẹn hò",
+			"Sản phẩm basic dành cho mọi chàng trai",
+			"YODY - Look good. Feel good."
+		],
+		"comments": [
+			{
+				"user_name": "quanbinhx123",
+				"star": 5,
+				"content": "Quần chuẩn - Phom dáng đẹp - Rất ưng ý - Sẽ ủng hộ Shop dài dài"
+			},
+			{
+				"user_name": "thanhngan9898",
+				"star": 5,
+				"content": "Chất lượng sản phẩm ok lắm ạ. Giao hàng nhanh. Đóng gói cẩn thận đẹp."
+			},
+			{
+				"user_name": "hoangtao123",
+				"star": 4,
+				"content": "Đúng màu, đúng size, chất đẹp"
+			}
+		]
+	},
+
+	{
+		"id": 57,
+		"subcategory_id": 12,
+		"name": "Quần Short Nam Kaki Ống Đứng Năng Động",
+		"sold": 39300,
+		"price": 359000,
+		"discount": 0,
+		"colors": ["Đen", "Nâu Sữa", "Tím Than"],
+		"sizes": ["30"],
+		"characteristics": [
+			"Chất liệu Kaki",
+			"Quần short nam thiết kế cơ bản dài ngang gối",
+			"Chất liệu kaki mềm nhẹ. cạp quần to bản có đỉa tiện lợi",
+			"Thiết kế túi cúc giúp các nh có thể đựng đồ nhỏ gọn như ví, chìa khóa",
+			"Form trẻ trung, lịch lãm, thích hợp mặc ở nhà hoặc ra ngoài cafe, hẹn hò đều được",
+			"YODY - Look good. Feel good."
+		],
+		"comments": [
+			
+		]
+	},
+
+	{
+		"id": 58,
+		"subcategory_id": 12,
+		"name": "Quần Sooc Nam Kaki Ngang Gối",
+		"sold": 23300,
+		"price": 359000,
+		"discount": 0,
+		"colors": ["Đen", "Nâu Sữa"],
+		"sizes": ["30"],
+		"characteristics": [
+			"Một thiết kế Quần short nam basic, siêu thoải mái và dễ mặc",
+			"Chất vải kaki mềm nhẹ là món đồ không thể thiếu của cánh mày râu",
+			"Quần thiết kế cạp to bản có đỉa, túi cúc vô cùng tiện lợi",
+			"Form trẻ trung, lịch lãm, thích hợp mặc ở nhà hoặc ra ngoài cafe, hẹn hò đều được",
+			"Phối cùng polo hoặc sơ mi sẽ đem đến cho các anh 1 outfit vô cùng lịch lãm mà vẫn thoải mái, nhất là trong mùa hè",
+			"YODY - Look good. Feel good."
+		],
+		"comments": [
+			
+		]
+	},
+
+	{
+		"id": 59,
+		"subcategory_id": 12,
+		"name": "Quần Sooc Nam Kaki Ngang Gối",
+		"sold": 0,
+		"price": 498000,
+		"discount": 0,
+		"colors": ["Xanh đậm"],
+		"sizes": ["28","29", "30"],
+		"characteristics": [
+			"Quần jean nam chất liệu: 98% cotton, 2% spandex",
+			"Vải jean có độ bền rất cao, vải dày, không bị sờn rách, nhăn sau thời gian sử dụng",
+			"Short jean nam xước xắn gấu co giãn nhẹ, khả năng thấm hút mồ hôi tốt, vải điều hòa, thoải mái vận động không bí nóng",
+			"Chất liệu vải jean dày đẹp, có độ cứng cáp, giúp tôn dáng người mặc. ",
+			"YODY - Look good. Feel good."
+		],
+		"comments": [
+			
+		]
+	},
+
+	{
+		"id": 60,
+		"subcategory_id": 12,
+		"name": "Short Jeans Nam YD3",
+		"sold": 2100,
+		"price": 489000,
+		"discount": 0,
+		"colors": ["Xanh đậm"],
+		"sizes": ["29"],
+		"characteristics": [
+			"Quần short nam YD3 làm từ chất liệu jeans năng động, trẻ trung",
+			"Vải dày, bền chắc, không lo sờn rách trong quá trình sử dụng",
+			"Short jeans nam thiết kế xắn gấu khoẻ khoắn",
+			"Đứng phom rất tôn dáng khi mặc",
+			"Co giãn đàn hồi tạo cảm giác thoải mái vận động",
+			"Khả năng thấm hút mồ hôi tốt, không gây bí nóng",
+			"YODY - Look good. Feel good."
+		],
+		"comments": [
+			
+		]
 	}
+
+
+
 ]
+
+
+
+
+
+
