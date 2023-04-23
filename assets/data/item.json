@@ -1099,7 +1099,7 @@
 		"sold": 16100,
 		"price": 529000,
 		"discount": 0,
-		"colors": ["Đen chì", "Đen khói", "den"],
+		"colors": ["Đen chì", "Đen khói", "Đen"],
 		"sizes": ["30", "31", "32", "33", "34"],
 		"characteristics": [
 			"Chất liệu 70% Cotton + 20% Polyester + 8% Rayon + 2% Sapndex",
@@ -2011,7 +2011,1036 @@
 				"content": "Mới mua lần đầu mà thấy vải khá đẹp, nhận áo về rất hài lòng. Biết thế mua thêm rồi"
 			}	
 		]
+	},
+
+	{
+		"id": 72,
+		"subcategory_id": 15,
+		"name": "Polo Nam Yody Sport",
+		"sold": 600,
+		"price": 369000,
+		"discount": 0,
+		"colors": ["Đen", "Trắng", "Xanh Coban", "Xanh rêu"],
+		"sizes": ["M", "L", "XL", "2XL"],
+		"characteristics": [
+			"Áo polo thể thao nam thoáng mát với bề mặt vải nhiều lỗ nhỏ hỗ trợ quá trình thoát ẩm",
+			"Thấm hút mồ hôi tốt, an toàn cho da",
+			"Thiết kế dáng suông phù hợp với mọi dáng người",
+			"Thoải mái tập luyện thể thao cũng như mặc thường ngày",
+			"YODY - Look good. Feel good."
+		],
+		"comments": [
+			{
+				"user_name": "sua1818",
+				"star": 5,
+				"content": "Áo thun siêu mỏng nhẹ mát mặc như không mặc. Size chuẩn nhé. Ck mình măc rất đẹp"
+			},
+			{
+				"user_name": "huongngan.98",
+				"star": 5,
+				"content": "Chất liệu đẹp. Hàng chuẩn. Đóng gói cẩn thận. Giao hàng nhanh"
+			},
+			{
+				"user_name": "nguoinhaque",
+				"star": 4,
+				"content": "Shop giao hàng nhanh đúng màu đúng size, chất lượng thì rất rất đẹp. sẽ ủng hộ shop nhiều hơn"
+			}	
+		]
+	},
+
+	{
+		"id": 73,
+		"subcategory_id": 15,
+		"name": "Áo Polo Thể Thao Nam Phối Màu",
+		"sold": 500,
+		"price": 379000,
+		"discount": 10,
+		"colors": ["Cam Đất", "Navy", "Xám", "Xanh Lơ", "Xanh Lục"],
+		"sizes": ["M", "L", "XL", "2XL"],
+		"characteristics": [
+			"Áo polo nam thiết kế phối màu mới",
+			"Thành phần sợi: 88% Recycle Polyester + 12% Elastene",
+			"Polyester Recycle được biết đến là dòng sợi dẫn đầu cho xu hướng xanh hoá ngành dệt may - thân thiện với môi trường ",
+			"Sản phẩm thấm hút siêu tốt, thông thoáng, kiểm soát độ ẩm cơ thể",
+			"Chống tĩnh điện tốt, không xù lông rút sợi",
+			"Phù hợp với chuyển động cơ thể đặc biệt là hoạt động thể thao",
+			"YODY - Look good. Feel good."
+		],
+		"comments": [
+			{
+				"user_name": "Mai Anh",
+				"star": 5,
+				"content": "Mình mua áo đôi vì có cả mẫu nữ màu xinh. mẫu này có vẻ hơi kén người mặc ạ, mình thích phối màu cả sau lưng hơn mong Yody ra thêm nhiều mẫu mới nữa. chất áo polo thì luôn là lựa chọn số 1 của mình!"
+			},
+			{
+				"user_name": "Mạnh Trung",
+				"star": 5,
+				"content": "Đặt hàng cuối tuần nhưng shop vẫn gọi điện xác nhận và tư vấn nhiều tình. giao hàng nhanh."
+			},
+			{
+				"user_name": "M**h",
+				"star": 5,
+				"content": "Áo mặc mát, thấm hút mồ hôi tốt, mình đi ngoài đường nóng nhưng chỉ ngồi 1 lát là khô nên đánh giá cao ưu điểm này của các áo polo thể thao. Nên ra thêm nhiều mẫu hơn."
+			}	
+		]
+	},
+
+	{
+		"id": 74,
+		"subcategory_id": 15,
+		"name": "Áo Polo Thể Thao Nam In Vai Phản Quang",
+		"sold": 500,
+		"price": 299000,
+		"discount": 10,
+		"colors": ["Cam", "Đen", "Navy", "Trắng", "Xanh rêu"],
+		"sizes": ["M", "L", "XL", "2XL", "3XL"],
+		"characteristics": [
+			"Chất liệu 100% Recycle Polyester - Nguyên liệu tái chế, thân thiện với môi trường",
+			"Thoáng mát nhờ bề mặt vải có các lỗ nhỏ hỗ trợ quá trình lưu thông thoát ẩm",
+			"Thoải mái tập luyện thể thao cũng như mặc thường ngày",
+			"Dáng suông phù hợp với mọi dáng người",
+			"YODY - Look good. Feel good."
+		],
+		"comments": [
+			{
+				"user_name": "Đỗ Nhật",
+				"star": 5,
+				"content": "Vải mềm mại, co giãn khá tốt, mặc chạy bộ thử sáng nay thì trải nghiệm khá ổn"
+			},
+			{
+				"user_name": "Trọng",
+				"star": 5,
+				"content": "Sản phẩm đóng gói đẹp, chỉn chu, rất xịn xò, chất liệu và màu sắc như mô tả, rất đáng mua, rất đáng đồng tiền bát gạo, rất ưng ý, lần tới sẽ ủng hộ tiếp,"
+			},
+			{
+				"user_name": "Ngọc Hải",
+				"star": 5,
+				"content": "Sản phẩm đẹp, đúng mẫu mã, chất lượng tuyệt vời"
+			}	
+		]
+	},
+
+	{
+		"id": 75,
+		"subcategory_id": 15,
+		"name": "Áo Polo Thể Thao Nam Airycool Phối Nẹp",
+		"sold": 9500,
+		"price": 349000,
+		"discount": 0,
+		"colors": ["Đen", "Đỏ", "Ghi", "Tím than", "Trắng", "Xanh Lơ", "Xanh mint"],
+		"sizes": ["M", "L", "XL", "2XL"],
+		"characteristics": [
+			"Chất liệu: Thành phần 85% Freezing Polyamide + 15% spandex",
+			"Công nghệ Aircool tiến tiến giúp giải nhiệt cơ thể cho ngày hè mát mẻ",
+			"Kết cấu vải mềm mịn, khô nhanh",
+			"Thông thoáng, thấm hút mồ hôi tốt",
+			"Thiết kế năng động, trẻ trung phù hợp với những hoạt động ngoài trời ",
+			"Khả năng co giãn, giữ form tốt",
+			"Độ bền cao",
+			"YODY - Look good. Feel good."
+		],
+		"comments": [
+			{
+				"user_name": "quanthacthuy1995",
+				"star": 5,
+				"content": "áo mát chất co giãn thể thao năng động. nc rất là ưng"
+			},
+			{
+				"user_name": "qt8qnrjufa",
+				"star": 5,
+				"content": "Áo đẹp, vải nhẹ mềm mịn, co giãn tốt lắm, màu xanh mát mắt. Cảm ơn shop rất nhiều nhé"
+			},
+			{
+				"user_name": "huyenbbtt",
+				"star": 5,
+				"content": "Giao hàng nhanh, chất liệu vải mềm mát rượi, form hơi nhỏ hơn bình thường, muốn thoải mái nên tăng 1 size, hài lòng"
+			}	
+		]
+	},
+
+	{
+		"id": 76,
+		"subcategory_id": 15,
+		"name": "Áo Polo Thể Thao Nam Yody Sport",
+		"sold": 0,
+		"price": 299000,
+		"discount": 0,
+		"colors": ["Đen", "Đỏ", "Ghi", "Grey", "Trắng", "Xanh"],
+		"sizes": ["M", "L", "XL", "2XL"],
+		"characteristics": [
+			"Chất liệu 100% Recycle Polyester - Nguyên liệu tái chế, thân thiện với môi trường",
+			"Thoáng mát nhờ bề mặt vải có các lỗ nhỏ hỗ trợ quá trình lưu thông thoát ẩm",
+			"Kết hợp cùng lớp hoàn tất ưa nước giúp vải thấm hút, mao dẫn tốt",
+			"Thoải mái tập luyện thể thao cũng như mặc thường ngày",
+			"Dáng suông phù hợp với mọi dáng người",
+			"YODY - Look good. Feel good."
+		],
+		"comments": [
+			
+		]
+	},
+
+	{
+		"id": 77,
+		"subcategory_id": 15,
+		"name": "Áo Polo Thể Thao Nam Umorfil",
+		"sold": 13300,
+		"price": 339000,
+		"discount": 0,
+		"colors": ["Đen", "Đỏ Đô", "Xanh"],
+		"sizes": ["M", "L", "XL", "2XL"],
+		"characteristics": [
+			"Chất liệu 88% Recycle Polyester + 12% Elastane",
+			"Sợi Poly tái chế bền chắc",
+			"Chất liệu mềm mát mịn phù hợp mặc thời tiết hè nóng bức",
+			"Áo polo nam thể thao form slim fit trẻ trung năng động",
+			"Hình in phản quang nổi bật ở nẹp, ngực và sườn áo",
+			"YODY - Look good. Feel good."
+		],
+		"comments": [
+			
+		]
+	},
+
+	{
+		"id": 78,
+		"subcategory_id": 15,
+		"name": "Áo Polo Thể Thao Nam Airy Cool Basic",
+		"sold": 140000,
+		"price": 349000,
+		"discount": 0,
+		"colors": ["Đen", "Ghi", "Navy", "Trắng tinh", "Trắng", "Xanh Ngọc"],
+		"sizes": ["M", "L", "XL", "2XL"],
+		"characteristics": [
+			"Chất liệu: Thành phần 85% Nylon + 15% Spandex",
+			"Công nghệ Aircool tiến tiến giúp giải nhiệt cơ thể cho ngày hè mát mẻ",
+			"Kết cấu vải mềm mịn, khô nhanh",
+			"Thông thoáng, thấm hút mồ hôi tốt",
+			"Khả năng co giãn, giữ form tốt",
+			"Độ bền cao",
+			"YODY - Look good. Feel good"
+		],
+		"comments": [
+			{
+				"user_name": "k*****u",
+				"star": 5,
+				"content": "Sản phẩm uy tín. Shop bán hàng uy tín, rất thích cách làm việc của ng Đà Nẵng. Đúng hình, đúng sản phẩm, đúng màu. Không chê điểm gì. 10 điểm cho shop và ship."
+			},
+			{
+				"user_name": "d*****7",
+				"star": 5,
+				"content": "Áo chất mát mẻ, thoáng. Mua ở cửa hàng thích quá phải lên đặt ngay cái nữa"
+			},
+			{
+				"user_name": "truonggiang2411",
+				"star": 5,
+				"content": "Giá tốt, hàng như mô tả, shop tư vấn nhiệt tình, giao hàng nhanh, sẽ ủng hộ tiếp"
+			}	
+		]
+	},
+
+	{
+		"id": 79,
+		"subcategory_id": 15,
+		"name": "Áo Polo Thể Thao Nam Airy Cool Phối Bo - Trắng",
+		"sold": 72300,
+		"price": 349000,
+		"discount": 0,
+		"colors": ["Trắng"],
+		"sizes": ["M", "L", "2XL", "3XL"],
+		"characteristics": [
+			"Chất liệu: Vải Airycool cải tiến với thành phần 85% Freezing Polyamide + 15% Spandex",
+			"Công nghệ làm mát FREEZING tiên tiến siêu khô thoáng",
+			"Kết cấu vải siêu mịn, tỉ mỉ, chắc chắn",
+			"Trong lượng nhẹ, thoáng khí hút ẩm cực tốt",
+			"Thấm hút mồ hôi tốt",
+			"Khả năng co giãn, giữ form tốt",
+			"YODY SPORT - Look good. Feel good."
+		],
+		"comments": [
+			{
+				"user_name": "nhungcd",
+				"star": 5,
+				"content": "Sản phẩm ok với giá tiền. Shop mall nên yên tâm về chất lượng"
+			},
+			{
+				"user_name": "nguyenhuutamtam1",
+				"star": 5,
+				"content": "Áo màu đẹp, chất vải thì đẹp lắm. Mặc mát và thoải mái cực luôn í"
+			},
+			{
+				"user_name": "nynyhuyhuy",
+				"star": 5,
+				"content": "Áo đẹp, size bị chật mình nhờ hỗ trợ đổi, tới cửa hàng trực tiếp của yody đổi luôn k mất phí . tốt"
+			}	
+		]
+	},
+
+	{
+		"id": 80,
+		"subcategory_id": 16,
+		"name": "Combo Tiết Kiệm - Áo T-Shirt Và Quần Short Thể Thao Nam",
+		"sold": 700,
+		"price": 698000,
+		"discount": 0,
+		"colors": ["Đen"],
+		"sizes": ["M", "L", "2XL"],
+		"characteristics": [
+			"Bộ đôi sản phẩm thời trang thể thao nhưng có tính hữu ích, sử dụng đa năng",
+			"Chất liệu mềm mại, giảm nhăn hiệu quả, thoáng khí, co dãn 4 chiều với độ đàn hồi cao",
+			"Sự bền bỉ khi sử dụng được trong thời gian dài mà không lo mất form",
+			"Kiểu dáng hiện đại, tôn dáng, năng động, giúp người mặc luôn tự tin khi sử dụng.",
+			"YODY - Look good. Feel good."
+		],
+		"comments": [
+			
+		]
+	},
+
+	{
+		"id": 81,
+		"subcategory_id": 16,
+		"name": "Combo Tiết Kiệm - Áo Thun Thể Thao Và Quần Short Nam In Sườn",
+		"sold": 600,
+		"price": 698000,
+		"discount": 0,
+		"colors": ["Đen"],
+		"sizes": ["L", "2XL"],
+		"characteristics": [
+			"Áo thun kết hợp quần short tạo nên sự năng động, mạnh mẽ khi chơi thể thao",
+			"Sản phẩm áo và quần được xử lý công nghệ khô nhanh giúp bạn luôn thoải mái",
+			"Chất liệu cao giãn đàn hồi cao, giúp bạn tập luyện thể thao với cường độ lớn",
+			"Set đồ tập luyện nên có trọng tủ đồ của bạn",
+			"YODY - Look good. Feel good."
+		],
+		"comments": [
+			
+		]
+	},
+
+	{
+		"id": 82,
+		"subcategory_id": 16,
+		"name": "Combo Tiết Kiệm - Áo Polo Thể Thao Airy Cool Và Quần Short Kaki Nam Ống Đứng",
+		"sold": 500,
+		"price": 708000,
+		"discount": 0,
+		"colors": ["Ghi"],
+		"sizes": ["L", "2XL"],
+		"characteristics": [
+			"Thể hiện cá tính, năng đông cùng áo polo thể thao và quần short kaki",
+			"Áo polo sử dụng vải airycool công nghệ làm mát FREEZING tiên tiến",
+			"Co giãn tốt nhưng vẫn giữ phom, có tính ổn định khi sử dụng",
+			"Quần kaki mềm mại, form dáng trẻ trung, lịch lãm mang lại sự chỉn chu",
+			"Có thể dùng để phối với nhiều item khác như giày thể thao, đồng hồ, kính...",
+			"Set đồ nên có trọng tủ đồ của bạn",
+			"YODY - Look good. Feel good."
+		],
+		"comments": [
+			
+		]
+	},
+
+	{
+		"id": 83,
+		"subcategory_id": 17,
+		"name": "T-Shirt Thể Thao Nam Tanktop",
+		"sold": 0,
+		"price": 229000,
+		"discount": 0,
+		"colors": ["Đen", "Đỏ cam", "Tím than", "Xanh biển đậm", "Xanh Ghi"],
+		"sizes": ["M", "L", "XL", "2XL"],
+		"characteristics": [
+			"Áo thun thể thao nam YODY SPORT dáng ba lỗ khoẻ khoắn",
+			"Chất liệu mát, mềm, thấm hút tốt thích hợp để vận động",
+			"Có khả năng giữ phom, không hề bị bao gião sau nhiều lần sử dụng",
+			"Sản phẩm dễ mặc, dễ kết hợp cùng nhiều trang phục ngày hè như: quần short, quần thể thao,... để mặc nhà, đi chơi hay tập thể dục",
+			"YODY - Look good. Feel good."
+		],
+		"comments": [
+			
+		]
+	},
+
+	{
+		"id": 84,
+		"subcategory_id": 17,
+		"name": "Áo Ba Lỗ Nam 100% Cotton Siêu Mềm Siêu Thoáng",
+		"sold": 49800,
+		"price": 99000,
+		"discount": 0,
+		"colors": ["Trắng 1", "Trắng 2"],
+		"sizes": ["L", "XL", "2XL", "3XL"],
+		"characteristics": [
+			"Chất liệu 100% Cotton",
+			"Phiên bản nâng cấp từ chất liệu tới kiểu dáng",
+			"Thiết kế năng động, trẻ trung phù hợp với mọi vóc dáng.",
+			"Cải tiến về chất liệu mềm mại, thấm hút và mát hơn",
+			"Co giãn, có độ đàn hồi tối đa. ",
+			"Chất liệu vải thể thao không quá dày. ",
+			"Đem lại cảm giác thoải mái cho người mặc. ",
+			"YODY - Look good. Feel good."
+		],
+
+		"comments": [
+			{
+				"user_name": "v*****0",
+				"star": 5,
+				"content": "Lần đầu mình mua thử của shop, chất liệu mềm mát, giao hàng siêu nhanh. Sẽ ủng hộ thêm"
+			},
+			{
+				"user_name": "orighinh",
+				"star": 5,
+				"content": "mua lần thu 3 roi. nhà yody may đồ cẩn thận rất ưng"
+			},
+			{
+				"user_name": "me0xjnkbaby",
+				"star": 5,
+				"content": "Áo mềm mịn, co giãn tốt. Áo ba lỗ có thiết kế thoáng mát, thấm hút tốt."
+			}	
+		]	
+	},
+
+	{
+		"id": 85,
+		"subcategory_id": 17,
+		"name": "Áo Ba Lỗ Nam Cotton 100%",
+		"sold": 138000,
+		"price": 79000,
+		"discount": 0,
+		"colors": ["Trắng"],
+		"sizes": ["L", "XL", "2XL", "3XL"],
+		"characteristics": [
+			"Thiết kế năng động, trẻ trung phù hợp với mọi vóc dáng.",
+			"Thấm hút mồ hôi tốt, thoáng mát. ",
+			"Co giãn, có độ đàn hồi tối đa. ",
+			"Chất liệu vải thể thao không quá dày. ",
+			"Đem lại cảm giác thoải mái cho người mặc. ",
+			"YODY - Look good. Feel good!"
+		],
+		"comments": [
+			{
+				"user_name": "Vinh Quang",
+				"star": 5,
+				"content": "phần nách hơi rộng 1 cái 2 cái còn lại ok, chất mát, viền hơi to nhưng ko sao"
+			},
+			{
+				"user_name": "trịnh tiến",
+				"star": 5,
+				"content": "Áo cotton nên mặc rất mát, chất mềm, mặc đúng size, mua được giá rẻ so hơn mua ngoài CH"
+			},
+			{
+				"user_name": "Thanh Tú",
+				"star": 5,
+				"content": "Rất tốt từ khâu gói hàng đến khâu vận chuyển nhé mọi người ok"
+			}	
+		]
+	},
+
+	{
+		"id": 86,
+		"subcategory_id": 18,
+		"name": "Áo Giữ Nhiệt Nam Cao Cổ",
+		"sold": 3500,
+		"price": 269000,
+		"discount": 0,
+		"colors": ["Navy"],
+		"sizes": ["XL"],
+		"characteristics": [
+			"Áo có chất liệu viscose co giãn, giữ ấm, bề mặt vải mịn đem lại cảm giác thoải mái dễ chịu, ngăn chặn được các kích ứng trên da nhạy cảm",
+			"Áo có form dáng ôm giúp tôn dáng cho người mặc",
+			"Màu sắc thanh lịch, có thể kết hợp cùng quần nỉ hoặc quần jeans",
+			"Sản phẩm thích hợp mặc ở nhà, đi làm và đi chơi vào mùa đông",
+			"YODY - Look good. Feel good."
+		],
+		"comments": [
+			{
+				"user_name": "Đinh Thanh",
+				"star": 5,
+				"content": "Áo giữ nhiệt nam cao cổ với chất liệu vải mềm mịn, giữ nhiệt tốt, mặc lên người đẹp, phong cách trẻ trung, ưng sp này lắm ạ"
+			},
+			{
+				"user_name": "Hà Vân",
+				"star": 5,
+				"content": "Chất liệu vải có giãn mặc rất thích, ôm nhưng rất thoải mái, màu sắc y hình, giao hàng nhanh"
+			},
+			{
+				"user_name": "HaNa",
+				"star": 5,
+				"content": "Áo dày dặn,mặc đẹp"
+			}	
+		]
+	},
+
+	{
+		"id": 87,
+		"subcategory_id": 19,
+		"name": "Quần Lót Nam Boxer Dệt Liền Mềm Mại",
+		"sold": 0,
+		"price": 199000,
+		"discount": 0,
+		"colors": ["Đen", "Xanh Dương", "Xanh Xám"],
+		"sizes": ["M", "L", "XL", "2XL"],
+		"characteristics": [
+			"Quần lót nam dáng boxer dệt liền mềm mại - bạn đồng hành tuyệt vời của cánh mày râu",
+			"Chất liệu polyamide bền và chắc chắn không lo bị rách",
+			"Có khả năng thấm hút tốt mang lại sự thoáng mát khi mặc",
+			"Kháng khuẩn, khử mùi tự nhiên an toàn, dễ chịu",
+			"YODY - Look good. Feel good."
+		],
+		"comments": [
+			
+		]
+	},
+
+	{
+		"id": 88,
+		"subcategory_id": 19,
+		"name": "Quần Lót Nam Boxer Bamboo Siêu Thoáng",
+		"sold": 25400,
+		"price": 179000,
+		"discount": 0,
+		"colors": ["Đen", "Xám nhạt", "Xanh đen"],
+		"sizes": ["M", "L", "XL", "2XL"],
+		"characteristics": [
+			"Quần lót nam chất liệu vải bamnoo siêu thóng mát",
+			"Thân thiên với người dùng, an toàn, lành tính cho da",
+			"Là sản phẩm basic, thiết yếu nên có trong tủ đồ của nam giới",
+			"YODY - Look good. Feel good. "
+		],
+		"comments": [
+			
+		]
+	},
+
+	{
+		"id": 89,
+		"subcategory_id": 19,
+		"name": "Quần Lót Nam Boxer Modal Siêu Mềm Thoáng",
+		"sold": 23300,
+		"price": 199000,
+		"discount": 0,
+		"colors": ["Đen", "Xám nhạt", "Xanh đen"],
+		"sizes": ["M", "L", "XL", "2XL"],
+		"characteristics": [
+			"Chất liệu Modal siêu mềm mại",
+			"Quần lót nam YODY có khả năng thấm hút tốt mang lại sự thoáng mát, nhẹ nhàng cho người mặc",
+			"Vải có khả năng kháng khuẩn khử mùi tự nhiên nên an toàn, dễ chịu",
+			"Quần lót nam - người bạn đồng hành không thể thiếu của nam giới",
+			"YODY - Look good. Feel good."
+		],
+		"comments": [
+			
+		]
+	},
+
+	{
+		"id": 90,
+		"subcategory_id": 19,
+		"name": "Quần Chip Nam Tam Giác Modal Siêu Mềm Thoáng",
+		"sold": 15700,
+		"price": 189000,
+		"discount": 0,
+		"colors": ["Đen", "Xám nhạt", "Xanh đen"],
+		"sizes": ["M", "L", "XL", "2XL"],
+		"characteristics": [
+			"Chất liệu Cotton Modal siêu mềm mại.",
+			"Sợi vải có nguồn gốc từ thiên nhiên, an toàn với da nhạy cảm.",
+			"Người bạn đồng hành không thể thiếu của nam giới.",
+			"Khả năng thấm hút tốt mang lại sự thoáng mát, nhẹ nhàng cho người mặc.",
+			"Vải có khả năng kháng khuẩn khử mùi tự nhiên nên an toàn, dễ chịu.",
+			"YODY - Look good. Feel good."
+		],
+		"comments": [
+			
+		]
+	},
+
+	{
+		"id": 91,
+		"subcategory_id": 19,
+		"name": "Quần Lót Nam Brief Bamboo Siêu Thoáng",
+		"sold": 14600,
+		"price": 159000,
+		"discount": 0,
+		"colors": ["Đen", "Xám nhạt", "Xanh đen"],
+		"sizes": ["M", "L", "XL", "2XL"],
+		"characteristics": [
+			"Cho cảm giác thông thoáng, thoải mái, thuận tiện mỗi ngày",
+			"Quần lót nam Yody sử dụng chất liệu vải bamboo - vải sợi tre lành tính",
+			"Thân thiện với người mặc",
+			"Co giãn thoải mái, thông thoáng khi sử dụng",
+			"YODY - Look good. Feel good."
+		],
+		"comments": [
+			
+		]
+	},
+
+	{
+		"id": 92,
+		"subcategory_id": 19,
+		"name": "Quần Lót Nam Boxer Bamboo Siêu Thoáng",
+		"sold": 25400,
+		"price": 179000,
+		"discount": 0,
+		"colors": ["Đen", "Xám nhạt", "Xanh đen"],
+		"sizes": ["M", "L", "XL", "2XL"],
+		"characteristics": [
+			"Quần lót nam chất liệu vải bamnoo siêu thóng mát",
+			"Thân thiên với người dùng, an toàn, lành tính cho da",
+			"Là sản phẩm basic, thiết yếu nên có trong tủ đồ của nam giới",
+			"YODY - Look good. Feel good. "
+		],
+		"comments": [
+			
+		]
+	},
+
+	{
+		"id": 93,
+		"subcategory_id": 19,
+		"name": "Quần Sịp Nam Boxer Bamboo Mềm Thoáng",
+		"sold": 19200,
+		"price": 169000,
+		"discount": 0,
+		"colors": ["Đen", "Xám nhạt", "Xanh đen"],
+		"sizes": ["M", "L", "XL", "2XL"],
+		"characteristics": [
+			"Quần lót nam phom boxer khoẻ khoắn, in logo ",
+			"Chất liệu bamboo siêu mềm mại, thoáng mát",
+			"Vải lành tính an toàn với làn da và thân thiện với môi trường",
+			"Mang đến cảm giác thoải mái khi sử dụng",
+			"Co giãn và thấm hút mồ hôi tốt",
+			"Có khả năng kháng khuẩn, khử mùi hiệu quả",
+			"YODY - Look good. Feel good."
+		],
+		"comments": [
+			
+		]
+	},
+
+	{
+		"id": 94,
+		"subcategory_id": 19,
+		"name": "Quần Sịp Nam Briefs Bamboo Mềm Thoáng",
+		"sold": 10400,
+		"price": 159000,
+		"discount": 0,
+		"colors": ["Đen", "Xanh đen"],
+		"sizes": ["M", "L", "XL", "2XL"],
+		"characteristics": [
+			"Quần lót nam thoáng, mềm, thoải mái khi sử dụng",
+			"Chất liệu vải bamboo thiên nhiên, thân thiện và lành tính",
+			"Mang lại cảm giác thoáng mát, thấm hút mồ hôi tốt",
+			"Kiểu dáng quần boxer tiện lợi",
+			"YODY - Look good. Feel good."
+		],
+		"comments": [
+			
+		]
+	},
+
+	{
+		"id": 95,
+		"subcategory_id": 20,
+		"name": "Thắt Lưng Nam Mặt Khoá Tự Động",
+		"sold": 1900,
+		"price": 449000,
+		"discount": 0,
+		"colors": ["Đen"],
+		"sizes": [],
+		"characteristics": [
+			"Chất liệu da bò cao cấp",
+			"Da có đặc tính mềm, dẻo, không có hóa chất độc hại cùng với thiết kế trẻ trung hợp thời trang và vô cùng độc đáo",
+			"Mặt khóa chất liệu hợp kim kẽm nguyên khối ",
+			"Thiết kế tinh tế, hiện đại và sang trọng.",
+			"Mắt khóa tự động, dễ dàng điều chỉnh độ rộng",
+			"Đường chỉ may tỉ mỉ, chắc chắn.  Phù hợp với mọi loại trang phục, hoàn cảnh",
+			"YODY - Look good. Feel good"
+		],
+		"comments": [
+			
+		]
+	},
+
+	{
+		"id": 96,
+		"subcategory_id": 20,
+		"name": "Thắt Lưng Nam Da Bò Mặt Tự Động Trẻ Trung",
+		"sold": 0,
+		"price": 499000,
+		"discount": 40,
+		"colors": ["Đen"],
+		"sizes": [],
+		"characteristics": [
+			"Thắt lưng da bò 100% dành cho các chàng trai lịch lãm",
+			"Mặt tự động bản dây 3.5cm với màu đen vân Mill sang trọng",
+			"Đai lưng nam da thật kết hợp với mặt thép cao cấp",
+			"Mặt đai kim loại tự động giúp tăng thêm phần lịch sự cho người mặc",
+			"Một chiếc thắt lưng cao cấp với đường may tỉ mỉ",
+			"Một sự bổ sung cho bất kỳ trang phục theo phong cách nào",
+			"YODY - Look good. Feel good."
+		],
+		"comments": [
+			
+		]
+	},
+
+	{
+		"id": 97,
+		"subcategory_id": 20,
+		"name": "Dây Lưng Nam Da Bò 2 Mặt Khóa Kim Bản 3.5 Cm",
+		"sold": 2200,
+		"price": 499000,
+		"discount": 0,
+		"colors": ["Đen"],
+		"sizes": [],
+		"characteristics": [
+			"Thắt lưng nam với Chất liệu da bò chắc chắn, bền đẹp",
+			"Thiết kế khoá mặt kim mang lại nét cổ điển lịch lãm",
+			"Chất liệu hợp kim đúc nguyên khối không gỉ, không bạc màu",
+			"Phần dây thắt lưng được thuộc da với trình độ cao, chất ra dẻo dai, bền bỉ và cực mềm",
+			"Đặc biệt, dây da có thiết kế thong minh, dễ dàng chuyển đổi mặt xoay 360 độ để đổi màu dây đen và nâu giúp các anh sở hữu 2 trong 1, linh hoạt phối đồ",
+			"YODY - Look good. Feel good."
+		],
+		"comments": [
+			
+		]
+	},
+
+	{
+		"id": 98,
+		"subcategory_id": 20,
+		"name": "Thắt Lưng Nam Da Trơn TLM4025",
+		"sold": 7700,
+		"price": 499000,
+		"discount": 0,
+		"colors": ["Đen", "Nâu"],
+		"sizes": [],
+		"characteristics": [
+			"Thắt lưng da bò 100% dành cho các chàng trai lịch lãm",
+			"Đai lưng nam da thật kết hợp với mặt thép cao cấp",
+			"Mặt đai kim loại tự động giúp tăng thêm phần lịch sự cho người mặc",
+			"Một chiếc thắt lưng cao cấp với đường may tỉ mỉ",
+			"Một sự bổ sung cho bất kỳ trang phục theo phong cách nào",
+			"YODY - Look good. Feel good"
+		],
+		"comments": [
+			
+		]
+	},
+
+	{
+		"id": 99,
+		"subcategory_id": 20,
+		"name": "Thắt Lưng Nam Da Bò Siêu Mềm Bản 3.5 Cm",
+		"sold": 100,
+		"price": 499000,
+		"discount": 0,
+		"colors": ["Đen"],
+		"sizes": [],
+		"characteristics": [
+			"Chất liệu da bò cao cấp",
+			"Da có đặc tính mềm, dẻo, không có hóa chất độc hại cùng với thiết kế trẻ trung hợp thời trang và vô cùng độc đáo",
+			"Mặt khóa chất liệu hợp kim kẽm nguyên khối được gia công tỷ mỷ, sáng bóng",
+			"Thiết kế tinh tế, hiện đại và sang trọng, thể hiện đẳng cấp cho người sử dụng",
+			"Phụ kiện thời trang cao cấp không thể thiếu cho đấng mày râu trẻ trung, sành điệu trong cuộc sống hiện đại",
+			"YODY - Look good. Feel good"
+		],
+		"comments": [
+			{
+				"user_name": "Nguyễn Văn Quảng",
+				"star": 5,
+				"content": "Thắt lưng chất lượng, kiểu dáng lịch sự đúng mẫu mình tìm kiếm lâu nay. Cảm ơn Yody sẽ ủng hộ lâu dài"
+			}
+		]
+	},
+
+	{
+		"id": 100,
+		"subcategory_id": 20,
+		"name": "Thắt Lưng Nam Khóa Lăn Trẻ Trung",
+		"sold": 7800,
+		"price": 489000,
+		"discount": 0,
+		"colors": ["Đen", "Nâu"],
+		"sizes": [],
+		"characteristics": [
+			"Chất liệu thắt lưng được làm từ da bò",
+			"Đầu khóa thắt lung được làm từ hợp kim sáng bóng, không gỉ, không bạc màu thể hiện vẻ sang trọng lịch sự",
+			"Phần dây thắt lưng được thuộc da với trình độ cao, chất ra dẻo dai, bền bỉ và cực mềm",
+			"Chất liệu Da cao cấp càng dùng càng bóng đẹp",
+			"YODY - Look good. Feel good"
+		],
+		"comments": [
+			{
+				"user_name": "Hằng",
+				"star": 5,
+				"content": "Mình có mua cho ck dùng, thấy sp đẹp, trongp cũng trẻ trung, mình mua đc freeship kk"
+			}
+		]
+	},
+
+	{
+		"id": 101,
+		"subcategory_id": 20,
+		"name": "Thắt Lưng Nam 2 Mặt Khóa Kim Lịch Lãm",
+		"sold": 2400,
+		"price": 499000,
+		"discount": 0,
+		"colors": ["Đen"],
+		"sizes": [],
+		"characteristics": [
+			"Chất liệu thắt lưng được làm từ da bò",
+			"Đầu khóa dây nịt được làm từ hợp kim đúc nguyên khối, không gỉ, không bạc màu",
+			"Phần dây thắt lưng được thuộc da với trình độ cao, chất ra dẻo dai, bền bỉ và cực mềm",
+			"Chất liệu Da cao cấp càng dùng càng bóng đẹp",
+			"Thiết kế tối giản, dễ dàng chuyển đổi mặt xoay 360 độ để đổi màu dây đen và nâu dễ phối đồ",
+			"YODY - Look good. Feel good"
+		],
+		"comments": [
+			{
+				"user_name": "Tạ thành long",
+				"star": 5,
+				"content": "Nhận được hàng rất ưng ý cảm ơn yody"
+			}
+		]
+	},
+
+	{
+		"id": 102,
+		"subcategory_id": 21,
+		"name": "Giày Nam Da Thật Đế Thể Thao",
+		"sold": 2400,
+		"price": 2689000,
+		"discount": 0,
+		"colors": ["Đen"],
+		"sizes": ["39", "40", "41", "42", "43"],
+		"characteristics": [
+			"Giày nam da thật năng động, khỏe khoắn",
+			"Kiểu dáng thể thao, thời trang dễ mix đồ",
+			"Đế cao su siêu êm chân, có độ bám, đi bền bỉ trong mọi hoàn cảnh môi trường",
+			"Độ hoàn thiện giày cao, chi tiết sắc nét chắc chắn không thừa ra ngoài",
+			"Phom dáng thoải mái, ôm chân",
+			"Giày có thể kết hợp cùng nhiều trang phục thích hợp mặc đi chơi, đi làm",
+			"YODY - Look good. Feel good."
+		],
+		"comments": [
+			
+		]
+	},
+
+	{
+		"id": 103,
+		"subcategory_id": 21,
+		"name": "Giày Nam Moccasin Đục Lỗ Da Nappa",
+		"sold": 1800,
+		"price": 989000,
+		"discount": 0,
+		"colors": ["Đen"],
+		"sizes": ["39", "40", "41", "42", "43"],
+		"characteristics": [
+			"Giày nam mocca có kiểu dáng hiện đại",
+			"Thiết kế đục lỗ trước mũi giày tạo sự thông thoáng khi đi",
+			"Chất liệu da nappa mềm mại, bóng đẹp tự nhiên, không bong tróc, không bị nổ da, thoáng khí, không gây bí chân",
+			"Giày có thể kết hợp cùng nhiều trang phục, thích hợp diện đi chơi, đi làm",
+			"YODY - Look good. Feel good."
+		],
+		"comments": [
+			
+		]
+	},
+
+	{
+		"id": 104,
+		"subcategory_id": 21,
+		"name": "Giày Sneaker Nam Basic Trẻ Trung",
+		"sold": 4200,
+		"price": 989000,
+		"discount": 0,
+		"colors": ["Đen", "Nâu", "Trắng"],
+		"sizes": ["40", "41", "42", "43"],
+		"characteristics": [
+			"Giày sneaker nam năng động, khỏe khoắn",
+			"Form dáng thoải mái, chi tiết phối trẻ trung năng động",
+			"Giày có chất liệu da microfiber đàn hồi tốt, chống nhăn xước gãy bề mặt da",
+			"Đế giày cao su nguyên chất có độ bám dai bền bỉ, lót tẩy Ortholite hút ẩm chống hôi chân",
+			"Giày có thể kết hợp cùng nhiều trang phục thích hợp mặc đi chơi, đi làm.",
+			"YODY - Look good. Feel good."
+		],
+		"comments": [
+			
+		]
+	},
+
+	{
+		"id": 105,
+		"subcategory_id": 21,
+		"name": "Giày Lười Nam Moccasin Da Mill Đai Khóa",
+		"sold": 11000,
+		"price": 989000,
+		"discount": 0,
+		"colors": ["Đen", "Nâu"],
+		"sizes": ["39", "40", "41", "42", "43"],
+		"characteristics": [
+			"Chất liệu da bò Mill (Waxy Leather)",
+			"Chất liệu da rất mịn cảm nhận được độ mịn hơn hẳn da bò hạt in",
+			"Da mill bền bĩ theo năm tháng",
+			"Lớp lót giày mềm mại, thấm hút mồ hôi, cùng đế cao su êm ái, có rãnh ô vuông cách điệu chống trơn trượt",
+			"Mang đến cảm giác thoải mái, vững chãi trên từng bước đi",
+			"Thích hợp cho những ai chuộng sự linh hoạt, dễ dàng biến hóa phong cách từ casual đến sang trọng",
+			"YODY - Look good. Feel good"
+		],
+		"comments": [
+			
+		]
+	},
+
+	{
+		"id": 106,
+		"subcategory_id": 22,
+		"name": "Combo 2 Đôi Tất Nam Ẩn Kháng Khuẩn",
+		"sold": 5300,
+		"price": 79000,
+		"discount": 0,
+		"colors": ["Đen", "Tàn nhạt", "Trắng"],
+		"characteristics": [
+			"Combo 2 đôi tất nam kháng khuẩn hiệu quả",
+			"Thoải mái, co giãn ôm theo bàn chân của bạn",
+			"Chất liệu kháng khuẩn thông thoáng ",
+			"Thiết kế cổ ngắn không lo lộ tất với hầu hết các loại giày thông dụng cho nam giới",
+			"YODY - Look good. Feel good."
+		],
+		"comments": [
+			
+		]
+	},
+
+	{
+		"id": 107,
+		"subcategory_id": 22,
+		"name": "Tất Nam Yody Cơ Bản Cổ Bo",
+		"sold": 52300,
+		"price": 79000,
+		"discount": 0,
+		"colors": ["Đen", "Navy", "Tàn đậm", "Tàn nhạt", "Than phẩy", "Trắng"],
+		"characteristics": [
+			"Tất nam chất liệu mềm mại, co giãn đàn hồi tốt",
+			"Thiết kế cơ bản ôm bo cổ chân đi lâu không lo chảy xệ",
+			"Màu sắc đơn giản dễ dàng phối với nhiều trang phục, phong cách khác nhau",
+			"Đôi tất vừa là phụ kiện giữ ấm, vừa giúp kết nối sự liền mạch cho cả bộ đồ",
+			"YODY - Look good. Feel good."
+		],
+		"comments": [
+			
+		]
+	},
+
+	{
+		"id": 108,
+		"subcategory_id": 22,
+		"name": "Mũ Lưỡi Trai In Chữ",
+		"sold": 0,
+		"price": 169000,
+		"discount": 0,
+		"colors": ["Đen", "Hồng nhạt", "Xanh lá"],
+		"characteristics": [
+			"Mũ lưỡi trai in chữ chất liệu vải cotton",
+			"Mang đến cho người dùng cảm giác thoải mái và thuận tiện. ",
+			"Thấm hút tốt, thông thoáng da đầu",
+			"Kết cấu chắc chắn, đường may tỉ mỉ",
+			"Chất vải mềm, nhanh khô",
+			"YODY - Look good. Feel good"
+		],
+		"comments": [
+			
+		]
+	},
+
+	{
+		"id": 109,
+		"subcategory_id": 22,
+		"name": "Mũ Nam Trơn Vải Da Lộn",
+		"sold": 0,
+		"price": 169000,
+		"discount": 0,
+		"colors": ["Đen", "Hồng", "Xanh đen", "Xanh lá"],
+		"characteristics": [
+			"Chất liệu vải cotton",
+			"Mang đến cho người dùng cảm giác thoải mái và thuận tiện. Theo đó, chiếc mũ này sở hữu những ưu điểm không thể bỏ lỡ:",
+			"Thấm hút tốt, thông thoáng da đầu",
+			"Kết cấu chắc chắn, đường may tỉ mỉ",
+			"Chất vải mềm, nhanh khô",
+			"YODY - Look good. Feel good"
+		],
+		"comments": [
+			
+		]
+	},
+
+	{
+		"id": 110,
+		"subcategory_id": 22,
+		"name": "Túi Unisex Chống Nước Phối Da",
+		"sold": 1800,
+		"price": 359000,
+		"discount": 0,
+		"colors": ["Đen"],
+		"characteristics": [
+			"Túi đeo chéo unisex chống nước ",
+			"Chất liệu polyester phối da",
+			"Bền bỉ, chắc chắn & có khả năng chống nước ",
+			"Thiết kế unisex dành cho cả nam và nữ",
+			"Kích thước 19.5 x 15.5 x 5 (cm)",
+			"YODY - Look good. Feel good"
+		],
+		"comments": [
+			
+		]
+	},
+
+	{
+		"id": 111,
+		"subcategory_id": 22,
+		"name": "Mũ Nam Vải Bò",
+		"sold": 0,
+		"price": 169000,
+		"discount": 0,
+		"colors": ["Đen", "Hồng nhạt", "Navy", "Trắng"],
+		"characteristics": [
+			"Chất liệu vải cotton mềm",
+			"Thấm hút tốt, thông thoáng da đầu",
+			"Kết cấu chắc chắn, đường may tỉ mỉ, giặt nhanh khô",
+			"Mang đến cho người dùng cảm giác thoải mái và thuận tiện khi sử dụng",
+			"YODY - Look good. Feel good."
+		],
+		"comments": [
+			
+		]
+	},
+
+	{
+		"id": 112,
+		"subcategory_id": 22,
+		"name": "Túi Unisex Casual Cho Nam Nữ",
+		"sold": 7400,
+		"price": 359000,
+		"discount": 0,
+		"colors": ["Đen"],
+		"characteristics": [
+			"Túi đeo chéo điện lợi, đa năng dành cho cả nam và nữ",
+			"Thiết kê snhor gọn, nhiều ngăn tiện lợi",
+			"Chất liệu chắc chắn, đường may tỉ mỉ",
+			"Kiểu dáng casual thích hợp đeo mọi lúc mọi nơi",
+			"Nhỏ gọn, tiện lợi, phù hợp với mọi giới tính",
+			"YODY - Look good. Feel good."
+		],
+		"comments": [
+			
+		]
 	}
+
 
 ]
 
