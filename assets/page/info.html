@@ -28,35 +28,43 @@
         <div class="col col-8 mx-auto  py-4 bg-white px-4">
           <h3 class="text-center fw-semibold text-main mb-4">Giới thiệu về website Menly</h3>
           <div>
-            <h4>1. Trang web này là gì</h4>
+            <h4>1. Giới thiệu về đề tài</h4>
             <p>Websitge này là bài tập lớn môn Hệ thống và công nghệ Web của IUH năm 2023 với
               chủ đề là "Website giới thiệu, bán thời trang nam trực tuyến". Nhóm mình đã dựa trên website <a
                 href="https://yody.vn/" class="text-primary">yody.vn</a> để tạo ra 1 phiên bản thu nhỏ.</p>
             <img src="../img/info/p1.png" alt="" class="img-thumbnail mx-auto my-2 d-block w-100 object-fit-contain">
-            <p style="text-indent: 1rem">Sử dụng những kiến thức nền tảng được dạy như HTML, CSS, JS, JQuery, Bootstrap
-              cùng với sự mày mò nghiên cứu trên mạng, cũng như thời gian tự học trước đó, nhóm đã mô phỏng lại được các
-              tính năng cơ bản của website:</p>
-            <ul>
-              <li>Đăng nhập</li>
-              <li>Đăng ký</li>
-              <li>Duyệt, xem chi tiết các sản phẩm</li>
-              <li>Tìm kiếm sản phẩm</li>
-              <li>Lọc sản phẩm theo các tiêu chí</li>
-              <li>Thêm, xóa hàng khỏi giỏ hàng</li>
-            </ul>
+            
+            <p>Website bán thời trang nam là nơi bạn có thể tìm thấy những sản phẩm thời trang nam cao cấp, đẹp và phù
+              hợp với phong cách của bạn. Bạn có thể lựa chọn từ nhiều loại sản phẩm như áo sơ mi, áo polo, áo thun,
+              quần jeans, quần kaki, quần âu, quần short, áo khoác, phụ kiện và nhiều hơn nữa.</p>
           </div>
           <!-- 2 -->
           <div>
-            <h4 class="mb-4">2. Thành viên thực hiện</h4>
+            <h4 class="mb-4">2. Tính năng</h4>
+            <p>Website bán thời trang nam có các tính năng sau:</p>
+            <ul class="">
+              <li class="">Đăng ký: Bạn có thể đăng ký tài khoản để đăng nhập vào website. Bạn chỉ cần nhập tên, số điện thoại, tài khoản và mật khẩu để đăng ký.</li>
+              <li>Đăng nhập: Bạn có thể đăng nhập vào tài khoản của bạn để xem giỏ hàng, sửa đổi hàng trong giỏ</li>
+              <li>Tìm kiếm: Bạn có thể tìm kiếm sản phẩm theo tên phẩm hoặc từ khóa liên quan. Bạn cũng có thể sử dụng trang tìm kiếm nâng cao để lọc sản phẩm theo giá, màu sắc, kích cỡ, loại sản phẩm và thương hiệu.</li>
+              <li>Lọc sản phẩm: Bạn có thể lọc sản phẩm theo các tiêu chí như theo tên, giá thấp đến cao, giá cao đến thấp, theo kích cỡ, theo loại sản phẩm.</li>
+              <li> Giỏ hàng: Bạn có thể xem giỏ hàng của bạn bằng cách đăng nhập và nhấn vào biểu tượng giỏ hàng ở góc trên bên phải của website. Bạn có thể xem chi tiết sản phẩm, số lượng, giá và tổng tiền của đơn hàng. Bạn cũng có thể xóa sản phẩm khỏi giỏ hàng.</li>
+            </ul>
+            <p>Vì đề tài không cho phép sử dụng database, nên 1 số thông tin như giỏ hàng, tài khoản vừa đăng ký đều được lưu ở Local Storage (Lưu vào trình duyệt của người dùng) để có thể mô phỏng lại các chức năng chân thật nhất.</p>
+            <p>Để tránh phải viết lại nhiều trang website dữ liệu của các sản phẩm được bọn mình mô hình hóa dưới dạng json và lưu vào thư mục data, sau đó sử dụng js để render ra các trang dựa trên nội dung đọc từ file json bằng lệnh fetch và các sử lí bất đồng bộ.</p>
+            <p>Việc dùng kết hợp đọc file json và đọc ghi local storage khiến các tính năng của website Menly hoạt động đúng cách và tiệm cận với thực tế</p>
+          </div>
+
+          <!-- 3 -->
+          <div>
+            <h4 class="mb-4">3. Thành viên thực hiện</h4>
+            <p>Nhóm thực hiện bao gồm 2 thành viên:</p>
             <div class="row">
               <div class="col col-6">
                 <div class="card mx-auto" style="width: 18rem;">
                   <img src="../img/info/canh.jpg" class="card-img-top object-fit-cover" alt="" style="height: 300px">
                   <div class="card-body">
                     <h5 class="card-title">Nguyễn Thanh Cảnh <span class="text-12 textp">21086671</span></h5>
-                    <p class="card-text" style="min-height: 80px;">Truy cập <a href="https://thanhcanhit.github.io"
-                        class="text-primary">thanhcanhit.github.io</a> để trải nghiệm phần mềm nhảm nhí và source code
-                      của chúng.</p>
+                    <p class="card-text" style="min-height: 80px;">Nghiên cứu, xây dựng giao diện, thực hiện các chức năng, cấu trục dự án để hệ thống hoạt động 1 cách ổn định nhất.</p>
                     <div class="d-flex gap-2"><a href="https://github.com/thanhcanhit" class="btn btn-dark w-50"> <i
                           class="fa-brands fa-github"></i> Github</a>
                       <a href="https://www.facebook.com/thanhcanhit/" class="btn btn-primary w-50"> <i
@@ -70,7 +78,7 @@
                   <img src="../img/info/nam.jpg" class="card-img-top object-fit-cover" alt="" style="height: 300px">
                   <div class="card-body">
                     <h5 class="card-title">Nguyễn Xuân nam <span class="text-12 textp">2108787</span></h5>
-                    <p class="card-text" style="min-height: 80px;">Đang tìm người yêu</p>
+                    <p class="card-text" style="min-height: 80px;">Tìm kiếm xây dựng nguồn dữ liệu, hình ảnh đa dạng để đưa vào các trang của website, kiểm thử sản phẩm.</p>
                     <div class="d-flex gap-2"><a href="https://github.com/xuannamit" class="btn btn-dark w-50"> <i
                           class="fa-brands fa-github"></i> Github</a>
                       <a href="https://www.facebook.com/profile.php?id=100025457491375" class="btn btn-primary w-50"><i
@@ -81,7 +89,7 @@
               </div>
             </div>
           </div>
-          <!-- 3 -->
+
         </div>
       </div>
     </div>

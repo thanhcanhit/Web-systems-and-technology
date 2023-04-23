@@ -1,5 +1,5 @@
 import UsersStored from "../store/UsersStored.js";
-import { handleLogin } from "./data.js";
+import { checkUsername, handleLogin } from "./data.js";
 
 $(() => {
 	// const name = $('#name').val();
@@ -41,7 +41,13 @@ $(() => {
 		);
 	}
 
-	function validateUsername() {
+	async function validateUsername() {
+		const input = $("#username").val();
+		if (await checkUsername(input)) {
+			$("#username").css("border", "2px solid #FF5722");
+			$("#userError").html("Tên đăng nhập đã tồn tại");
+			return false;
+		}
 		return validate(
 			/^[a-zA-Z0-9]{5,20}$/,
 			"#username",

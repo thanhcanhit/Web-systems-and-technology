@@ -9,6 +9,7 @@ const isLogin = new UserStored().isLogin();
 
 console.log(isLogin);
 
+// Trả về thẻ div mô tả giỏ hàng trống
 function EmptyCard() {
 	return `
     <div class="cart__empty py-5">
@@ -19,8 +20,8 @@ function EmptyCard() {
       </div>
     </div>`;
 }
-
-function CardListRender(dataList, itemsData) {
+// Render
+function CartListRender(dataList, itemsData) {
 	let subTotal = 0;
 	const htmlRender = dataList.map((cartItem, index) => {
 		const item = Array.from(itemsData).find(
@@ -134,7 +135,7 @@ function CartRender() {
 
 			let subTotal = 0; // Tổng tiền giỏ hàng
 			let htmlList;
-			({ subTotal, listRender: htmlList } = CardListRender(
+			({ subTotal, listRender: htmlList } = CartListRender(
 				dataList,
 				data
 			));

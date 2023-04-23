@@ -6,7 +6,8 @@ import {
 } from "./shared.js";
 import { getAllItemData, getAllSubCategoryData, getAllUser, handleLogin } from "./data.js";
 import Item from "../components/Item/Item.js";
-// // Clock
+
+// Đồng hồ đếm ngược
 const clockItems = document.querySelectorAll(".clock__item span");
 
 if (clockItems) {
@@ -42,7 +43,7 @@ if (clockItems) {
 	}, 1000);
 }
 
-// Carousel
+// Kích hoạt bootstrap Carousel
 const carousel = new bootstrap.Carousel("#top-carousel", {
 	interval: 4000,
 	ride: true,
@@ -50,7 +51,7 @@ const carousel = new bootstrap.Carousel("#top-carousel", {
 carousel.cycle();
 
 // Category
-// Read subcategory
+// Render danh mục con subcategory
 const categoryList = document.querySelector(".js-category");
 if (categoryList) {
 	fetch("../data/subcategory.json")
@@ -73,12 +74,14 @@ if (categoryList) {
 		});
 }
 
-// List View
+// LIST VIEW
+
 const itemData = await getAllItemData();
+
 // Flash Sales
 const domFlash = document.querySelector("#js-flash-sale");
 
-// random item
+// Random sản phẩm để vào mục flash sale
 const randomItem = [];
 while (randomItem.length < 8) {
 	const randomIndex = getRandomValue(0, itemData.length);
@@ -98,7 +101,7 @@ const mainDom = document.querySelector("#main");
 // Random position subcategory
 let subcategoryData = await getAllSubCategoryData();
 const temp = [];
-while (subcategoryData.length > 0) {
+while (temp.length < 5) {
 	const randomIndex = Math.floor(Math.random() * subcategoryData.length);
 	temp.push(subcategoryData[randomIndex]);
 	subcategoryData.splice(randomIndex, 1);
