@@ -1935,6 +1935,27 @@
 	},
 
 	{
+		"id": 68,
+		"subcategory_id": 14,
+		"name": "Áo T- Shirt Nam Thể Thao In Ngực Limited",
+		"sold": 0,
+		"price": 229000,
+		"discount": 0,
+		"colors": ["Đen", "Tím Than", "Xanh đậm", "Xanh lá"],
+		"sizes": ["M", "L", "XL", "2XL"],
+		"characteristics": [
+			"Áo thun nam thể thao, thiết kế hiện đại, trải nghiệm thoải mái",
+			"Nằm trong dòng sản phẩm thể thao Yody Sport, áo thun nam mang đến sự thoải mái cho các anh ngay cả khi vận động mạnh",
+			"CO giãn tốt, chất vải mềm, thấm hút mồ hôi hiệu quả",
+			"Chữ in ngực chắc chắn, khoẻ khoắn tạo điểm nhấn riêng cho chiếc áo",
+			"YODY - Look good. Feel good."
+		],
+		"comments": [
+			
+		]
+	},
+
+	{
 		"id": 69,
 		"subcategory_id": 14,
 		"name": "Áo Thun Thể Thao Nam In Ngực",
@@ -2905,6 +2926,7 @@
 		"price": 79000,
 		"discount": 0,
 		"colors": ["Đen", "Tàn nhạt", "Trắng"],
+		"sizes": [],
 		"characteristics": [
 			"Combo 2 đôi tất nam kháng khuẩn hiệu quả",
 			"Thoải mái, co giãn ôm theo bàn chân của bạn",
@@ -2925,6 +2947,7 @@
 		"price": 79000,
 		"discount": 0,
 		"colors": ["Đen", "Navy", "Tàn đậm", "Tàn nhạt", "Than phẩy", "Trắng"],
+		"sizes": [],
 		"characteristics": [
 			"Tất nam chất liệu mềm mại, co giãn đàn hồi tốt",
 			"Thiết kế cơ bản ôm bo cổ chân đi lâu không lo chảy xệ",
@@ -2945,6 +2968,7 @@
 		"price": 169000,
 		"discount": 0,
 		"colors": ["Đen", "Hồng nhạt", "Xanh lá"],
+		"sizes": [],
 		"characteristics": [
 			"Mũ lưỡi trai in chữ chất liệu vải cotton",
 			"Mang đến cho người dùng cảm giác thoải mái và thuận tiện. ",
@@ -2966,6 +2990,7 @@
 		"price": 169000,
 		"discount": 0,
 		"colors": ["Đen", "Hồng", "Xanh đen", "Xanh lá"],
+		"sizes": [],
 		"characteristics": [
 			"Chất liệu vải cotton",
 			"Mang đến cho người dùng cảm giác thoải mái và thuận tiện. Theo đó, chiếc mũ này sở hữu những ưu điểm không thể bỏ lỡ:",
@@ -2987,6 +3012,7 @@
 		"price": 359000,
 		"discount": 0,
 		"colors": ["Đen"],
+		"sizes": [],
 		"characteristics": [
 			"Túi đeo chéo unisex chống nước ",
 			"Chất liệu polyester phối da",
@@ -3008,6 +3034,7 @@
 		"price": 169000,
 		"discount": 0,
 		"colors": ["Đen", "Hồng nhạt", "Navy", "Trắng"],
+		"sizes": [],
 		"characteristics": [
 			"Chất liệu vải cotton mềm",
 			"Thấm hút tốt, thông thoáng da đầu",
@@ -3028,6 +3055,7 @@
 		"price": 359000,
 		"discount": 0,
 		"colors": ["Đen"],
+		"sizes": [],
 		"characteristics": [
 			"Túi đeo chéo điện lợi, đa năng dành cho cả nam và nữ",
 			"Thiết kê snhor gọn, nhiều ngăn tiện lợi",
