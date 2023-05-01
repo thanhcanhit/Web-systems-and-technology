@@ -1,0 +1,149 @@
+#item__library {
+  height: 500px;
+  border: 1px solid rgb(240, 239, 239);
+  background-color: white;
+  box-shadow: 0 0 4px 4px rgba(0, 0, 0, .015);
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+#item__library .carousel-item,
+#item__library .carousel-inner {
+  height: 100%;
+}
+
+#item__library .carousel-item img {
+  object-fit: contain;
+  margin-inline: auto;
+}
+
+#item__library button {
+  color: var(--main-color);
+  font-size: 2rem;
+}
+
+#item__library .carousel-caption {
+  text-align: right;
+  display: flex;
+  align-items: end;
+  right: 30px;
+  bottom: 8px;
+}
+
+#item__library .carousel-caption span {
+  background-color: rgba(0, 0, 0, .3);
+  padding: 8px 12px;
+  color: white;
+  border-radius: 2rem;
+}
+
+/* Info */
+#item-info {
+  position: sticky;
+  top: calc(var(--header-height) + 1rem);
+  padding: 1rem;
+  background-color: white;
+  box-shadow: 0 0 4px 4px rgba(0, 0, 0, .015);
+  padding-bottom: 2rem;
+  border-radius: .25rem;
+}
+
+.pricing {
+  font-weight: 600;
+  font-size: 1.25rem;
+  display: flex;
+  gap: 16px;
+  color: var(--red-color);
+}
+
+.sale-price + .price {
+  color: lightgrey;
+  text-decoration: line-through;
+  font-weight: normal;
+}
+
+.price {
+  color: rgb(45, 45, 45);
+}
+
+
+.option {
+  margin-top: 1rem;
+}
+
+.option__name {
+  font-size: .875rem;
+  margin-bottom: .5rem;
+  margin-top: 1rem;
+}
+
+.color__list,
+.size__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.color__item,
+.size__item {
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  width: 50px;
+  height: 50px;
+  border: 1px solid rgb(230, 222, 222);
+  background-color: #f6f6f6;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all .1s ease;
+  font-weight: 600;
+}
+
+.color__item.active,
+.color__item:hover {
+  border-color: var(--main-color);
+}
+
+.color__item img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.size__item {
+  height: 40px;
+}
+
+.size__item:hover,
+.size__item.active {
+  color: white;
+  background-color: var(--main-color);
+  border: none;
+}
+
+
+.carousel-img {
+  animation: display .8s ease .5s;
+  transition: all .5s ease;
+}
+
+@keyframes display {
+  40% {
+    transform: scale(1.01);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+/* More info */
+
+.overall {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  padding: 20px;
+  border-radius: 4px;
+  text-align: center;
+}

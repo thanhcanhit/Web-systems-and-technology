@@ -19,13 +19,13 @@
   <header id="header"></header>
 
   <main>
-    <section class="heading container pt-4 pb-4" id="js-breadcrumb">
+    <section class="heading container pt-4 pb-4 mx-auto" id="js-breadcrumb">
 
     </section>
 
     <section class="category container">
       <div class="row" style="--bs-gutter-x: 1rem;">
-        <div class="col col-2 pt-4 position-relative">
+        <div class="col col-12 col-lg-2 pt-4 position-relative">
           <div class="filter d-flex flex-column gap-4 mb-4 position-sticky">
             <div class=" filter__type">
               <h4 class="filter__heading">
@@ -48,19 +48,21 @@
 
           </div>
         </div>
-        <div class="col col-10 pb-4">
-          <section class="sort container d-flex align-items-center justify-content-between fw-medium  mb-2 ">
+        <div class="col col-12 col-lg-10 pb-4">
+          <section class="sort container d-flex align-items-center justify-content-between fw-medium mb-2 p-0 p-lg-3 ">
             <span class="quantity" id="js-quantity-item" style="color:var(--violet-gray)"></span>
             <div class="d-flex">
-              <div class="d-flex align-items-center"><span class="me-2"><i class="fa-solid fa-filter fa-beat me-1"
-                    style="color: #fea916;"></i> Sắp xếp theo </span>
+              <div class="d-flex align-items-center">
+                <span class="me-2 d-none d-md-inline">
+                  <i class="fa-solid fa-filter fa-beat me-1" style="color: #fea916;"></i> Sắp xếp theo
+                </span>
                 <select name="" id="js-filter-sort" class="form-select p-2 fw-medium rounded-end-0"
                   style="width: 230px;">
                 </select>
               </div>
             </div>
           </section>
-          <div class="product-list row ms-2 pb-4 gx-2 gap-4 justify-content-start" id="js-product-list">
+          <div class="product-list row ms-md-2 pb-4 gx-2 justify-content-start" id="js-product-list">
           </div>
           <hr>
         </div>
