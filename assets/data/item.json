@@ -907,7 +907,8 @@
 			"Nằm trong thiết kế áo gia đình mới nhất",
 			"YODY - Look good. Feel good."
 		],
-		"comments": []
+		"comments": [		
+		]
 	},
 
 	{
@@ -934,7 +935,7 @@
 				"user_name": "Hoàng thị vân",
 				"star": 5,
 				"content": "Áo chất đẹp lên from chuẩn"
-			}
+			}	
 		]
 	},
 
@@ -961,7 +962,7 @@
 				"user_name": "Nguyễn Thị Phượng",
 				"star": 5,
 				"content": "Sản phẩm dùng rất thích"
-			}
+			}	
 		]
 	},
 
@@ -986,7 +987,7 @@
 				"user_name": "Nguyễn thị phương",
 				"star": 5,
 				"content": "Sản phẩm tốt"
-			}
+			}	
 		]
 	},
 
@@ -1009,7 +1010,10 @@
 			"Phù hợp mặc đi làm, đi học, đi chơi, mix cùng quần joger, quần jeans",
 			"YODY - Look good. Feel good."
 		],
-		"comments": [{}]
+		"comments": [
+			{
+			}	
+		]
 	},
 
 	{
@@ -1062,7 +1066,8 @@
 			"Chất liệu Denim Cotton pha với Polyester mang lại cảm giác mềm mại",
 			"Vải Denim được dệt từ sợi bông USA cao cấp"
 		],
-		"comments": []
+		"comments": [
+		]
 	},
 
 	{
@@ -1083,7 +1088,8 @@
 			"Phom dáng suông dễ dàng phối đồ cùng áo sơ mi, áo thun, áo polo...",
 			"YODY - Look good. Feel good."
 		],
-		"comments": []
+		"comments": [
+		]
 	},
 
 	{
@@ -1103,7 +1109,8 @@
 			"Kết hợp cùng nhiều trang phục khác nhau để mang tới cho mình một phong cách cá tính riêng",
 			"YODY - Look good. Feel good"
 		],
-		"comments": []
+		"comments": [
+		]
 	},
 
 	{
@@ -1123,7 +1130,8 @@
 			"Kiểu dáng slimfit ôm dáng vừa vặn",
 			"YODY - Look good. Feel good"
 		],
-		"comments": []
+		"comments": [
+		]
 	},
 
 	{
@@ -1134,7 +1142,7 @@
 		"price": 599000,
 		"discount": 0,
 		"colors": ["Xanh đậm", "Xanh"],
-		"sizes": ["28", "29", "30", "31", "32", "33", "34"],
+		"sizes": ["28","29","30", "31", "32", "33", "34"],
 		"characteristics": [
 			"Quần jeans nam chất liệu cotton USA - loại vải cao cấp được cả thế giới tin dùng với nhiều ưu điểm nổi bật",
 			"Cotton USA sạch hơn các loại bông khác do quá trình thu hoạch sử dụng thiết bị điều khiển bằng máy tính tân tiến nhất",
@@ -1170,7 +1178,7 @@
 		"price": 599000,
 		"discount": 0,
 		"colors": ["Xanh đậm", "Xanh"],
-		"sizes": ["28", "29", "30", "31", "32", "33", "34"],
+		"sizes": ["28","29","30", "31", "32", "33", "34"],
 		"characteristics": [
 			"Thành phần chất liệu: 76% Cotton USA + 22% S-cafe + 2% Spandex",
 			"Quần jeans nam dáng slim fit",
@@ -1205,7 +1213,7 @@
 		"price": 579000,
 		"discount": 10,
 		"colors": ["Xanh đậm", "Xanh"],
-		"sizes": ["28", "29", "30", "31", "32", "33", "34"],
+		"sizes": ["28","29","30", "31", "32", "33", "34"],
 		"characteristics": [
 			"Thành phần: 63.5% Cotton USA + 35.5% Polyester + 1% Spandex",
 			"Chất liệu cotton USA là một trong những loại nguyên liệu cao cấp được cả thế giới tin dùng",
@@ -1240,7 +1248,7 @@
 		"price": 569000,
 		"discount": 10,
 		"colors": ["Xanh đậm", "Xanh"],
-		"sizes": ["28", "29", "30", "31", "32", "33", "34"],
+		"sizes": ["28","29","30", "31", "32", "33", "34"],
 		"characteristics": [
 			"Chất liệu Cotton",
 			"Thoải mái với chất liệu thấm hút tốt, co giãn vừa phải.",
@@ -1249,7 +1257,8 @@
 			"Thích hợp phối với đa dạng items đi làm, đi chơi, đi học như áo polo, sơ mi, áo thun…",
 			"YODY - Look good. Feel good."
 		],
-		"comments": []
+		"comments": [
+		]
 	},
 
 	{
@@ -1259,17 +1268,8 @@
 		"sold": 21300,
 		"price": 499000,
 		"discount": 10,
-		"colors": [
-			"Đen",
-			"Ghi Sáng",
-			"Nâu",
-			"Tím Than",
-			"Xám đậm",
-			"Xanh đậm",
-			"Xanh đen",
-			"Xanh nhạt"
-		],
-		"sizes": ["28", "29", "30", "31", "32", "33", "34"],
+		"colors": ["Đen", "Ghi Sáng", "Nâu", "Tím Than", "Xám đậm", "Xanh đậm", "Xanh đen", "Xanh nhạt"],
+		"sizes": ["28","29","30", "31", "32", "33", "34"],
 		"characteristics": [
 			"Chất liệu: Vải chéo 79",
 			"Thiết kế suông nhẹ, vừa đảm bảo sự thoải mái",
@@ -1304,17 +1304,8 @@
 		"sold": 10400,
 		"price": 499000,
 		"discount": 0,
-		"colors": [
-			"Đen",
-			"Ghi Sáng",
-			"Nâu",
-			"Tím Than",
-			"Vàng",
-			"Xám đá",
-			"Xanh đậm",
-			"Xanh nhạt"
-		],
-		"sizes": ["28", "29", "30", "31", "32", "33", "34"],
+		"colors": ["Đen", "Ghi Sáng", "Nâu", "Tím Than", "Vàng", "Xám đá", "Xanh đậm", "Xanh nhạt"],
+		"sizes": ["28","29","30", "31", "32", "33", "34"],
 		"characteristics": [
 			"Chất liệu vải Nano được tạo thành từ 100% Polyester",
 			"Vải sử dụng công nghệ Nano xoắn nhiều sợi li ti thành một sợi.",
@@ -1355,7 +1346,7 @@
 		"price": 499000,
 		"discount": 0,
 		"colors": ["Chì", "Đen", "Ghi", "Tím Than"],
-		"sizes": ["29", "30", "31", "32", "33"],
+		"sizes": ["29","30", "31", "32", "33"],
 		"characteristics": [
 			"Quần âu nam dáng hợp thời trending, trẻ trung thoải mái",
 			"Sản phẩm được thiết kế theo hướng hiện đại kết hợp cạp chun phía sau giúp người dùng thoải mái, linh hoạt và siêu tiện lợi ",
@@ -1390,7 +1381,7 @@
 		"price": 549000,
 		"discount": 0,
 		"colors": ["Đen", "Ghi Sáng", "Vàng"],
-		"sizes": ["29", "30", "31", "32", "33"],
+		"sizes": ["29","30", "31", "32", "33"],
 		"characteristics": [
 			"Quần âu nam dáng Classic - lịch lãm, sang trọng",
 			"Chất liệu vải cafe thoáng khí, thoải mái khi sử dụng",
@@ -1399,7 +1390,9 @@
 			"Cạp quần bản to vừa vặn với vòng bụng người châu Á",
 			"YODY - Look good. Feel good."
 		],
-		"comments": []
+		"comments": [
+			
+		]
 	},
 
 	{
@@ -1410,7 +1403,7 @@
 		"price": 499000,
 		"discount": 0,
 		"colors": ["Đen", "Nâu Sữa", "Tím Than", "Vàng"],
-		"sizes": ["29", "30", "31", "32", "33"],
+		"sizes": ["29","30", "31", "32", "33"],
 		"characteristics": [
 			"Quần kaki nam dáng regular thoải mái, tôn dáng",
 			"Thiết kế basic, màu sắc hiện đại, dễ phối đồ",
@@ -1418,7 +1411,8 @@
 			"Đường may tỉ mỉ, chắc chắn cùng các chi tiết túi, đai tiện lợi",
 			"YODY - Look good. Feel good."
 		],
-		"comments": []
+		"comments": [
+		]
 	},
 
 	{
@@ -1436,7 +1430,9 @@
 			"Quần kaki nam slim phù hợp cho nam giới và có thể sử dụng trong nhiều hoàn cảnh khác nhau",
 			"YODY - Look good. Feel good."
 		],
-		"comments": []
+		"comments": [
+
+		]
 	},
 
 	{
@@ -1447,7 +1443,7 @@
 		"price": 499000,
 		"discount": 0,
 		"colors": ["Be", "Đen", "Tím Than", "Xám", "Xanh Than"],
-		"sizes": ["29", "30", "31", "32", "33"],
+		"sizes": ["29","30","31","32", "33"],
 		"characteristics": [
 			"Quần kaki nam basic dáng ôm",
 			"Chất liệu kaki dày dặn, co giãn đàn hồi tốt",
@@ -1482,7 +1478,7 @@
 		"price": 499000,
 		"discount": 0,
 		"colors": ["Be", "Đen", "Tím Than", "Xám", "Xanh Than"],
-		"sizes": ["29", "30", "31", "32", "33"],
+		"sizes": ["29","30","31","32", "33"],
 		"characteristics": [
 			"Quần kaki nam dáng regular thoải mái, dễ mặc",
 			"Chất liệu kaki dày dặn, bền chắc",
@@ -1517,8 +1513,8 @@
 		"sold": 9400,
 		"price": 549000,
 		"discount": 0,
-		"colors": ["Be", "Đen", "Ghi", "Xám", "Xanh Than"],
-		"sizes": ["29", "30", "31", "32", "33"],
+		"colors": ["Be", "Đen", "Tím Than", "Xám", "Xanh Than"],
+		"sizes": ["29","30","31","32", "33"],
 		"characteristics": [
 			"Chất liệu Kaki",
 			"Vải kaki dày dặn, co giãn đàn hồi tốt",
@@ -1555,7 +1551,7 @@
 		"price": 299000,
 		"discount": 0,
 		"colors": ["Be", "Đen", "Ghi", "Xanh đá", "Xanh nhạt"],
-		"sizes": ["29", "30", "31", "32", "33"],
+		"sizes": ["29","30","31","32", "33"],
 		"characteristics": [
 			"Chất liệu Kaki",
 			"Kaki là chất liệu vải được dệt nên có cấu trúc vô cùng chắc chắn, bè mặt vải khít.",
@@ -1581,7 +1577,7 @@
 		"price": 359000,
 		"discount": 0,
 		"colors": ["Đen", "Ghi", "Tím Than", "Xám", "Xanh"],
-		"sizes": ["28", "29", "30", "31", "32", "33", "34"],
+		"sizes": ["28" ,"29","30","31","32", "33", "34"],
 		"characteristics": [
 			"Sử dụng chất liệu: 100% polyester",
 			"Thoáng mát khi sử dụng",
@@ -1617,7 +1613,7 @@
 		"price": 359000,
 		"discount": 0,
 		"colors": ["Be", "Đen", "Ghi", "Xanh đá", "Xanh nhạt"],
-		"sizes": ["28", "29", "30", "31", "32", "33", "34"],
+		"sizes": ["28" ,"29","30","31","32", "33", "34"],
 		"characteristics": [
 			"Quần short nam kaki ngang gối",
 			"Sản phẩm basic thiết yếu dành cho mọi chàng trai",
@@ -1653,7 +1649,7 @@
 		"price": 359000,
 		"discount": 0,
 		"colors": ["Be", "Đen", "Ghi", "Xanh đá", "Xanh nhạt"],
-		"sizes": ["28", "29", "30", "31", "32", "33", "34"],
+		"sizes": ["28" ,"29","30","31","32", "33", "34"],
 		"characteristics": [
 			"Chất liệu Kaki mềm nhẹ, thoải mái",
 			"Quần short nam thiết kế cơ bản dài ngang gối",
@@ -1699,7 +1695,9 @@
 			"Form trẻ trung, lịch lãm, thích hợp mặc ở nhà hoặc ra ngoài cafe, hẹn hò đều được",
 			"YODY - Look good. Feel good."
 		],
-		"comments": []
+		"comments": [
+			
+		]
 	},
 
 	{
@@ -1719,7 +1717,9 @@
 			"Phối cùng polo hoặc sơ mi sẽ đem đến cho các anh 1 outfit vô cùng lịch lãm mà vẫn thoải mái, nhất là trong mùa hè",
 			"YODY - Look good. Feel good."
 		],
-		"comments": []
+		"comments": [
+			
+		]
 	},
 
 	{
@@ -1730,7 +1730,7 @@
 		"price": 498000,
 		"discount": 0,
 		"colors": ["Xanh đậm"],
-		"sizes": ["28", "29", "30"],
+		"sizes": ["28","29", "30"],
 		"characteristics": [
 			"Quần jean nam chất liệu: 98% cotton, 2% spandex",
 			"Vải jean có độ bền rất cao, vải dày, không bị sờn rách, nhăn sau thời gian sử dụng",
@@ -1738,7 +1738,9 @@
 			"Chất liệu vải jean dày đẹp, có độ cứng cáp, giúp tôn dáng người mặc. ",
 			"YODY - Look good. Feel good."
 		],
-		"comments": []
+		"comments": [
+			
+		]
 	},
 
 	{
@@ -1759,7 +1761,9 @@
 			"Khả năng thấm hút mồ hôi tốt, không gây bí nóng",
 			"YODY - Look good. Feel good."
 		],
-		"comments": []
+		"comments": [
+			
+		]
 	},
 
 	{
@@ -1795,7 +1799,7 @@
 				"user_name": "Trần Văn Tình",
 				"star": 4,
 				"content": "Với 1 người lười ra hàng mua quần áo thì đặt online trên này quá tiện. cú đặt rồi nhân viên hỗ trợ chọn size chuẩn luôn :vv"
-			}
+			}	
 		]
 	},
 
@@ -1816,7 +1820,9 @@
 			"Co giãn, phù hợp với chuyển động của cơ thể",
 			"YODY - Look good. Feel good."
 		],
-		"comments": []
+		"comments": [
+			
+		]
 	},
 
 	{
@@ -1835,7 +1841,9 @@
 			"Lựa chọn tuyệt vời cho nam giới trong mùa lạnh, đơn giản hóa việc mix & match đồ mùa thu đông",
 			"YODY - Look good. Feel good."
 		],
-		"comments": []
+		"comments": [
+			
+		]
 	},
 
 	{
@@ -1855,7 +1863,9 @@
 			"Phù hợp với khách hàng nam mặc nhà đi chơi thể thao hay cafe cùng gia đình bạn bè",
 			"YODY - Look good. Feel good."
 		],
-		"comments": []
+		"comments": [
+			
+		]
 	},
 
 	{
@@ -1875,8 +1885,11 @@
 			"Có thể mặc cùng quần short đi chơi, dạo phố, tập gym hoặc ở nhà",
 			"YODY - Look good. Feel good."
 		],
-		"comments": []
+		"comments": [
+			
+		]
 	},
+
 
 	{
 		"id": 66,
@@ -1885,13 +1898,7 @@
 		"sold": 40,
 		"price": 299000,
 		"discount": 0,
-		"colors": [
-			"Đen",
-			"Tím Than",
-			"Xanh biển đậm",
-			"Xanh Cổ Vịt",
-			"Xanh Ghi"
-		],
+		"colors": ["Đen", "Tím Than", "Xanh biển đậm", "Xanh Cổ Vịt", "Xanh Ghi"],
 		"sizes": ["L", "XL", "2XL"],
 		"characteristics": [
 			"Áo thể thao nam thiết kế mới khoẻ khoắn và đa năng",
@@ -1901,7 +1908,9 @@
 			"Có thể mặc cùng quần short đi chơi, dạo phố, tập gym hoặc ở nhà",
 			"YODY - Look good. Feel good."
 		],
-		"comments": []
+		"comments": [
+			
+		]
 	},
 
 	{
@@ -1920,7 +1929,9 @@
 			"Chữ in ngực chắc chắn, khoẻ khoắn tạo điểm nhấn riêng cho chiếc áo",
 			"YODY - Look good. Feel good."
 		],
-		"comments": []
+		"comments": [
+			
+		]
 	},
 
 	{
@@ -1930,7 +1941,7 @@
 		"sold": 0,
 		"price": 229000,
 		"discount": 0,
-		"colors": ["Đen", "Tím Than", "Xanh đậm", "Xanh lá"],
+		"colors": ["Đen", "Đỏ cam", "Tím than", "Xanh biển đậm", "Xanh Ghi"],
 		"sizes": ["M", "L", "XL", "2XL"],
 		"characteristics": [
 			"Áo thun nam thể thao, thiết kế hiện đại, trải nghiệm thoải mái",
@@ -1939,7 +1950,9 @@
 			"Chữ in ngực chắc chắn, khoẻ khoắn tạo điểm nhấn riêng cho chiếc áo",
 			"YODY - Look good. Feel good."
 		],
-		"comments": []
+		"comments": [
+			
+		]
 	},
 
 	{
@@ -1949,13 +1962,7 @@
 		"sold": 0,
 		"price": 269000,
 		"discount": 0,
-		"colors": [
-			"Tím Than",
-			"Trắng",
-			"Xanh Cổ Vịt",
-			"Xanh Dương",
-			"Xanh Ngọc"
-		],
+		"colors": ["Tím Than", "Trắng", "Xanh Cổ Vịt", "Xanh Dương", "Xanh Ngọc"],
 		"sizes": ["M", "L", "XL", "2XL"],
 		"characteristics": [
 			"Vận động cường độ cao nhờ chất liệu đàn hồi nhanh chóng",
@@ -1964,7 +1971,9 @@
 			"Dáng suông phù hợp với mọi dáng người",
 			"YODY - Look good. Feel good."
 		],
-		"comments": []
+		"comments": [
+			
+		]
 	},
 
 	{
@@ -1984,7 +1993,9 @@
 			"Chống tĩnh điện tốt, không xù lông rút sợi",
 			"YODY - Look good. Feel good."
 		],
-		"comments": []
+		"comments": [
+			
+		]
 	},
 
 	{
@@ -2019,7 +2030,7 @@
 				"user_name": "men_nhaholy",
 				"star": 4,
 				"content": "Mới mua lần đầu mà thấy vải khá đẹp, nhận áo về rất hài lòng. Biết thế mua thêm rồi"
-			}
+			}	
 		]
 	},
 
@@ -2054,7 +2065,7 @@
 				"user_name": "nguoinhaque",
 				"star": 4,
 				"content": "Shop giao hàng nhanh đúng màu đúng size, chất lượng thì rất rất đẹp. sẽ ủng hộ shop nhiều hơn"
-			}
+			}	
 		]
 	},
 
@@ -2091,7 +2102,7 @@
 				"user_name": "M**h",
 				"star": 5,
 				"content": "Áo mặc mát, thấm hút mồ hôi tốt, mình đi ngoài đường nóng nhưng chỉ ngồi 1 lát là khô nên đánh giá cao ưu điểm này của các áo polo thể thao. Nên ra thêm nhiều mẫu hơn."
-			}
+			}	
 		]
 	},
 
@@ -2126,7 +2137,7 @@
 				"user_name": "Ngọc Hải",
 				"star": 5,
 				"content": "Sản phẩm đẹp, đúng mẫu mã, chất lượng tuyệt vời"
-			}
+			}	
 		]
 	},
 
@@ -2137,15 +2148,7 @@
 		"sold": 9500,
 		"price": 349000,
 		"discount": 0,
-		"colors": [
-			"Đen",
-			"Đỏ",
-			"Ghi",
-			"Tím than",
-			"Trắng",
-			"Xanh Lơ",
-			"Xanh mint"
-		],
+		"colors": ["Đen", "Đỏ", "Ghi", "Tím than", "Trắng", "Xanh Lơ", "Xanh mint"],
 		"sizes": ["M", "L", "XL", "2XL"],
 		"characteristics": [
 			"Chất liệu: Thành phần 85% Freezing Polyamide + 15% spandex",
@@ -2172,7 +2175,7 @@
 				"user_name": "huyenbbtt",
 				"star": 5,
 				"content": "Giao hàng nhanh, chất liệu vải mềm mát rượi, form hơi nhỏ hơn bình thường, muốn thoải mái nên tăng 1 size, hài lòng"
-			}
+			}	
 		]
 	},
 
@@ -2183,7 +2186,7 @@
 		"sold": 0,
 		"price": 299000,
 		"discount": 0,
-		"colors": ["Đen", "Đỏ", "Ghi", "Grey", "Trắng", "Xanh"],
+		"colors": ["Đen", "Đỏ", "Grey", "Trắng", "Xanh"],
 		"sizes": ["M", "L", "XL", "2XL"],
 		"characteristics": [
 			"Chất liệu 100% Recycle Polyester - Nguyên liệu tái chế, thân thiện với môi trường",
@@ -2193,7 +2196,9 @@
 			"Dáng suông phù hợp với mọi dáng người",
 			"YODY - Look good. Feel good."
 		],
-		"comments": []
+		"comments": [
+			
+		]
 	},
 
 	{
@@ -2213,7 +2218,9 @@
 			"Hình in phản quang nổi bật ở nẹp, ngực và sườn áo",
 			"YODY - Look good. Feel good."
 		],
-		"comments": []
+		"comments": [
+			
+		]
 	},
 
 	{
@@ -2249,7 +2256,7 @@
 				"user_name": "truonggiang2411",
 				"star": 5,
 				"content": "Giá tốt, hàng như mô tả, shop tư vấn nhiệt tình, giao hàng nhanh, sẽ ủng hộ tiếp"
-			}
+			}	
 		]
 	},
 
@@ -2286,7 +2293,7 @@
 				"user_name": "nynyhuyhuy",
 				"star": 5,
 				"content": "Áo đẹp, size bị chật mình nhờ hỗ trợ đổi, tới cửa hàng trực tiếp của yody đổi luôn k mất phí . tốt"
-			}
+			}	
 		]
 	},
 
@@ -2306,7 +2313,9 @@
 			"Kiểu dáng hiện đại, tôn dáng, năng động, giúp người mặc luôn tự tin khi sử dụng.",
 			"YODY - Look good. Feel good."
 		],
-		"comments": []
+		"comments": [
+			
+		]
 	},
 
 	{
@@ -2325,7 +2334,9 @@
 			"Set đồ tập luyện nên có trọng tủ đồ của bạn",
 			"YODY - Look good. Feel good."
 		],
-		"comments": []
+		"comments": [
+			
+		]
 	},
 
 	{
@@ -2346,7 +2357,9 @@
 			"Set đồ nên có trọng tủ đồ của bạn",
 			"YODY - Look good. Feel good."
 		],
-		"comments": []
+		"comments": [
+			
+		]
 	},
 
 	{
@@ -2365,7 +2378,9 @@
 			"Sản phẩm dễ mặc, dễ kết hợp cùng nhiều trang phục ngày hè như: quần short, quần thể thao,... để mặc nhà, đi chơi hay tập thể dục",
 			"YODY - Look good. Feel good."
 		],
-		"comments": []
+		"comments": [
+			
+		]
 	},
 
 	{
@@ -2403,8 +2418,8 @@
 				"user_name": "me0xjnkbaby",
 				"star": 5,
 				"content": "Áo mềm mịn, co giãn tốt. Áo ba lỗ có thiết kế thoáng mát, thấm hút tốt."
-			}
-		]
+			}	
+		]	
 	},
 
 	{
@@ -2439,7 +2454,7 @@
 				"user_name": "Thanh Tú",
 				"star": 5,
 				"content": "Rất tốt từ khâu gói hàng đến khâu vận chuyển nhé mọi người ok"
-			}
+			}	
 		]
 	},
 
@@ -2474,7 +2489,7 @@
 				"user_name": "HaNa",
 				"star": 5,
 				"content": "Áo dày dặn,mặc đẹp"
-			}
+			}	
 		]
 	},
 
@@ -2494,7 +2509,9 @@
 			"Kháng khuẩn, khử mùi tự nhiên an toàn, dễ chịu",
 			"YODY - Look good. Feel good."
 		],
-		"comments": []
+		"comments": [
+			
+		]
 	},
 
 	{
@@ -2512,7 +2529,9 @@
 			"Là sản phẩm basic, thiết yếu nên có trong tủ đồ của nam giới",
 			"YODY - Look good. Feel good. "
 		],
-		"comments": []
+		"comments": [
+			
+		]
 	},
 
 	{
@@ -2531,7 +2550,9 @@
 			"Quần lót nam - người bạn đồng hành không thể thiếu của nam giới",
 			"YODY - Look good. Feel good."
 		],
-		"comments": []
+		"comments": [
+			
+		]
 	},
 
 	{
@@ -2551,7 +2572,9 @@
 			"Vải có khả năng kháng khuẩn khử mùi tự nhiên nên an toàn, dễ chịu.",
 			"YODY - Look good. Feel good."
 		],
-		"comments": []
+		"comments": [
+			
+		]
 	},
 
 	{
@@ -2570,7 +2593,9 @@
 			"Co giãn thoải mái, thông thoáng khi sử dụng",
 			"YODY - Look good. Feel good."
 		],
-		"comments": []
+		"comments": [
+			
+		]
 	},
 
 	{
@@ -2588,7 +2613,9 @@
 			"Là sản phẩm basic, thiết yếu nên có trong tủ đồ của nam giới",
 			"YODY - Look good. Feel good. "
 		],
-		"comments": []
+		"comments": [
+			
+		]
 	},
 
 	{
@@ -2609,7 +2636,9 @@
 			"Có khả năng kháng khuẩn, khử mùi hiệu quả",
 			"YODY - Look good. Feel good."
 		],
-		"comments": []
+		"comments": [
+			
+		]
 	},
 
 	{
@@ -2628,7 +2657,9 @@
 			"Kiểu dáng quần boxer tiện lợi",
 			"YODY - Look good. Feel good."
 		],
-		"comments": []
+		"comments": [
+			
+		]
 	},
 
 	{
@@ -2639,7 +2670,7 @@
 		"price": 449000,
 		"discount": 0,
 		"colors": ["Đen"],
-		"sizes": ["ONE"],
+		"sizes": ["One size"],
 		"characteristics": [
 			"Chất liệu da bò cao cấp",
 			"Da có đặc tính mềm, dẻo, không có hóa chất độc hại cùng với thiết kế trẻ trung hợp thời trang và vô cùng độc đáo",
@@ -2649,7 +2680,9 @@
 			"Đường chỉ may tỉ mỉ, chắc chắn.  Phù hợp với mọi loại trang phục, hoàn cảnh",
 			"YODY - Look good. Feel good"
 		],
-		"comments": []
+		"comments": [
+			
+		]
 	},
 
 	{
@@ -2660,7 +2693,7 @@
 		"price": 499000,
 		"discount": 40,
 		"colors": ["Đen"],
-		"sizes": ["ONE"],
+		"sizes": ["One size"],
 		"characteristics": [
 			"Thắt lưng da bò 100% dành cho các chàng trai lịch lãm",
 			"Mặt tự động bản dây 3.5cm với màu đen vân Mill sang trọng",
@@ -2670,7 +2703,9 @@
 			"Một sự bổ sung cho bất kỳ trang phục theo phong cách nào",
 			"YODY - Look good. Feel good."
 		],
-		"comments": []
+		"comments": [
+			
+		]
 	},
 
 	{
@@ -2681,7 +2716,7 @@
 		"price": 499000,
 		"discount": 0,
 		"colors": ["Đen"],
-		"sizes": ["ONE"],
+		"sizes": ["One size"],
 		"characteristics": [
 			"Thắt lưng nam với Chất liệu da bò chắc chắn, bền đẹp",
 			"Thiết kế khoá mặt kim mang lại nét cổ điển lịch lãm",
@@ -2690,7 +2725,9 @@
 			"Đặc biệt, dây da có thiết kế thong minh, dễ dàng chuyển đổi mặt xoay 360 độ để đổi màu dây đen và nâu giúp các anh sở hữu 2 trong 1, linh hoạt phối đồ",
 			"YODY - Look good. Feel good."
 		],
-		"comments": []
+		"comments": [
+			
+		]
 	},
 
 	{
@@ -2701,7 +2738,7 @@
 		"price": 499000,
 		"discount": 0,
 		"colors": ["Đen", "Nâu"],
-		"sizes": ["ONE"],
+		"sizes": ["One size"],
 		"characteristics": [
 			"Thắt lưng da bò 100% dành cho các chàng trai lịch lãm",
 			"Đai lưng nam da thật kết hợp với mặt thép cao cấp",
@@ -2710,7 +2747,9 @@
 			"Một sự bổ sung cho bất kỳ trang phục theo phong cách nào",
 			"YODY - Look good. Feel good"
 		],
-		"comments": []
+		"comments": [
+			
+		]
 	},
 
 	{
@@ -2721,7 +2760,7 @@
 		"price": 499000,
 		"discount": 0,
 		"colors": ["Đen"],
-		"sizes": ["ONE"],
+		"sizes": ["One size"],
 		"characteristics": [
 			"Chất liệu da bò cao cấp",
 			"Da có đặc tính mềm, dẻo, không có hóa chất độc hại cùng với thiết kế trẻ trung hợp thời trang và vô cùng độc đáo",
@@ -2747,7 +2786,7 @@
 		"price": 489000,
 		"discount": 0,
 		"colors": ["Đen", "Nâu"],
-		"sizes": ["ONE"],
+		"sizes": ["One size"],
 		"characteristics": [
 			"Chất liệu thắt lưng được làm từ da bò",
 			"Đầu khóa thắt lung được làm từ hợp kim sáng bóng, không gỉ, không bạc màu thể hiện vẻ sang trọng lịch sự",
@@ -2772,7 +2811,7 @@
 		"price": 499000,
 		"discount": 0,
 		"colors": ["Đen"],
-		"sizes": ["ONE"],
+		"sizes": ["One size"],
 		"characteristics": [
 			"Chất liệu thắt lưng được làm từ da bò",
 			"Đầu khóa dây nịt được làm từ hợp kim đúc nguyên khối, không gỉ, không bạc màu",
@@ -2808,7 +2847,9 @@
 			"Giày có thể kết hợp cùng nhiều trang phục thích hợp mặc đi chơi, đi làm",
 			"YODY - Look good. Feel good."
 		],
-		"comments": []
+		"comments": [
+			
+		]
 	},
 
 	{
@@ -2827,7 +2868,9 @@
 			"Giày có thể kết hợp cùng nhiều trang phục, thích hợp diện đi chơi, đi làm",
 			"YODY - Look good. Feel good."
 		],
-		"comments": []
+		"comments": [
+			
+		]
 	},
 
 	{
@@ -2847,7 +2890,9 @@
 			"Giày có thể kết hợp cùng nhiều trang phục thích hợp mặc đi chơi, đi làm.",
 			"YODY - Look good. Feel good."
 		],
-		"comments": []
+		"comments": [
+			
+		]
 	},
 
 	{
@@ -2868,7 +2913,9 @@
 			"Thích hợp cho những ai chuộng sự linh hoạt, dễ dàng biến hóa phong cách từ casual đến sang trọng",
 			"YODY - Look good. Feel good"
 		],
-		"comments": []
+		"comments": [
+			
+		]
 	},
 
 	{
@@ -2879,7 +2926,7 @@
 		"price": 79000,
 		"discount": 0,
 		"colors": ["Đen", "Tàn nhạt", "Trắng"],
-		"sizes": ["ONE"],
+		"sizes": ["One size"],
 		"characteristics": [
 			"Combo 2 đôi tất nam kháng khuẩn hiệu quả",
 			"Thoải mái, co giãn ôm theo bàn chân của bạn",
@@ -2887,7 +2934,9 @@
 			"Thiết kế cổ ngắn không lo lộ tất với hầu hết các loại giày thông dụng cho nam giới",
 			"YODY - Look good. Feel good."
 		],
-		"comments": []
+		"comments": [
+			
+		]
 	},
 
 	{
@@ -2898,7 +2947,7 @@
 		"price": 79000,
 		"discount": 0,
 		"colors": ["Đen", "Navy", "Tàn đậm", "Tàn nhạt", "Than phẩy", "Trắng"],
-		"sizes": ["ONE"],
+		"sizes": ["One size"],
 		"characteristics": [
 			"Tất nam chất liệu mềm mại, co giãn đàn hồi tốt",
 			"Thiết kế cơ bản ôm bo cổ chân đi lâu không lo chảy xệ",
@@ -2906,7 +2955,9 @@
 			"Đôi tất vừa là phụ kiện giữ ấm, vừa giúp kết nối sự liền mạch cho cả bộ đồ",
 			"YODY - Look good. Feel good."
 		],
-		"comments": []
+		"comments": [
+			
+		]
 	},
 
 	{
@@ -2917,7 +2968,7 @@
 		"price": 169000,
 		"discount": 0,
 		"colors": ["Đen", "Hồng nhạt", "Xanh lá"],
-		"sizes": ["ONE"],
+		"sizes": ["One size"],
 		"characteristics": [
 			"Mũ lưỡi trai in chữ chất liệu vải cotton",
 			"Mang đến cho người dùng cảm giác thoải mái và thuận tiện. ",
@@ -2926,7 +2977,9 @@
 			"Chất vải mềm, nhanh khô",
 			"YODY - Look good. Feel good"
 		],
-		"comments": []
+		"comments": [
+			
+		]
 	},
 
 	{
@@ -2937,7 +2990,7 @@
 		"price": 169000,
 		"discount": 0,
 		"colors": ["Đen", "Hồng", "Xanh đen", "Xanh lá"],
-		"sizes": ["ONE"],
+		"sizes": ["One size"],
 		"characteristics": [
 			"Chất liệu vải cotton",
 			"Mang đến cho người dùng cảm giác thoải mái và thuận tiện. Theo đó, chiếc mũ này sở hữu những ưu điểm không thể bỏ lỡ:",
@@ -2946,7 +2999,9 @@
 			"Chất vải mềm, nhanh khô",
 			"YODY - Look good. Feel good"
 		],
-		"comments": []
+		"comments": [
+			
+		]
 	},
 
 	{
@@ -2957,7 +3012,7 @@
 		"price": 359000,
 		"discount": 0,
 		"colors": ["Đen"],
-		"sizes": ["ONE"],
+		"sizes": ["One size"],
 		"characteristics": [
 			"Túi đeo chéo unisex chống nước ",
 			"Chất liệu polyester phối da",
@@ -2966,7 +3021,9 @@
 			"Kích thước 19.5 x 15.5 x 5 (cm)",
 			"YODY - Look good. Feel good"
 		],
-		"comments": []
+		"comments": [
+			
+		]
 	},
 
 	{
@@ -2977,7 +3034,7 @@
 		"price": 169000,
 		"discount": 0,
 		"colors": ["Đen", "Hồng nhạt", "Navy", "Trắng"],
-		"sizes": ["ONE"],
+		"sizes": ["One size"],
 		"characteristics": [
 			"Chất liệu vải cotton mềm",
 			"Thấm hút tốt, thông thoáng da đầu",
@@ -2985,7 +3042,9 @@
 			"Mang đến cho người dùng cảm giác thoải mái và thuận tiện khi sử dụng",
 			"YODY - Look good. Feel good."
 		],
-		"comments": []
+		"comments": [
+			
+		]
 	},
 
 	{
@@ -2996,7 +3055,7 @@
 		"price": 359000,
 		"discount": 0,
 		"colors": ["Đen"],
-		"sizes": ["ONE"],
+		"sizes": ["One size"],
 		"characteristics": [
 			"Túi đeo chéo điện lợi, đa năng dành cho cả nam và nữ",
 			"Thiết kê snhor gọn, nhiều ngăn tiện lợi",
@@ -3005,6 +3064,148 @@
 			"Nhỏ gọn, tiện lợi, phù hợp với mọi giới tính",
 			"YODY - Look good. Feel good."
 		],
-		"comments": []
+		"comments": [
+			
+		]
+	},
+
+	{
+		"id": 113,
+		"subcategory_id": 23,
+		"name": "Bộ Đồ Nam Ba Lỗ",
+		"sold": 0,
+		"price": 499000,
+		"discount": 0,
+		"colors": ["Đen Đen", "Grey Grey", "Trắng Navy"],
+		"sizes": ["L", "XL", "2XL"],
+		"characteristics": [
+			"Bộ đồ ba lỗ dành cho nam thoáng mát và thoải mái",
+			"Chất liệu của Áo: 84% Nylon + 16% Spandex và Quần: 74% Nylon + 26% Spandex",
+			"Set đồ co giãn và có độ bền cao theo chuyển động cơ thể",
+			"Thiết kế kiểu tank-top khoẻ khoắn và năng động",
+			"Bộ đồ đa năng có thể mặc mọi lúc, mọi nơi từ ở nhà hay ra ngoài",
+			"YODY - Look good. Feel good."
+		],
+		"comments": [
+			
+		]
+	},
+
+	{
+		"id": 114,
+		"subcategory_id": 23,
+		"name": "Bộ Đồ Thể Thao Nam Nỉ Phối Sọc - CAM",
+		"sold": 8000,
+		"price": 1099000,
+		"discount": 0,
+		"colors": ["Cam"],
+		"sizes": ["L", "XL", "2XL"],
+		"characteristics": [
+			"Bộ đồ thể thao dành cho nam chất liệu nỉ dày dặn, thoải mái",
+			"Thiết kế áo khoác đa năng cùng quần nỉ dáng đứng trẻ trung, năng động",
+			"Đường phối màu mang lại cho bạn một vẻ ngoài vô cùng khỏe khoắn",
+			"Sản phẩm có thể mặc ở nhà, đi làm, đi học hay đi chơi, vô cùng linh hoạt trong mọi hoàn cảnh sử dụng",
+			"YODY - Look good. Feel good."
+		],
+		"comments": [
+			
+		]
+	},
+
+	{
+		"id": 115,
+		"subcategory_id": 23,
+		"name": "Bộ Đông Nam Hoodie Thêu Logo",
+		"sold": 2600,
+		"price": 899000,
+		"discount": 0,
+		"colors": ["Xanh"],
+		"sizes": ["M", "L", "XL", "2XL"],
+		"characteristics": [
+			"Bộ đồ nam hoodie thêu logo chất liệu: 63% Cotton + 37% Polyester",
+			"Kiểu dệt Double Face hiện đại với hai mặt giống nhau hạn chế hiện tượng xù lông rút sợi trong quá trình sử dụng",
+			"Vải mềm mại mang đến cảm giác thoải mái cho da khi tiếp xúc",
+			"Hạn chế tĩnh điện vào mùa đông, đứng form, độ bền cao",
+			"Set đồ gồm: áo hoodie dài tay và quần jogger dáng suông rộng thoải mái",
+			"Thiết kế năng động, trẻ trung, có thể  mặc ở nhà, đi làm và đi chơi giữ ấm tốt",
+			"YODY - Look good. Feel good."
+		],
+		"comments": [
+			
+		]
+	},
+
+	{
+		"id": 116,
+		"subcategory_id": 23,
+		"name": "Bộ Đông Nam Nỉ Dáng Cơ Bản Yody",
+		"sold": 4200,
+		"price": 899000,
+		"discount": 0,
+		"colors": ["Xanh"],
+		"sizes": ["M", "L", "XL", "2XL"],
+		"characteristics": [
+			"Bộ đồ nam có chất liệu nỉ co giãn, giữ ấm, bề mặt vải mịn cùng màu sắc thanh lịch",
+			"Set đồ bao gồm áo sweater dài tay và quần jogger dáng suông rộng giúp tạo sự cử động thoải mái cho người mặc",
+			"Thiết kế hình thêu ở ngực tạo điểm nhất trẻ trung",
+			"Có thể mặc ở nhà, đi làm và đi chơi vào mùa đông",
+			"YODY - Look good. Feel good."
+		],
+		"comments": [
+			
+		]
+	},
+
+	{
+		"id": 117,
+		"subcategory_id": 23,
+		"name": "Bộ Đồ Thể Thao Nam Áo Hoodie",
+		"sold": 4900,
+		"price": 799000,
+		"discount": 0,
+		"colors": ["Cổ Vịt", "Đen", "Xám", "Xanh Oliver"],
+		"sizes": ["M", "L", "XL", "2XL"],
+		"characteristics": [
+			"Cho mùa đông ấm áp và phong cách thời trang",
+			"Bộ đồ nam bao gồm áo hoodie dài tay và quần jogger dáng suông rộng giúp tạo sự cử động thoải mái cho người mặc. ",
+			"Thiết kế  mác nhận diện ở ngực tạo điểm nhất trẻ trung. ",
+			"Bộ đồ có chất liệu nỉ co giãn, giữ ấm tốt",
+			"Bề mặt vải mịn cùng màu sắc thanh lịch có thể mặc ở nhà, đi làm và đi chơi vào mùa đông. ",
+			"Khỏe khoắn, ấm áp, năng động, trẻ trung, nam tính",
+			"YODY - Look good. Feel good."
+		],
+		"comments": [
+			
+		]
+	},
+
+	{
+		"id": 118,
+		"subcategory_id": 23,
+		"name": "Bô Đông Nam Thể Thao In Chữ Caution",
+		"sold": 5700,
+		"price": 769000,
+		"discount": 0,
+		"colors": ["Đen", "Navy"],
+		"sizes": ["L", "XL"],
+		"characteristics": [
+			"Chất liệu nỉ 2 mặt",
+			"Bộ đồ có chất liệu nỉ co giãn, giữ ấm, bề mặt vải mịn",
+			"Màu sắc thanh lịch có thể mặc ở nhà, đi làm và đi chơi vào mùa đông.",
+			"Bộ đồ nam bao gồm áo sweater dài tay và quần jogger dáng suông rộng giúp tạo sự cử động thoải mái cho người mặc",
+			"Thiết kế hình thêu ở ngực tạo điểm nhất trẻ trung",
+			"YODY - Look good. Feel good."
+		],
+		"comments": [
+			
+		]
 	}
+
+
 ]
+
+
+
+
+
+

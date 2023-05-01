@@ -115,5 +115,10 @@
 		"category_id": 6,
 		"name": "Phụ kiện khác",
 		"img": "../img/shared/subcategory/phu_kien.png"
+	},
+	{
+		"id": 23,
+		"category_id": 4,
+		"name": "Đồ bộ"
 	}
 ]
