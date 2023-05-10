@@ -16,6 +16,8 @@ async function headerRender() {
 				return await getSubcategoriesWithCategory(category.id);
 			})
 		);
+    
+    const header = document.querySelector("#header");
 
 		header.outerHTML = `
     <header id="header" class="header container-fluid fixed-top">
