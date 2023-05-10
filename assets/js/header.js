@@ -215,13 +215,14 @@ async function headerRender() {
         <div class="cart-sign-block col col-10 ms-auto col-md-4 d-flex gap-4 align-items-center fw-semibold">
           <div class="cart d-flex align-items-center gap-2 ms-md-auto" id="js-cart">
           
-          <a href="../page/cart.html" class="header__link text-hover-main">
+          <a href="../page/cart.html" class="header__link text-hover-main d-flex align-items-center gap-2">
             <span class="fs-4">
               <i class="fa-solid fa-solid fa-cart-shopping position-relative text-black">
                 <span class="bg-main text-blue position-absolute top-0 start-100 translate-middle badge rounded-pill"
                   style="font-size: 10px">${isLogin ? cartQuantity : 0}</span>
-              </i>
-            </span><span class="d-none d-md-inline">Giỏ hàng</span>
+                  </i>
+                  </span>
+                  <span class="d-none d-md-inline">Giỏ hàng</span>
           </a>
             
           </div>

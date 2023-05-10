@@ -36,6 +36,9 @@ if (domItem) {
 		var currentSize = 0;
 		var currentQty = 1;
 
+		// Title
+		window.document.title = currentItem.name;
+
 		function SubcategoryRender() {
 			document.querySelector("#js-breadcrumb").innerHTML = `
       <li class="breadcrumb-item"><a href="../page/home.html">Trang chủ</a></li>

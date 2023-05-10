@@ -16,12 +16,12 @@ $(async () => {
 	$("#content").html(
 		filterData.length == 0
 			? `
-    <div class="empty w-75 mx-auto d-flex justify-content-center flex-column align-content-lg-center align-items-start">
+    <div class="empty w-75 mx-auto d-flex justify-content-center flex-column align-items-md-center align-items-start">
       <img src="../img/search/search-page.svg" class="mx-auto" width="100" alt="">
       <p class="fw-semibold mt-4">Tìm kiếm <span class="text-main">${localInput.input}</span> của bạn không có sản phẩm phù hợp
       </p>
       <p class="text-sub fw-semibold text-14">HÃY THỬ LẠI CÁCH KHÁC NHƯ:</p>
-      <ul class="d-flex flex-column align-content-lg-center align-items-start gap-0">
+      <ul class="d-flex flex-column align-items-md-center align-items-start gap-0">
         <li>
           <span>Sử dụng thuật ngữ chung nhiều hơn</span>
         </li>
